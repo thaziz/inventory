@@ -1,0 +1,2654 @@
+2019-06-28 10:46:20: 12016  act view campaign detail
+2019-06-28 10:46:20: JQXHR response text 
+2019-06-28 10:46:20: Status 
+2019-06-28 10:46:20: Error error
+2019-06-28 11:08:28: 12013  act calling
+2019-06-28 11:08:28: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name":"ibun tambuntafinka(owner)","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"","form_new_email":"","form_remarks_call":"","form_merchant_id":"IDGFSTI00000ol4","form_merchant_name":"Dapoer Mas Gian - Buah Batu","form_email":"tambuntavinca@ymail.com","form_address_":"Gang Nangkasuni Jl. Wastukencana Gang Nangkasuni No. 38 ( Gang Persis Sebelah Siliwangi Harley Davidson Jl. Wastukencana). Tamansari, Bandung Wetan, Bandung, Bandung Wetan, 40116","form_city":"Bandung","form_outstanding":"52.553,20","form_commision":"27,30%","form_sources":"1","form_nomor_whatsapp":"087880614134","status_wa":null},"chats":[{"text":"Dear Dapoer Mas Gian, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Ibu Tambuntafinka dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-25","time":"17:01","type":"achat"},{"text":"","image":"5DB321F47FBE4ADA9ED95B489495CDD6.jpeg","date":"2019-06-25","time":"18:24","type":"rchat"},{"text":"","image":"DDEAE7925E001CD521D0A107842EEA79.jpeg","date":"2019-06-25","time":"18:24","type":"rchat"},{"text":"","image":"44FD80A60972A18087ACC420002E359B.jpeg","date":"2019-06-25","time":"18:24","type":"rchat"},{"text":"SYARAT-DAN-KETENTUAN-KOMERSIAL-30%","image":null,"date":"2019-06-25","time":"18:24","type":"rchat"},{"text":"Foto Menu Best Seller","image":"34DF5E68ABA6FE050FC29AFF9C9230B8.jpeg","date":"2019-06-25","time":"18:26","type":"rchat"},{"text":"","image":"BAC5BF6E8FC754EFEC3FE451B12D2A78.jpeg","date":"2019-06-25","time":"18:26","type":"rchat"},{"text":"","image":"A7701F0623E958CDF3FF11A0B9E14816.jpeg","date":"2019-06-25","time":"18:26","type":"rchat"},{"text":"","image":"6971D4D88C6860C5C0136BF83106D928.jpeg","date":"2019-06-25","time":"18:26","type":"rchat"},{"text":"","image":"14C37322874ABC2CE57594FEEE49AD7E.jpeg","date":"2019-06-25","time":"18:29","type":"rchat"},{"text":"","image":"F4EED7BBFD855CFF56E6512E20C429CA.jpeg","date":"2019-06-25","time":"18:29","type":"rchat"}]}
+2019-06-28 11:08:28: Status parsererror
+2019-06-28 11:08:28: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-06-28 11:21:40: 12018  act view campaign detail
+2019-06-28 11:21:40: JQXHR response text 
+2019-06-28 11:21:40: Status 
+2019-06-28 11:21:40: Error error
+2019-06-28 13:02:17: 12013  act calling
+2019-06-28 13:02:17: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name":"bpk febri(pengelola)","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"No","form_new_email":"","form_remarks_call":"","form_merchant_id":"IDGFSTI00001k5h","form_merchant_name":"Mie Ayam Banyumas A.H - Kelapa Dua","form_email":"thomaspebrianto@yahoo.com","form_address_":"Jl. Qadr Raya No.12, Kelapa Dua, Kec. Kelapa Dua, Tangerang, Kelapa Dua, 15810","form_city":"Jakarta","form_outstanding":"9.708.706,00","form_commision":"22,70%","form_sources":"1","form_nomor_whatsapp":"085647132377","status_wa":null},"chats":[{"text":"Dear Mie Ayam Banyumas A.H, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Bapak Febri dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-25","time":"16:12","type":"achat"},{"text":"","image":"3AC704C1E391BDFE9AE0.jpeg","date":"2019-06-25","time":"16:13","type":"rchat"},{"text":"","image":"3A1F570131C0CDF256A3.jpeg","date":"2019-06-25","time":"16:13","type":"rchat"},{"text":"","image":"3AEAA733806523CCB241.jpeg","date":"2019-06-25","time":"16:13","type":"rchat"},{"text":"","image":"3AFCF4C77F30FAD69493.jpeg","date":"2019-06-25","time":"16:13","type":"rchat"},{"text":"","image":"3A8C2BDAC852DD3634DA.jpeg","date":"2019-06-25","time":"16:13","type":"rchat"},{"text":"","image":"3AD5D42115C293F1D92E.jpeg","date":"2019-06-25","time":"16:13","type":"rchat"},{"text":"","image":"3A09727C566399ED75BA.jpeg","date":"2019-06-25","time":"16:13","type":"rchat"},{"text":"","image":"3A5A01BE2BBCF6CBB795.jpeg","date":"2019-06-25","time":"16:15","type":"rchat"},{"text":"","image":"3A4F3605F8DD9C5E9DC4.jpeg","date":"2019-06-25","time":"16:15","type":"rchat"},{"text":"","image":"3A12BAE6C70770B5ECF4.jpeg","date":"2019-06-25","time":"16:15","type":"rchat"},{"text":"","image":"3A69B396450D3B6FBD14.jpeg","date":"2019-06-25","time":"16:15","type":"rchat"},{"text":"","image":"3ACFCAF373126A088E2B.jpeg","date":"2019-06-25","time":"16:15","type":"rchat"}]}
+2019-06-28 13:02:17: Status parsererror
+2019-06-28 13:02:17: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-06-28 13:36:49: 12010  act calling
+2019-06-28 13:36:49: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"reachable","form_contact_person_name":"Bapak aden (owner)","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"No","form_new_email":"denwahab700@gmail.com","form_remarks_call":"","form_merchant_id":"AWkTO8O2R-bAtZoKZ6xQ","form_merchant_name":"Seblak Mercon Khas Bandung - Lubuk Baja Kota","form_email":"adhenpokkerman@yahoo.com","form_address":"Pasar Angkasa Blok E, Jl. Kwarta Karsa No. 7 ( Patokannya Bengkel Auto Mandiri Batam ), Lubuk Baja Kota, Lubuk Baja, Batam, Lubuk Baja, 29433","form_city":"Pekanbaru","form_outstanding":"2.010.732,00","form_commission":"22,72%","form_sources":"1","form_nomor_whatsapp":"085322439353","status_wa":null},"chats":[{"text":"Dear Seblak Mercon Khas Bandung, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Bapak Aden dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-26","time":"11:57","type":"achat"},{"text":"","image":"5D3399B404821E161701B4570EC0E995.jpeg","date":"2019-06-26","time":"15:01","type":"rchat"},{"text":"","image":"80EC6C35906BAAD8C4EA2F406636AC28.jpeg","date":"2019-06-26","time":"15:02","type":"rchat"},{"text":"","image":"3668BF0491FC43E5EFEC52E6C3705F12.jpeg","date":"2019-06-26","time":"15:03","type":"rchat"}]}
+2019-06-28 13:36:49: Status parsererror
+2019-06-28 13:36:49: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-06-28 14:55:13: 12013  act calling
+2019-06-28 14:55:13: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name":"bpk sugiharto (owner)","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"No","form_new_email":"","form_remarks_call":"owner tertarik","form_merchant_id":"AWjr3V3Y2bMmVZfr_lg8","form_merchant_name":"Waroeng Mie Pangsit & Gado Gado Afifah - Pasir Putih","form_email":"hartosugi96@yahoo.com","form_address_":"Jl. Abdul Chatap .Kel.pasir putih (depan smp negri 6), Jambi Selatan, 36137","form_city":"Jambi","form_outstanding":"45.613,75","form_commision":"27,30%","form_sources":"1","form_nomor_whatsapp":"083121693050","status_wa":null},"chats":[{"text":"Dear Waroeng Mie Pangsit & Gado Gado Afifah, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Bapak Sugiharto dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-25","time":"16:11","type":"achat"},{"text":"","image":"08ED69BC70041F8A46CC0661515E6E87.jpeg","date":"2019-06-25","time":"18:45","type":"rchat"},{"text":"","image":"B4A6BE48E966376FF1EE500418438FB4.jpeg","date":"2019-06-25","time":"18:45","type":"rchat"},{"text":"","image":"2188D94D67CA89D953EB06D9C485AE8F.jpeg","date":"2019-06-25","time":"18:45","type":"rchat"},{"text":"","image":"28856A4562DDC1B983FE0876152FB99C.jpeg","date":"2019-06-25","time":"18:46","type":"rchat"},{"text":"","image":"4545E4158151FC41DD1B7870F81C7062.jpeg","date":"2019-06-25","time":"18:51","type":"rchat"},{"text":"Hp : 081366069333.<br \/>\nEmail : sugih2496@gmail.com","image":null,"date":"2019-06-25","time":"18:57","type":"rchat"}]}
+2019-06-28 14:55:13: Status parsererror
+2019-06-28 14:55:13: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-06-28 15:21:29: 12013  act calling
+2019-06-28 15:21:29: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name":"ibu sarah","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"Yes","form_new_email":"","form_remarks_call":"","form_merchant_id":"AWio1nP5kk5cOZVWvNBM","form_merchant_name":"Nasi Goreng Budi Indah - Ledeng","form_email":"saralie909@gmail.com","form_address_":"Jl. Budi Indah No. 3, Pasirkaliki, Cimahi Utara, Cimahi","form_city":"Bandung","form_outstanding":"0","form_commision":"27,30%","form_sources":"3","form_nomor_whatsapp":"082214399924","status_wa":null},"chats":[{"text":"Dear Nasi Goreng Budi Indah, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Ibu Sarah dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-25","time":"14:26","type":"achat"},{"text":"","image":"365919F403A6DB65DB68B48F0AD7719A.jpeg","date":"2019-06-26","time":"10:50","type":"rchat"},{"text":"","image":"470FD08A2E7843B7896E51414BE84F92.jpeg","date":"2019-06-26","time":"10:50","type":"rchat"},{"text":"","image":"EA927DA0DABC7F2FAC9C334F59666A37.jpeg","date":"2019-06-26","time":"10:51","type":"rchat"},{"text":"Tampak luar","image":"8BFDE3D78A3508E3AC4F95C412601A8B.jpeg","date":"2019-06-26","time":"10:51","type":"rchat"},{"text":"Tampak dalam","image":"9C09CC82CEF52DE218DCC0E4A9336031.jpeg","date":"2019-06-26","time":"10:51","type":"rchat"},{"text":"Best seller (Nasi Goreng)","image":"9D386E0039FBFD09D2ED2208649A0E50.jpeg","date":"2019-06-26","time":"10:51","type":"rchat"},{"text":"Surat perjanjian saya tidak dikasih dari pertama daftar","image":null,"date":"2019-06-26","time":"10:52","type":"rchat"},{"text":"Apa sudah diproses?","image":null,"date":"2019-06-27","time":"10:46","type":"rchat"}]}
+2019-06-28 15:21:29: Status parsererror
+2019-06-28 15:21:29: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-06-28 15:28:45: 12013  act calling
+2019-06-28 15:28:45: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name":"Ibu mursiyah","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"Yes","form_new_email":"","form_remarks_call":"","form_merchant_id":"AWhw7K4_2bMmVZfr_Kcl","form_merchant_name":"Bakmi Reegill - Curug Sangereng","form_email":"mursiyah37@gmail.com","form_address_":"Jl. Kelapa Lilin XI Blok Dc 14 No. 17, Curug Sangereng, Kelapa Dua, Tangerang","form_city":"Jakarta","form_outstanding":"148.785,50","form_commision":"18,18%","form_sources":"3","form_nomor_whatsapp":"082186775621","status_wa":null},"chats":[{"text":"Dear Bakmi Reegill, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Ibu Mursiyah dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-25","time":"14:18","type":"achat"},{"text":"","image":"5661DEB6AA0281A63D179152E7B15BE8.jpeg","date":"2019-06-25","time":"15:15","type":"rchat"},{"text":"","image":"FBA169B44BC905B55ED456B3863DE1E0.jpeg","date":"2019-06-25","time":"15:17","type":"rchat"},{"text":"","image":"95F4AD5FB040301F318F723ECB89CDF8.jpeg","date":"2019-06-25","time":"15:18","type":"rchat"},{"text":"","image":"EBB58AEB5CB0884CB29C3A58FDC04AB0.jpeg","date":"2019-06-25","time":"15:20","type":"rchat"},{"text":"","image":"9982C78BFF21982E0FBC50E6F7DB5ED6.jpeg","date":"2019-06-25","time":"15:22","type":"rchat"},{"text":"","image":"9ECB5240FBBFBCDBB9269F54CEE6BCA7.jpeg","date":"2019-06-25","time":"15:22","type":"rchat"},{"text":"","image":"0C1DE4238D461F25B9B3BAB2D60B34C9.jpeg","date":"2019-06-25","time":"15:24","type":"rchat"}]}
+2019-06-28 15:28:45: Status parsererror
+2019-06-28 15:28:45: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-06-28 15:41:30: 12013  act calling
+2019-06-28 15:41:30: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name":"ibu mega","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"No","form_new_email":"","form_remarks_call":"konfirmasi email lewat wa","form_merchant_id":"IDGFSTI00000d7s","form_merchant_name":"Ayam Keprabon Express - Taman Palem","form_email":"mega_1610@yahoo.com","form_address_":"Taman Palem Lestari Blok AA1 No. 8A, Cengkareng, Jakarta Barat, Cengkareng","form_city":"Jakarta","form_outstanding":"14.692.010,00","form_commision":"15,00%","form_sources":"1","form_nomor_whatsapp":"08170060914","status_wa":null},"chats":[{"text":"Dear Ayam Keprabon Express, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan  Ibu Mega dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-25","time":"16:08","type":"achat"},{"text":"","image":"CE3E1EB6BDF4154FB698B15247614DCE.jpeg","date":"2019-06-25","time":"16:14","type":"rchat"},{"text":"","image":"5A5390CB1038688DEDF072EE2FD995BE.jpeg","date":"2019-06-25","time":"16:14","type":"rchat"},{"text":"","image":"F5E401D8B96B398CAD78E102F120C45F.jpeg","date":"2019-06-25","time":"16:15","type":"rchat"},{"text":"04 19 Agreement GrabFood","image":null,"date":"2019-06-25","time":"16:16","type":"rchat"},{"text":"","image":"8C660DA6CD5588D0B92EC76ED76C2E7A.jpeg","date":"2019-06-25","time":"16:17","type":"rchat"},{"text":"","image":"97D1C27DB7BC5868EEB0653909FC0B1B.jpeg","date":"2019-06-25","time":"16:18","type":"rchat"}]}
+2019-06-28 15:41:30: Status parsererror
+2019-06-28 15:41:30: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-06-28 15:48:35: 12013  act calling
+2019-06-28 15:48:35: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name":"arif","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"Tidak Diangkat","form_gmail_exist":"","form_new_email":"","form_remarks_call":"","form_merchant_id":"IDGFSTI00003okg","form_merchant_name":"Roti John Surabaya - Cengkareng Barat","form_email":"ruu_kirihara@yahoo.com","form_address_":"Taman palem lestari Blok AA1 No. 3, Jl. Taman Palem Lestari, Cengkareng Barat, Cengkareng, Jakarta Barat, Cengkareng, 11840","form_city":"Jakarta","form_outstanding":"3.927.209,00","form_commision":"18,20%","form_sources":"1","form_nomor_whatsapp":"081517214905","status_wa":null},"chats":[{"text":"Dear Roti John Surabaya, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Bapak Arif dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-25","time":"17:43","type":"achat"},{"text":"","image":"ACF20F5697793CE415334D3805AE6E75.jpeg","date":"2019-06-28","time":"10:45","type":"rchat"},{"text":"","image":"B1F527B237DBB3930D239C85421072CD.jpeg","date":"2019-06-28","time":"10:45","type":"rchat"}]}
+2019-06-28 15:48:35: Status parsererror
+2019-06-28 15:48:35: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-06-28 16:35:00: 12010  act view campaign detail
+2019-06-28 16:35:00: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-06-28 16:35:00: Status SyntaxError: Unexpected token < in JSON at position 1
+2019-06-28 16:35:00: Error parsererror
+2019-06-28 17:12:52: 12013  act calling
+2019-06-28 17:12:52: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div> file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name":"bpk wili(manager)","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"","form_new_email":"","form_remarks_call":"","form_merchant_id":"IDGFSTI00002ty1","form_merchant_name":"Rujak Start Up Coffee - Sumerta Kelod","form_email":"dede_va@yahoo.co.id","form_address_":"Jl. Tukad Musi No. 8, Sumerta Kelod, Denpasar Timur, Denpasar, Denpasar Timur, 80234","form_city":"Bali","form_outstanding":"58.731,76","form_commision":"22,72%","form_sources":"1","form_nomor_whatsapp":"081246515397","status_wa":null},"chats":[{"text":"Dear Rujak Start Up Coffee, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Bapak Wili dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-25","time":"16:59","type":"achat"},{"text":"","image":"3AC410AFE694ECA200B5.jpeg","date":"2019-06-25","time":"17:01","type":"rchat"},{"text":"","image":"3AC927BD5BB453A1C617.jpeg","date":"2019-06-25","time":"17:02","type":"rchat"},{"text":"","image":"3A27A5F6101FB1E6AC98.jpeg","date":"2019-06-25","time":"17:02","type":"rchat"},{"text":"","image":"3A01DF94F77C01A5DF9C.jpeg","date":"2019-06-25","time":"17:03","type":"rchat"},{"text":"","image":"3A27949FB79345E21D14.jpeg","date":"2019-06-25","time":"17:03","type":"rchat"},{"text":"","image":"3A9EC72253C49BAA51E2.jpeg","date":"2019-06-25","time":"17:03","type":"rchat"},{"text":"","image":"3AC349107D986F5070E3.jpeg","date":"2019-06-25","time":"17:03","type":"rchat"},{"text":"","image":"3A17C29FD0E6A51716A6.jpeg","date":"2019-06-25","time":"17:03","type":"rchat"},{"text":"","image":"3A194949756CA7D7CECA.jpeg","date":"2019-06-25","time":"17:04","type":"rchat"},{"text":"","image":"3A9FC81297DDB7CC8D47.jpeg","date":"2019-06-25","time":"17:08","type":"rchat"},{"text":"","image":"3A85F6CBDCC393F5E59D.jpeg","date":"2019-06-25","time":"17:08","type":"rchat"},{"text":"","image":"3AC87006D226E2269960.jpeg","date":"2019-06-25","time":"17:08","type":"rchat"},{"text":"","image":"3A083733F4ECB6B79FA8.jpeg","date":"2019-06-25","time":"17:08","type":"rchat"},{"text":"","image":"3ACDDA0DF62EBBDFAF11.jpeg","date":"2019-06-25","time":"17:08","type":"rchat"},{"text":"","image":"3A03E0612C690279EDF3.jpeg","date":"2019-06-25","time":"17:09","type":"rchat"},{"text":"","image":"3ABD1ECFA0E97829600A.jpeg","date":"2019-06-25","time":"17:09","type":"rchat"}]}
+2019-06-28 17:12:52: Status parsererror
+2019-06-28 17:12:52: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-06-28 17:29:02: 12020  act view campaign detail
+2019-06-28 17:29:02: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-06-28 17:29:02: Status SyntaxError: Unexpected token < in JSON at position 1
+2019-06-28 17:29:02: Error parsererror

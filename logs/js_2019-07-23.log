@@ -1,0 +1,474 @@
+2019-07-23 08:41:33: 122021  act view campaign detail
+2019-07-23 08:41:33: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-07-23 08:41:33: Status SyntaxError: Unexpected token < in JSON at position 1
+2019-07-23 08:41:33: Error parsererror
+2019-07-23 15:53:35: 12010  act view campaign detail
+2019-07-23 15:53:35: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-07-23 15:53:35: Status SyntaxError: Unexpected token < in JSON at position 1
+2019-07-23 15:53:35: Error parsererror
+2019-07-23 16:03:30: 12042  act view campaign detail
+2019-07-23 16:03:30: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-07-23 16:03:30: Status SyntaxError: Unexpected token < in JSON at position 1
+2019-07-23 16:03:30: Error parsererror

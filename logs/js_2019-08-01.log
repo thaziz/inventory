@@ -1,0 +1,5622 @@
+2019-08-01 07:58:02: 12039  act view campaign detail
+2019-08-01 07:58:02: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-08-01 07:58:02: Status SyntaxError: JSON.parse: unexpected character at line 2 column 1 of the JSON data
+2019-08-01 07:58:02: Error parsererror
+2019-08-01 11:50:46: 12044  act calling
+2019-08-01 11:50:46: JQXHR response text 
+2019-08-01 11:50:46: Status error
+2019-08-01 11:50:46: Error 
+2019-08-01 12:11:33: 12013  act calling
+2019-08-01 12:11:33: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '1310', '6281521917651', '', 'Failed', '58', '2019-08-01 12:11:31')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 12:11:33: Status error
+2019-08-01 12:11:33: Error Internal Server Error
+2019-08-01 12:11:43: 12013  act calling
+2019-08-01 12:11:43: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '1310', '6281521917651', '', 'Failed', '58', '2019-08-01 12:11:40')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 12:11:43: Status error
+2019-08-01 12:11:43: Error Internal Server Error
+2019-08-01 12:12:27: 12013  act calling
+2019-08-01 12:12:27: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '1310', '6281521917651', '', 'Failed', '58', '2019-08-01 12:12:20')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 12:12:27: Status error
+2019-08-01 12:12:27: Error Internal Server Error
+2019-08-01 12:37:44: 12013  act calling
+2019-08-01 12:37:44: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '675', '6282293673244', '', 'Failed', '58', '2019-08-01 12:37:37')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 12:37:44: Status error
+2019-08-01 12:37:44: Error Internal Server Error
+2019-08-01 15:47:15: 12013  act calling
+2019-08-01 15:47:16: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '1593', '6281259156478', '', 'Failed', '58', '2019-08-01 15:47:14')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 15:47:16: Status error
+2019-08-01 15:47:16: Error Internal Server Error
+2019-08-01 17:31:17: 12013  act calling
+2019-08-01 17:31:17: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:31:14')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:31:17: Status error
+2019-08-01 17:31:17: Error Internal Server Error
+2019-08-01 17:31:44: 12004  act calling
+2019-08-01 17:31:44: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '870', '6289516008460', 'Selamat Sore Mitra GrabFood Warung Bu YangYang - Cimahi, segera update ke versi terbaru Aplikasi GrabFood anda.\nUntuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini;', 'Failed', '49', '2019-08-01 17:31:39')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:31:44: Status error
+2019-08-01 17:31:44: Error Internal Server Error
+2019-08-01 17:31:52: 12004  act calling
+2019-08-01 17:31:52: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '870', '6289516008460', 'Selamat Sore Mitra GrabFood Warung Bu YangYang - Cimahi, segera update ke versi terbaru Aplikasi GrabFood anda.\nUntuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini;', 'Failed', '49', '2019-08-01 17:31:48')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:31:52: Status error
+2019-08-01 17:31:52: Error Internal Server Error
+2019-08-01 17:32:01: 12004  act calling
+2019-08-01 17:32:01: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '870', '6289516008460', 'Selamat Sore Mitra GrabFood Warung Bu YangYang - Cimahi, segera update ke versi terbaru Aplikasi GrabFood anda.\nUntuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini;', 'Failed', '49', '2019-08-01 17:31:58')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:32:01: Status error
+2019-08-01 17:32:01: Error Internal Server Error
+2019-08-01 17:32:29: 122004  act calling
+2019-08-01 17:32:29: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '1209', '6285200606817', 'Selamat Sore Mitra GrabFood Tahu Gimbal Sari Roso (Mbak Riska) - Pedurungan Kidul , segera update ke versi terbaru Aplikasi GrabFood anda.', 'Failed', '18', '2019-08-01 17:32:26')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:32:29: Status error
+2019-08-01 17:32:29: Error Internal Server Error
+2019-08-01 17:32:37: 122004  act calling
+2019-08-01 17:32:37: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '1209', '6285200606817', 'Selamat Sore Mitra GrabFood Tahu Gimbal Sari Roso (Mbak Riska) - Pedurungan Kidul , segera update ke versi terbaru Aplikasi GrabFood anda.', 'Failed', '18', '2019-08-01 17:32:34')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:32:37: Status error
+2019-08-01 17:32:37: Error Internal Server Error
+2019-08-01 17:32:44: 12004  act calling
+2019-08-01 17:32:44: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '870', '6289516008460', 'Selamat Sore Mitra GrabFood Warung Bu YangYang - Cimahi, segera update ke versi terbaru Aplikasi GrabFood anda.\nUntuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini;', 'Failed', '49', '2019-08-01 17:32:42')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:32:44: Status error
+2019-08-01 17:32:44: Error Internal Server Error
+2019-08-01 17:33:13: 12004  act calling
+2019-08-01 17:33:13: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '870', '6289516008460', 'Selamat Sore Mitra GrabFood Warung Bu YangYang - Cimahi, segera update ke versi terbaru Aplikasi GrabFood anda.\nUntuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini;', 'Failed', '49', '2019-08-01 17:33:11')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:33:13: Status error
+2019-08-01 17:33:13: Error Internal Server Error
+2019-08-01 17:33:20: 122004  act calling
+2019-08-01 17:33:20: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '1104', '6281806655079', 'Selamat Sore Mitra GrabFood Dapoer Bbm - Duren Sawit , segera update ke versi terbaru Aplikasi GrabFood anda.', 'Failed', '18', '2019-08-01 17:33:11')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:33:20: Status error
+2019-08-01 17:33:20: Error Internal Server Error
+2019-08-01 17:34:17: 12004  act calling
+2019-08-01 17:34:17: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '870', '6289516008460', 'Selamat Sore Mitra GrabFood Warung Bu YangYang - Cimahi, segera update ke versi terbaru Aplikasi GrabFood anda.\nUntuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini;', 'Failed', '49', '2019-08-01 17:34:15')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:34:17: Status error
+2019-08-01 17:34:17: Error Internal Server Error
+2019-08-01 17:34:49: 12010  act calling
+2019-08-01 17:34:49: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '212', '6281333137173', 'Selamat Sore Mitra GrabFood Warung Amora - Kepanjen, segera update ke versi terbaru Aplikasi GrabFood anda. Untuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini', 'Failed', '55', '2019-08-01 17:34:46')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:34:49: Status error
+2019-08-01 17:34:49: Error Internal Server Error
+2019-08-01 17:35:11: 12010  act calling
+2019-08-01 17:35:11: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '212', '6281333137173', 'Selamat Sore Mitra GrabFood Warung Amora - Kepanjen, segera update ke versi terbaru Aplikasi GrabFood anda. Untuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini', 'Failed', '55', '2019-08-01 17:35:09')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:35:11: Status error
+2019-08-01 17:35:11: Error Internal Server Error
+2019-08-01 17:35:12: 122004  act calling
+2019-08-01 17:35:12: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '1104', '6281806655079', 'Selamat Sore Mitra GrabFood Dapoer Bbm - Duren Sawit , segera update ke versi terbaru Aplikasi GrabFood anda.', 'Failed', '18', '2019-08-01 17:35:09')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:35:12: Status error
+2019-08-01 17:35:12: Error Internal Server Error
+2019-08-01 17:35:31: 12004  act calling
+2019-08-01 17:35:31: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '870', '6289516008460', 'Selamat Sore Mitra GrabFood Warung Bu YangYang - Cimahi, segera update ke versi terbaru Aplikasi GrabFood anda.\nUntuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini;', 'Failed', '49', '2019-08-01 17:35:28')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:35:31: Status error
+2019-08-01 17:35:31: Error Internal Server Error
+2019-08-01 17:36:40: 12013  act calling
+2019-08-01 17:36:40: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:36:29')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:36:40: Status error
+2019-08-01 17:36:40: Error Internal Server Error
+2019-08-01 17:36:40: 12013  act calling
+2019-08-01 17:36:40: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:36:38')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:36:40: Status error
+2019-08-01 17:36:40: Error Internal Server Error
+2019-08-01 17:38:13: 122004  act calling
+2019-08-01 17:38:13: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '1104', '6281806655079', 'Selamat Sore Mitra GrabFood Dapoer Bbm - Duren Sawit , segera update ke versi terbaru Aplikasi GrabFood anda.', 'Failed', '18', '2019-08-01 17:38:12')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:38:13: Status error
+2019-08-01 17:38:13: Error Internal Server Error
+2019-08-01 17:38:17: 12010  act calling
+2019-08-01 17:38:17: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '212', '6281333137173', 'Selamat Sore Mitra GrabFood Warung Amora - Kepanjen, segera update ke versi terbaru Aplikasi GrabFood anda. Untuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini', 'Failed', '55', '2019-08-01 17:38:11')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:38:17: Status error
+2019-08-01 17:38:17: Error Internal Server Error
+2019-08-01 17:38:19: 12013  act calling
+2019-08-01 17:38:19: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:38:11')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:38:19: Status error
+2019-08-01 17:38:19: Error Internal Server Error
+2019-08-01 17:38:35: 12004  act calling
+2019-08-01 17:38:35: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '870', '6289516008460', 'Selamat Sore Mitra GrabFood Warung Bu YangYang - Cimahi, segera update ke versi terbaru Aplikasi GrabFood anda.\nUntuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini;', 'Failed', '49', '2019-08-01 17:38:12')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:38:35: Status error
+2019-08-01 17:38:35: Error Internal Server Error
+2019-08-01 17:39:01: 12013  act calling
+2019-08-01 17:39:01: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:38:17')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:39:01: Status error
+2019-08-01 17:39:01: Error Internal Server Error
+2019-08-01 17:39:06: 12013  act calling
+2019-08-01 17:39:06: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:39:03')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:39:06: Status error
+2019-08-01 17:39:06: Error Internal Server Error
+2019-08-01 17:39:08: 12010  act calling
+2019-08-01 17:39:08: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '212', '6281333137173', 'Selamat Sore Mitra GrabFood Warung Amora - Kepanjen, segera update ke versi terbaru Aplikasi GrabFood anda. Untuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini', 'Failed', '55', '2019-08-01 17:39:05')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:39:08: Status error
+2019-08-01 17:39:08: Error Internal Server Error
+2019-08-01 17:41:07: 12010  act calling
+2019-08-01 17:41:07: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '212', '6281333137173', 'Selamat Sore Mitra GrabFood Warung Amora - Kepanjen, segera update ke versi terbaru Aplikasi GrabFood anda. Untuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini', 'Failed', '55', '2019-08-01 17:41:05')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:41:07: Status error
+2019-08-01 17:41:07: Error Internal Server Error
+2019-08-01 17:44:06: 12010  act calling
+2019-08-01 17:44:06: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '212', '6281333137173', 'Selamat Sore Mitra GrabFood Warung Amora - Kepanjen, segera update ke versi terbaru Aplikasi GrabFood anda. Untuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini', 'Failed', '55', '2019-08-01 17:43:55')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:44:06: Status error
+2019-08-01 17:44:06: Error Internal Server Error
+2019-08-01 17:44:45: 12013  act calling
+2019-08-01 17:44:45: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:44:39')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:44:45: Status error
+2019-08-01 17:44:45: Error Internal Server Error
+2019-08-01 17:45:18: 12010  act calling
+2019-08-01 17:45:18: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '212', '6281333137173', 'Selamat Sore Mitra GrabFood Warung Amora - Kepanjen, segera update ke versi terbaru Aplikasi GrabFood anda. Untuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini', 'Failed', '55', '2019-08-01 17:45:11')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:45:18: Status error
+2019-08-01 17:45:18: Error Internal Server Error
+2019-08-01 17:45:34: 12013  act calling
+2019-08-01 17:45:34: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:45:27')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:45:34: Status error
+2019-08-01 17:45:34: Error Internal Server Error
+2019-08-01 17:48:38: 12010  act calling
+2019-08-01 17:48:38: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '212', '6281333137173', 'Selamat Sore Mitra GrabFood Warung Amora - Kepanjen, segera update ke versi terbaru Aplikasi GrabFood anda. Untuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini', 'Failed', '55', '2019-08-01 17:48:34')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:48:38: Status error
+2019-08-01 17:48:38: Error Internal Server Error
+2019-08-01 17:49:25: 12013  act calling
+2019-08-01 17:49:25: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:49:23')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:49:25: Status error
+2019-08-01 17:49:25: Error Internal Server Error
+2019-08-01 17:50:03: 12013  act calling
+2019-08-01 17:50:03: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:49:59')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:50:03: Status error
+2019-08-01 17:50:03: Error Internal Server Error
+2019-08-01 17:50:57: 12013  act calling
+2019-08-01 17:50:57: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:50:55')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:50:57: Status error
+2019-08-01 17:50:57: Error Internal Server Error
+2019-08-01 17:54:19: 12010  act calling
+2019-08-01 17:54:19: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '212', '6281333137173', 'Selamat Sore Mitra GrabFood Warung Amora - Kepanjen, segera update ke versi terbaru Aplikasi GrabFood anda. Untuk dapat terus menggunakan fitur aplikasi GrabFood anda dengan mengunduh dari tautan berikut ini', 'Failed', '55', '2019-08-01 17:54:17')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:54:19: Status error
+2019-08-01 17:54:19: Error Internal Server Error
+2019-08-01 17:58:38: 12013  act calling
+2019-08-01 17:58:38: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 240</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 240<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: id</p>
+<p>Filename: controllers/Wa.php</p>
+<p>Line Number: 241</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 241<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1048</p><p>Column 'id' cannot be null</p><p>INSERT INTO `whatsapp_chat_471` (`id`, `data_id`, `wa_number`, `wa_text`, `status`, `agent_id`, `chat_time`) VALUES (NULL, '874', '6281298670536', 'http://bit.ly/2yaImB7 ', 'Failed', '58', '2019-08-01 17:58:35')</p><p>Filename: modules/admin/wa/models/Wa_data_model.php</p><p>Line Number: 111</p>	</div>
+</body>
+</html>
+2019-08-01 17:58:38: Status error
+2019-08-01 17:58:38: Error Internal Server Error

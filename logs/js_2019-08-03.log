@@ -1,0 +1,1982 @@
+2019-08-03 08:58:27: 1220162  act submit call
+2019-08-03 08:58:27: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_484(data_id INT(11) NOT NULL AUTO_INCREMENT, form_call_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','Putus Kemitraan Dengan GrabFood') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 08:58:27: Status error
+2019-08-03 08:58:27: Error Internal Server Error
+2019-08-03 08:59:09: 1220162  act submit call
+2019-08-03 08:59:09: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_485(data_id INT(11) NOT NULL AUTO_INCREMENT, form_call_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','Putus Kemitraan Dengan GrabFood') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 08:59:09: Status error
+2019-08-03 08:59:09: Error Internal Server Error
+2019-08-03 09:08:17: 1220162  act submit call
+2019-08-03 09:08:17: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_486(data_id INT(11) NOT NULL AUTO_INCREMENT, form_call_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','Putus Kemitraan Dengan GrabFood') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 09:08:17: Status error
+2019-08-03 09:08:17: Error Internal Server Error
+2019-08-03 09:14:13: 12041  act view campaign detail
+2019-08-03 09:14:13: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-08-03 09:14:13: Status SyntaxError: Unexpected token < in JSON at position 1
+2019-08-03 09:14:13: Error parsererror
+2019-08-03 09:14:17: 12041  act view campaign detail
+2019-08-03 09:14:17: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-08-03 09:14:17: Status SyntaxError: Unexpected token < in JSON at position 1
+2019-08-03 09:14:17: Error parsererror
+2019-08-03 09:48:27: 12035  act view campaign detail
+2019-08-03 09:48:27: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-08-03 09:48:27: Status SyntaxError: JSON.parse: unexpected character at line 2 column 1 of the JSON data
+2019-08-03 09:48:27: Error parsererror
+2019-08-03 09:55:28: 12012  act calling
+2019-08-03 09:55:28: JQXHR response text 
+2019-08-03 09:55:28: Status error
+2019-08-03 09:55:28: Error 
+2019-08-03 09:55:28: 12012  act calling
+2019-08-03 09:55:28: JQXHR response text 
+2019-08-03 09:55:28: Status error
+2019-08-03 09:55:28: Error 
+2019-08-03 12:27:30: 122  act submit call
+2019-08-03 12:27:30: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_488(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:27:30: Status error
+2019-08-03 12:27:30: Error Internal Server Error
+2019-08-03 12:27:43: 122  act submit call
+2019-08-03 12:27:43: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_489(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:27:43: Status error
+2019-08-03 12:27:43: Error Internal Server Error
+2019-08-03 12:30:08: 122  act submit call
+2019-08-03 12:30:08: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_491(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi TEXT DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:30:08: Status error
+2019-08-03 12:30:08: Error Internal Server Error
+2019-08-03 12:31:39: 122  act submit call
+2019-08-03 12:31:39: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_membuat_bapakibu_tertarik_ingin_mencoba_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_492(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_ingin_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:31:39: Status error
+2019-08-03 12:31:39: Error Internal Server Error
+2019-08-03 12:33:08: 122  act submit call
+2019-08-03 12:33:08: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfoo' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_493(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:33:08: Status error
+2019-08-03 12:33:08: Error Internal Server Error
+2019-08-03 12:34:21: 122  act submit call
+2019-08-03 12:34:21: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_fitur_promosi_di_aplikasi_grabfood' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_494(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:34:21: Status error
+2019-08-03 12:34:21: Error Internal Server Error
+2019-08-03 12:35:35: 122  act submit call
+2019-08-03 12:35:35: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_dari_skala_15_1_sangat_sulit5_sangat_mudah_seberapa_mudah_fitur_promosi_aplikasi_grabfood' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_495(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit5_sangat_mudah_seberapa_mudah_fitur_promosi_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:35:35: Status error
+2019-08-03 12:35:35: Error Internal Server Error
+2019-08-03 12:46:18: 122  act submit call
+2019-08-03 12:46:18: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_dari_skala_15_1_sangat_sulit5_sangat_mudah_seberapa_mudah_fitur_promosi_grabfood' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_497(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_skala_15_1_sangat_sulit5_sangat_mudah_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:46:18: Status error
+2019-08-03 12:46:18: Error Internal Server Error
+2019-08-03 12:51:36: 122  act submit call
+2019-08-03 12:51:36: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_dari_15_1_sangat_sulit5_sangat_mudahseberapa_mudah_fitur_promosi_grabfood' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_498(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_1_sangat_sulit5_sangat_mudahseberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:51:36: Status error
+2019-08-03 12:51:36: Error Internal Server Error
+2019-08-03 12:55:07: 122  act submit call
+2019-08-03 12:55:07: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_je' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_499(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 12:55:07: Status error
+2019-08-03 12:55:07: Error Internal Server Error
+2019-08-03 13:10:45: 122  act submit call
+2019-08-03 13:10:45: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_500(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:10:45: Status error
+2019-08-03 13:10:45: Error Internal Server Error
+2019-08-03 13:15:27: 122  act submit call
+2019-08-03 13:15:27: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_501(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:15:27: Status error
+2019-08-03 13:15:27: Error Internal Server Error
+2019-08-03 13:15:54: 122  act submit call
+2019-08-03 13:15:54: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_d' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_502(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apa_yang_membantu_bapakibu_menggunakan_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:15:54: Status error
+2019-08-03 13:15:54: Error Internal Server Error
+2019-08-03 13:17:40: 122  act submit call
+2019-08-03 13:17:40: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskonmemilih_menu' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_503(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apa_yang_membantu_bapakibu_menggunakan_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskonmemilih_menu VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:17:40: Status error
+2019-08-03 13:17:40: Error Internal Server Error
+2019-08-03 13:18:37: 122  act submit call
+2019-08-03 13:18:37: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_504(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apa_yang_membantu_bapakibu_menggunakan_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_ VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:18:37: Status error
+2019-08-03 13:18:37: Error Internal Server Error
+2019-08-03 13:20:47: 122  act submit call
+2019-08-03 13:20:47: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_505(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apa_yang_membantu_bapakibu_menggunakan_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_ VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:20:47: Status error
+2019-08-03 13:20:47: Error Internal Server Error
+2019-08-03 13:22:42: 122  act submit call
+2019-08-03 13:22:42: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_506(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apa_yang_membantu_bapakibu_menggunakan_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_ VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:22:42: Status error
+2019-08-03 13:22:42: Error Internal Server Error
+2019-08-03 13:23:34: 122  act submit call
+2019-08-03 13:23:34: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_507(data_id INT(11) NOT NULL AUTO_INCREMENT, form_cal_status ENUM('Reachable','Unreachable') NOT NULL, form_agent_name VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_mencoba_fitur_promosi VARCHAR(255) DEFAULT NULL, form_dari_15_seberapa_mudah_fitur_promosi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apa_yang_membantu_bapakibu_menggunakan_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_ VARCHAR(255) DEFAULT NULL, form_apa_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan_jika_ya_lanjut_ke_pertanyaan_8__kolom_s_jika_tidak_lanjut_ke_pertanyaan_9__kolom_t ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email_jika_ya_lanjut_ke_pertanyaan_11__kolom_v_jika_tidak_lanjut_ke_pertanyaan_12__kolom_w ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami_jika_tidak_lanjut_ke_pertanyaan_10 ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','','') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:23:34: Status error
+2019-08-03 13:23:34: Error Internal Server Error
+2019-08-03 13:54:42: 1220162  act submit call
+2019-08-03 13:54:42: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_508(data_id INT(11) NOT NULL AUTO_INCREMENT, form_call_status ENUM('Reachable','Unreachable') NOT NULL, form_agent VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi TEXT DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed','Callback') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','Putus Kemitraan Dengan GrabFood') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:54:42: Status error
+2019-08-03 13:54:42: Error Internal Server Error
+2019-08-03 13:54:46: 1220162  act submit call
+2019-08-03 13:54:46: JQXHR response text <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Database Error</title>
+<style type="text/css">
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>A Database Error Occurred</h1>
+		<p>Error Number: 1059</p><p>Identifier name 'form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi' is too long</p><p>CREATE TABLE IF NOT EXISTS data_campaign_509(data_id INT(11) NOT NULL AUTO_INCREMENT, form_call_status ENUM('Reachable','Unreachable') NOT NULL, form_agent VARCHAR(255) NOT NULL, form_first_date_call DATE DEFAULT NULL, form_last_date_call DATE DEFAULT NULL, form_remarks TEXT DEFAULT NULL, form_apakah_benar_bapakibu_telah_menggunakan_fitur_promosi ENUM('Ya','Tidak') DEFAULT NULL, form_apa_yang_membuat_bapakibu_tertarik_atau_ingin_mencoba_fitur_promosi TEXT DEFAULT NULL, form_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudahkah_fitur_promosi_di_aplikasi_grabfood ENUM('1','2','3','4','5') DEFAULT NULL, form_bagian_apakah_yang_membantu_bapakibu_menggunakan_fitur_promosi_contoh_materi_pelatihan_cukup_jelas_desain_aplikasi_mudah_dimengerti_tidak_ribet_dll VARCHAR(255) DEFAULT NULL, form_apakah_hal_yang_paling_membingungkan_dari_fitur_promosi_contoh_menghitung_diskon_memilih_menu_dll VARCHAR(255) DEFAULT NULL, form_apakah_yang_menurut_bapakibu_dapat_ditingkatkan_dari_fitur_promosi_ini VARCHAR(255) DEFAULT NULL, form_apakah_bapakibu_sudah_memeriksa_laporan_penjualan_yang_kami_kirimkan ENUM('Ya','Tidak') DEFAULT NULL, form_jika_ya_dari_skala_15_1_sangat_sulit_5_sangat_mudah_seberapa_mudah_bagi_bapakibu_memahami_laporan_penjualan_kami_terkhusus_untuk_pesanan_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_dari_skala_15_1_sangat_tidak_ingin_5_sangat_ingin_seberapa_besar_keinginan_bapakibu_untuk_menggunakan_kembali_fitur_promosi ENUM('1','2','3','4','5') DEFAULT NULL, form_apakah_bapakibu_menerima_materi_pelatihan_yang_kami_kirimkan_melalui_email ENUM('Ya','Tidak') DEFAULT NULL, form_apakah_bapakibu_telah_mempelajari_materi_pelatihan_yang_kami_kirimkan ENUM('Ya','Tidak') DEFAULT NULL, form_jika_iya_dari_skala_15_1_sangat_sulit_dimengerti_5_sangat_mudah_dimengerti_seberapa_mudah_materi_pelatihan_kami_dipahami ENUM('1','2','3','4','5') DEFAULT NULL, form_menurut_bapakibu_apakah_channel_terbaik_untuk_kami_memberikan_materi_pelatihan_email_sms_website_grab_dll VARCHAR(255) DEFAULT NULL, form_survey_status ENUM('Success','Failed','Callback') DEFAULT NULL, form_failed_reason ENUM('Temporary Closed','Permanently Closed','Telpon dijawab lalu dimatikan','Mengatakan tidak bersedia mengikuti survey','Putus Kemitraan Dengan GrabFood') DEFAULT NULL, form_merchant_id VARCHAR(255) NOT NULL, form_brand VARCHAR(255) NOT NULL, form_authorized_user_contact_name VARCHAR(255) NOT NULL, form_authorized_user_phone_numbers VARCHAR(50) NOT NULL, form_outlet_phone_number VARCHAR(50) NOT NULL, assign_id int(11) NOT NULL, status VARCHAR(25) NULL COMMENT 'status of data', note text NOT NULL COMMENT 'last note of call from agent', `callback` datetime DEFAULT NULL, PRIMARY KEY (data_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</p><p>Filename: modules/admin/campaign/models/Campaign_model.php</p><p>Line Number: 269</p>	</div>
+</body>
+</html>
+2019-08-03 13:54:46: Status error
+2019-08-03 13:54:46: Error Internal Server Error
+2019-08-03 16:08:15: 12012  act calling
+2019-08-03 16:08:15: JQXHR response text 
+2019-08-03 16:08:15: Status error
+2019-08-03 16:08:15: Error 
+2019-08-03 16:08:15: 12012  act calling
+2019-08-03 16:08:15: JQXHR response text 
+2019-08-03 16:08:15: Status error
+2019-08-03 16:08:15: Error 
+2019-08-03 16:10:23: 12012  act calling
+2019-08-03 16:10:23: JQXHR response text 
+2019-08-03 16:10:23: Status error
+2019-08-03 16:10:23: Error 
+2019-08-03 16:10:27: 12012  act calling
+2019-08-03 16:10:27: JQXHR response text 
+2019-08-03 16:10:27: Status error
+2019-08-03 16:10:27: Error 
+2019-08-03 16:33:05: 12012  act calling
+2019-08-03 16:33:05: JQXHR response text 
+2019-08-03 16:33:05: Status error
+2019-08-03 16:33:05: Error 
+2019-08-03 16:33:10: 12012  act calling
+2019-08-03 16:33:10: JQXHR response text 
+2019-08-03 16:33:10: Status error
+2019-08-03 16:33:10: Error 
+2019-08-03 16:33:10: 12012  act calling
+2019-08-03 16:33:10: JQXHR response text 
+2019-08-03 16:33:10: Status error
+2019-08-03 16:33:10: Error 

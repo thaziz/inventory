@@ -1,0 +1,11 @@
+900 has 1 calls (max unlimited) in 'fewestcalls' strategy (8s holdtime, 28s talktime), W:0, C:15, A:29, SL:100.0% within 60s
+   Members: 
+      Agent 3 (SIP/300 from SIP/300) (ringinuse disabled) (dynamic) (Not in use) has taken 1 calls (last was 253 secs ago)
+      Agent 2 (SIP/200 from SIP/200) (ringinuse disabled) (dynamic) (Not in use) has taken 1 calls (last was 140 secs ago)
+      Agent5 (SIP/500 from SIP/500) (ringinuse disabled) (dynamic) (Ringing) has taken no calls yet
+      Agent 1 (SIP/100 from SIP/100) (ringinuse disabled) (dynamic) (Not in use) has taken 1 calls (last was 249 secs ago)
+      Agent 4 (SIP/400 from SIP/400) (ringinuse disabled) (dynamic) (Not in use) has taken 2 calls (last was 50 secs ago)
+   Callers: 
+      1. SIP/Grahacom-0000030f (wait: 0:00, prio: 0)
+
+    -- SIP/500-00000310 is ringing

@@ -1,0 +1,66 @@
+2019-06-29 15:37:24: 12012  act calling
+2019-06-29 15:37:24: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name_":"bapak armada (owner)","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"Yes","form_new_email":"","form_remarks_call":"","form_merchant_id":"AWipD_7wR-bAtZoKZiH8","form_merchant_name":"Sate Padang Pasaman Assyfa - Pangkalan Mahsyur","form_email_":"bara.johor@gmail.com","form_address_":"Jl. Karya Budi No. 37, Pangkalan Mahsyur, Medan Johor, Medan","form_city_":"Medan","form_outstanding_":"219.578,60","form_commision_":"27,27%","form_sources_":"2","form_nomor_whatsapp":"085276447825","status_wa":null},"chats":[{"text":"Dear Sate Padang Pasaman Assyfa, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Bapak Armada dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Menu Best Saller","image":null,"date":"2019-06-28","time":"15:50","type":"achat"},{"text":"","image":"2B044C1FCDFC4CE0DE0F2E635CE6649B.jpeg","date":"2019-06-28","time":"15:50","type":"rchat"},{"text":"","image":"01983CE1D60CD7F8F91F352EBC40FDC3.jpeg","date":"2019-06-28","time":"15:50","type":"rchat"},{"text":"","image":"DE34773C3E4B81DEF34CE3ABBCC49D90.jpeg","date":"2019-06-28","time":"15:50","type":"rchat"},{"text":"","image":"4CF39D4FF74ADCCC5824104CCCFF0D83.jpeg","date":"2019-06-28","time":"15:50","type":"rchat"},{"text":"","image":"373D943070CC91EF910CC825F0C9088D.jpeg","date":"2019-06-28","time":"15:50","type":"rchat"},{"text":"","image":"2BAEA0A2044D0849F6484FF9757AB645.jpeg","date":"2019-06-28","time":"15:50","type":"rchat"},{"text":"","image":"AD28575988482C19590127C915FD2C44.jpeg","date":"2019-06-28","time":"15:50","type":"rchat"},{"text":"","image":"AC4005A3AE3D0470FA3A07258FCBD7AC.jpeg","date":"2019-06-28","time":"15:50","type":"rchat"},{"text":"","image":"DB2B5213FB9BF77121F60E61DEF1E6FE.jpeg","date":"2019-06-28","time":"15:51","type":"rchat"},{"text":"","image":"EC3BABE6410741A88CDC96409D9815BF.jpeg","date":"2019-06-28","time":"15:51","type":"rchat"},{"text":"","image":"26E7FE7D2C904F4F0F299138CD5EB383.jpeg","date":"2019-06-28","time":"15:50","type":"rchat"},{"text":"","image":"E9F930B22BA6A7F3317B78F3CA493ED4.jpeg","date":"2019-06-28","time":"15:52","type":"rchat"}]}
+2019-06-29 15:37:24: Status parsererror
+2019-06-29 15:37:24: Error SyntaxError: JSON.parse: unexpected keyword at line 1 column 2 of the JSON data

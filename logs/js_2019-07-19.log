@@ -1,0 +1,1048 @@
+2019-07-19 13:45:03: 12005  act calling
+2019-07-19 13:45:03: JQXHR response text 
+2019-07-19 13:45:03: Status error
+2019-07-19 13:45:03: Error 
+2019-07-19 14:40:00: 122013  act view campaign detail
+2019-07-19 14:40:00: JQXHR response text <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Outbound Call | Convergence</title>
+
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+  <!-- Toas message -->
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/toastMessage/css/jquery.toastmessage.css">
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/iCheck/all.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/dist/css/skins/_all-skins.min.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/select2/select2.min.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/datepicker/datepicker3.css">
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/year-calendar/css/bootstrap-year-calendar.min.css">
+
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/datatables/datatables.min.css">
+
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/dist/css/style.css">
+
+  <link rel="stylesheet" href="https://172.16.177.20/outbound/assets/dist/css/AdminLTE.min.css">
+  <style>
+    /*html{
+      zoom: 90%;
+    }
+    @media only screen and (max-width:1024px){
+        html{
+          zoom: 80%;
+        }
+    }*/
+    .navbar-nav.navbar-main>li>.dropdown-menu{padding: 0;height: auto !important;}
+    .navbar-nav.navbar-main>li>.dropdown-menu li{border-top: 1px solid #efefef;}
+    .navbar-nav.navbar-main>li>.dropdown-menu li:first-of-type{border-top: none;}
+    .navbar-nav.navbar-main>li>.dropdown-menu li>a, .navbar-custom-menu>.navbar-nav>li>.dropdown-menu li>a{padding: 10px;}
+  </style>
+  <script src="https://172.16.177.20/outbound/assets/plugins/jQuery/jquery-2.2.3.min.js"></script>
+  <script>
+    var base_url  = "https://172.16.177.20/outbound/";
+  </script>
+</head>
+    <body class="hold-transition skin-red-light sidebar-mini fixed">
+        <div class="wrapper">
+        <!-- BEGIN HEADER -->
+          <header class="main-header">
+  <script type="text/javascript">
+    var base_url  = 'https://172.16.177.20/outbound/';
+  </script>
+    <!-- Logo -->
+    <a href="https://172.16.177.20/outbound/panel" class="logo" style="background-color: transparent;">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><img src="https://172.16.177.20/outbound/assets/dist/img/convergence_big.png"></span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><img style = "width: 100%;" src="https://172.16.177.20/outbound/assets/dist/img/convergence_big.png"></span>
+    </a>
+
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+      <div>
+        <ul class="nav navbar-nav navbar-main">
+          <li class="active">
+                          <a href=https://172.16.177.20/outbound/panel/my_campaign>My Campaign</a>
+                        </li>        </ul>
+      </div>
+      <!-- Navbar Right Menu -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+        <!-- Notifications: style can be found in dropdown.less -->
+          <li class="dropdown notifications-menu">
+              <i id="ajax-loading" class="fa fa-refresh fa-spin fa-2x fa-fw" style="position:relative;top:8px;color:lightgreen"></i>
+          </li>
+          <li class="dropdown notifications-menu" id="notifications">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-bell-o"></i>
+              <span class="label label-warning"></span>
+            </a>
+          </li>
+          <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu">
+            <a href="#" style="padding-bottom: 12px;">
+              <img src="https://172.16.177.20/outbound/assets/dist/img/avatar5.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">Mikdad Rizky Nur Aulia</span>
+            </a>
+            <ul class="dropdown-menu">
+
+              <!-- Menu Footer-->
+              <li>
+                              <a href="https://172.16.177.20/outbound/panel/logout" >Sign out</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+        <!-- END HEADER -->
+        <!-- BEGIN SIDEBAR -->
+        
+<!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu">
+        <li class="header"><label id="timer"></label></li>
+              </ul>
+    </section>
+        <script>
+      var xmlHttp;
+      function srvTime(){
+          try {
+              //FF, Opera, Safari, Chrome
+              xmlHttp = new XMLHttpRequest();
+          }
+          catch (err1) {
+              //IE
+              try {
+                  xmlHttp = new ActiveXObject('Msxml2.XMLHTTP');
+              }
+              catch (err2) {
+                  try {
+                      xmlHttp = new ActiveXObject('Microsoft.XMLHTTP');
+                  }
+                  catch (eerr3) {
+                      //AJAX not supported, use CPU time.
+                      alert("AJAX not supported");
+                  }
+              }
+          }
+          xmlHttp.open('HEAD',window.location.href.toString(),false);
+          xmlHttp.setRequestHeader("Content-Type", "text/html");
+          xmlHttp.send('');
+          return xmlHttp.getResponseHeader("Date");
+      }
+
+      var st = srvTime();
+      var d = new Date(st);
+      setInterval(function() {
+            d.setSeconds(d.getSeconds() + 1);
+            $('#timer').text(((d.getHours()<10?'0'+d.getHours():d.getHours()) +':' 
+              + (d.getMinutes()<10?'0'+d.getMinutes():d.getMinutes()) + ':' 
+              + (d.getSeconds()<10?'0'+d.getSeconds():d.getSeconds())));
+      }, 1000);
+    </script>
+    <style type="text/css">
+      .skin-blue-light .sidebar-menu>li.header{
+        text-align: center;
+        font-size: 16px;
+        padding-top: 2px;
+        color:#337ab7;
+      }
+    </style>
+    <!-- /.sidebar -->
+  </aside>        <!-- END SIDEBAR -->
+        <!-- Content Wrapper. Contains page content -->
+        
+            <!-- Content Header (Page header) -->
+            
+
+            <!-- Main content -->
+            
+            <!-- BEGIN CONTENT -->
+            
+<link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/daterangepicker/daterangepicker.css">
+<link rel="stylesheet" href="https://172.16.177.20/outbound/assets/plugins/materialtimepicker/mdtimepicker.min.css">
+<div class="content-wrapper">
+
+    <section class="content-header">
+        <h1>
+            Campaign Sweetener May 25% Part 1,2,3 19 Juli 2019<small>Dashboard</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="https://172.16.177.20/outbound/panel"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            <li><a href="https://172.16.177.20/outbound/panel/my_campaign">Campaign</a></li>
+            <li class="active">Sweetener May 25% Part 1,2,3 19 Juli 2019</li>
+        </ol>
+    </section>
+
+    <section class="content">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="nav nav-tabs">
+                    <li role="presentation" class="active"><a href="#">Data</a></li>
+                    <li role="presentation"><a href="https://172.16.177.20/outbound/panel/my_campaign/data_status/430">Dashboard</a></li>
+                </ul>
+
+                <div class="box" style="border:1px solid #ddd;border-top:none;border-top-left-radius:0;border-top-right-radius:0;">
+                    <div class="box-body">
+                        <div class="col-md-12 p-0">
+                                                    <div class="alert alert-danger alert-call" style="display: none;">This campaign has ended for today</div>
+                                                      <!--<div class="box">-->
+                                  <!--<div class="box-header">
+			                                <h3 class="box-title">Campaign</h3>
+            					            </div>-->
+                                  <!-- Start advancd search form -->
+                                    <div class="row" style="padding-top: 15px;">
+                                      <div class="col-md-8 col-md-offset-2">
+                                        <div class="panel panel-primary collapse" id="search" style="margin-bottom: 0;">
+                                          <div class="panel-body">
+                                            <form class="form-horizontal" method="post" id="search_form">
+                                                                                                                                          <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="tele_call_status">Tele Call Status</label>
+                                                                                                      <div class="col-sm-6">
+                                                      <select class="form-control" name="adv_search[form_tele_call_status]" id="tele_call_status">
+                                                          <option value=""> --Tele Call Status-- </option>
+                                                            <option value="Reachable ">Reachable </option><option value="Unreachable ">Unreachable </option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="contact_person_name">Contact Person Name</label>
+                                                                                                      <div class="col-sm-6">
+                                                      <input type="text" name="adv_search[form_contact_person_name]" class="form-control" placeholder="Contact Person Name" id="contact_person_name">
+                                                    </div>
+                                                    <div class="col-sm-2 pull-right">
+                                                      <select name="opt[form_contact_person_name]" class="form-control input-sm" readonly>
+                                                        <option value="exact" >Exact</option><option value="begins with" >Begins With</option><option value="contains" >Contains</option><option value="ends with" >Ends With</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="tele_result_">Tele Result </label>
+                                                                                                      <div class="col-sm-6">
+                                                      <select class="form-control" name="adv_search[form_tele_result_]" id="tele_result_">
+                                                          <option value=""> --Tele Result -- </option>
+                                                            <option value="Callback">Callback</option><option value="Masih Mempertimbangkan">Masih Mempertimbangkan</option><option value="Salah Sambung">Salah Sambung</option><option value="Tertarik">Tertarik</option><option value="Tidak Tertarik">Tidak Tertarik</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="reject_reason">Reject Reason</label>
+                                                                                                      <div class="col-sm-6">
+                                                      <select class="form-control" name="adv_search[form_reject_reason]" id="reject_reason">
+                                                          <option value=""> --Reject Reason-- </option>
+                                                            <option value="Kecewa Dengan GrabFood">Kecewa Dengan GrabFood</option><option value="Masalah Invoice">Masalah Invoice</option><option value="Masih Ingin Menggunakan Applikasi Yang Lama">Masih Ingin Menggunakan Applikasi Yang Lama</option><option value="Merchant Sudah Mendaftar Promo Bebas Komisi">Merchant Sudah Mendaftar Promo Bebas Komisi</option><option value="Merchant Tutup Permanen">Merchant Tutup Permanen</option><option value="Merchant Tutup Sementara">Merchant Tutup Sementara</option><option value="Minta Dikeluarkan Dari List">Minta Dikeluarkan Dari List</option><option value="Pindah">Pindah</option><option value="Proses Pendaftaran Terlalu Lama">Proses Pendaftaran Terlalu Lama</option><option value="Proses Pendaftaran Terlalu Rumit">Proses Pendaftaran Terlalu Rumit</option><option value="Ingin Putus Kontrak">Ingin Putus Kontrak</option><option value="Salah Sambung">Salah Sambung</option><option value="Sedang Sibuk">Sedang Sibuk</option><option value="Sudah Putus Kontrak Dengan Grab">Sudah Putus Kontrak Dengan Grab</option><option value="Tidak Ada Device">Tidak Ada Device</option><option value="Tidak Ada Orang Untuk Monitoring Applikasi">Tidak Ada Orang Untuk Monitoring Applikasi</option><option value="Drop Call">Drop Call</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="unreachable_reason">Unreachable Reason</label>
+                                                                                                      <div class="col-sm-6">
+                                                      <select class="form-control" name="adv_search[form_unreachable_reason]" id="unreachable_reason">
+                                                          <option value=""> --Unreachable Reason-- </option>
+                                                            <option value="Invalid">Invalid</option><option value="Salah Sambung">Salah Sambung</option><option value="Tidak Diangkat">Tidak Diangkat</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="gmail_exist_">Gmail Exist </label>
+                                                                                                      <div class="col-sm-6">
+                                                      <select class="form-control" name="adv_search[form_gmail_exist_]" id="gmail_exist_">
+                                                          <option value=""> --Gmail Exist -- </option>
+                                                            <option value="Yes">Yes</option><option value="No">No</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="new_email">New Email</label>
+                                                                                                      <div class="col-sm-6">
+                                                      <input type="text" name="adv_search[form_new_email]" class="form-control" placeholder="New Email" id="new_email">
+                                                    </div>
+                                                    <div class="col-sm-2 pull-right">
+                                                      <select name="opt[form_new_email]" class="form-control input-sm" readonly>
+                                                        <option value="exact" >Exact</option><option value="begins with" >Begins With</option><option value="contains" >Contains</option><option value="ends with" >Ends With</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="remarks_call">Remarks Call</label>
+                                                                                                      <div class="col-sm-6">
+                                                      <input type="text" name="adv_search[form_remarks_call]" class="form-control" placeholder="Remarks Call" id="remarks_call">
+                                                    </div>
+                                                    <div class="col-sm-2 pull-right">
+                                                      <select name="opt[form_remarks_call]" class="form-control input-sm" readonly>
+                                                        <option value="exact" >Exact</option><option value="begins with" >Begins With</option><option value="contains" >Contains</option><option value="ends with" >Ends With</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="merchant_id">Merchant ID</label>
+                                                                                                      <div class="col-sm-6">
+                                                      <input type="text" name="adv_search[form_merchant_id]" class="form-control" placeholder="Merchant ID" id="merchant_id">
+                                                    </div>
+                                                    <div class="col-sm-2 pull-right">
+                                                      <select name="opt[form_merchant_id]" class="form-control input-sm" readonly>
+                                                        <option value="exact" >Exact</option><option value="begins with" >Begins With</option><option value="contains" >Contains</option><option value="ends with" >Ends With</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="merchant_name">Merchant Name</label>
+                                                                                                      <div class="col-sm-6">
+                                                      <input type="text" name="adv_search[form_merchant_name]" class="form-control" placeholder="Merchant Name" id="merchant_name">
+                                                    </div>
+                                                    <div class="col-sm-2 pull-right">
+                                                      <select name="opt[form_merchant_name]" class="form-control input-sm" readonly>
+                                                        <option value="exact" >Exact</option><option value="begins with" >Begins With</option><option value="contains" >Contains</option><option value="ends with" >Ends With</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="phone_number">Phone Number</label>
+                                                                                                      <div class="col-sm-4">
+                                                      <input type="number" name="adv_search[form_phone_number]" class="form-control" placeholder="Phone Number" min="" max="" id="phone_number">
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="email_">Email </label>
+                                                                                                      <div class="col-sm-6">
+                                                      <input type="text" name="adv_search[form_email_]" class="form-control" placeholder="Email " id="email_">
+                                                    </div>
+                                                    <div class="col-sm-2 pull-right">
+                                                      <select name="opt[form_email_]" class="form-control input-sm" readonly>
+                                                        <option value="exact" >Exact</option><option value="begins with" >Begins With</option><option value="contains" >Contains</option><option value="ends with" >Ends With</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="address_">Address </label>
+                                                                                                      <div class="col-sm-6">
+                                                      <input type="text" name="adv_search[form_address_]" class="form-control" placeholder="Address " id="address_">
+                                                    </div>
+                                                    <div class="col-sm-2 pull-right">
+                                                      <select name="opt[form_address_]" class="form-control input-sm" readonly>
+                                                        <option value="exact" >Exact</option><option value="begins with" >Begins With</option><option value="contains" >Contains</option><option value="ends with" >Ends With</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="city_">City </label>
+                                                                                                      <div class="col-sm-6">
+                                                      <input type="text" name="adv_search[form_city_]" class="form-control" placeholder="City " id="city_">
+                                                    </div>
+                                                    <div class="col-sm-2 pull-right">
+                                                      <select name="opt[form_city_]" class="form-control input-sm" readonly>
+                                                        <option value="exact" >Exact</option><option value="begins with" >Begins With</option><option value="contains" >Contains</option><option value="ends with" >Ends With</option>                                                      </select>
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="outstanding_">Outstanding </label>
+                                                                                                      <div class="col-sm-4">
+                                                      <input type="number" name="adv_search[form_outstanding_]" class="form-control" placeholder="Outstanding " min="" max="" id="outstanding_">
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="commision_">Commision </label>
+                                                                                                      <div class="col-sm-4">
+                                                      <input type="number" name="adv_search[form_commision_]" class="form-control" placeholder="Commision " min="" max="" id="commision_">
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="sources_">Sources </label>
+                                                                                                      <div class="col-sm-4">
+                                                      <input type="number" name="adv_search[form_sources_]" class="form-control" placeholder="Sources " min="" max="" id="sources_">
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="nomor_whatsapp_">Nomor Whatsapp </label>
+                                                                                                      <div class="col-sm-4">
+                                                      <input type="number" name="adv_search[form_nomor_whatsapp_]" class="form-control" placeholder="Nomor Whatsapp " min="" max="" id="nomor_whatsapp_">
+                                                    </div>
+                                                                                                  </div>
+                                                                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="caller">Attemp</label>
+                                                <div class="col-sm-3">
+                                                  <input type="number" name="adv_search[retries]" class="form-control">
+                                                </div>
+                                              </div>
+                                              <div class="form-group">
+                                                <label class="col-sm-2 control-label" for="status">Call Status</label>
+                                                <div class="col-sm-3">
+                                                  <select name="adv_search[call_status]" class="form-control" id="status">
+                                                    <option value="">-- Call Status --</option>
+                                                    <option value="ncy" selected>Not Contacted Yet</option>
+                                                    <option value="Contacted">Contacted</option>
+                                                    <option value="Not Answer">Not Answer</option>
+                                                    <option value="Not Active">Not Active</option>
+                                                    <option value="Reject">Reject</option>
+                                                    <option value="Busy">Busy</option>
+                                                    <option value="Callback">Callback</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <!--div class="form-group">
+                                                <label class="col-sm-2 control-label" for="mstatus">Merchant Status</label>
+                                                <div class="col-sm-3">
+                                                  <select name="adv_search[merchant_status]" class="form-control" id="mstatus">
+                                                    <option value="">-- Merchant Status --</option>
+                                                    <option value="Interest (Meeting BD)">Interest (BD)</option>
+                                                    <option value="Interest (Meeting SALES)">Interest (SALES)</option>
+                                                    <option value="Follow Up BD">Follow Up BD</option>
+                                                    <option value="Call Back">Call Back</option>
+                                                    <option value="Not Interest">Not Interest</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <!--div class="form-group">
+                                                <label class="col-sm-2 control-label" for="note">Note</label>
+                                                <div class="col-sm-6">
+                                                  <input type="text" name="adv_search[note]" class="form-control" placeholder="Note" id="note">
+                                                </div>
+                                                <div class="col-sm-2 pull-right">
+                                                  <select name="opt[note]" class="form-control input-sm" readonly>
+                                                    <option value="exact" >Exact</option><option value="begins with" >Begins With</option><option value="contains" >Contains</option><option value="ends with" >Ends With</option>                                                  </select>
+                                                </div>
+                                              </div-->
+                                              <div class="form-group">
+                                                <div class="col-md-4 col-md-offset-5">
+                                                  <button type="submit" class="btn btn-primary">Search</button>
+                                                  <button type="button" class="btn btn-default" id="clear">Clear</button>
+                                                </div>
+                                              </div>
+                                            </form>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- End advancd search form -->
+
+                                  <div class="action pull-right">
+                                    <a class="btn btn-primary btn-sm btn-circle" data-toggle="collapse" data-target="#search">
+                                      <i class="fa fa-search"></i> Search
+                                    </a>
+                                  </div>
+                                  <!--START BOX BODY-->
+                                  <!--div class="box-body"-->
+
+                                      <div class="row" id="callback_now" style="display: none;">
+                                          <div class="col-md-12" style="padding-bottom: 15px;">
+                                                <div class="table-responsive">
+                                                    <table class="table table-bordered table-striped" id = "callback_table">
+                                                      <caption>Callback</caption>
+                                                        <thead >
+                                                            <tr>
+                                                              <th width="70px;">No</th>
+                                                                <th>Merchant ID</th><th>Merchant Name</th><th>Phone Number</th><th>Email </th><th>Address </th><th>City </th><th>Outstanding </th><th>Commision </th><th>Sources </th>                                                              <th width="150px;">Callback Time</th>
+                                                              <!--th width="75px;">Last Call Status</th-->
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                          </div>
+                                      </div>
+
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                                <div class="table-responsive">
+                                                    <table class="table table-bordered table-striped" id = "customer_table">
+                                                        <thead>
+                                                            <tr>
+                                                              <th width="70px;">No</th>
+                                                                <th>Tele Call Status</th><th>Contact Person Name</th><th>Tele Result </th><th>Reject Reason</th><th>Unreachable Reason</th><th>Gmail Exist </th><th>New Email</th><th>Remarks Call</th><th>Merchant ID</th><th>Merchant Name</th><th>Phone Number</th><th>Email </th><th>Address </th><th>City </th><th>Outstanding </th><th>Commision </th><th>Sources </th><th>Nomor Whatsapp </th>                                                              <th width="75px;">Retries</th>
+                                                              <th width="75px;">Last Call Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                          </div>
+                                      </div>
+                                  <!--/div-->
+                                  <!--END BOX BODY-->
+                              <!--</div>-->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+</div>
+
+<script src="https://172.16.177.20/outbound/assets/plugins/datatables/datatables.min.js"></script>
+<script src="https://172.16.177.20/outbound/assets/plugins/datatables/dataTables.buttons.min.js"></script>
+<script src="https://172.16.177.20/outbound/assets/plugins/datatables/buttons.colVis.min.js"></script>
+<script src="https://172.16.177.20/outbound/assets/plugins/daterangepicker/moment.min.js"></script>
+<script src="https://172.16.177.20/outbound/assets/plugins/daterangepicker/daterangepicker.js"></script><!-- bootstrap time picker -->
+<script src="https://172.16.177.20/outbound/assets/plugins/materialtimepicker/mdtimepicker.min.js"></script>
+<script src="https://172.16.177.20/outbound/assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+
+<script type="text/javascript">
+  function call(dataid, number){
+	  $.ajax({
+	      url : 'https://172.16.177.20/outbound/panel/my_campaign/call/430',
+	      type: "POST",
+	      data : {'dataid':dataid,'number':number},
+	      dataType: 'json',
+	      success:function(data, textStatus, jqXHR){
+	        if(data.status){
+	        	window.location = 'https://172.16.177.20/outbound/panel/my_campaign/calling/430/'+data.attemp_id;
+	        }else{
+            $().toastmessage('showToast', {
+              text     : data.msg,
+              sticky   : false,
+              position : 'top-center',
+              type     : 'error',
+            });
+          }
+	      },
+	      error: function(jqXHR, textStatus, errorThrown){
+          $.post('https://172.16.177.20/outbound/logger/writexhrlog', {'act':'calling', 'xhr':jqXHR.responseText, 'status':textStatus, 'error':errorThrown});
+	          alert('Error,something goes wrong');
+	      }
+	  });
+  }
+
+  $(document).ready(function(){
+  $('.date').datepicker({autoclose:true,format: 'yyyy-mm-dd'});
+  $('.datetime').daterangepicker({
+    "singleDatePicker": true,
+    "timePicker": true,
+    "locale": {
+      format: 'Y-M-DD hh:mm:ss'
+    }
+  });
+  $('.timepicker').mdtimepicker();
+
+    function reload_table(){
+    $('#customer_table').dataTable({
+      dom: 'Bfrtip',
+      buttons: [
+          'colvis'
+      ],
+      resposive: true,
+      "aLengthMenu":  [10, 25, 50, 100, 500, 1000, 2500, 5000],
+      "ajax": {
+              "url": "https://172.16.177.20/outbound/panel/my_campaign/detail/430",
+              "type": "POST",
+              "data":data_builder(),
+              "error": function(xhr, error, status){
+                $.post('https://172.16.177.20/outbound/logger/writexhrlog', {'act':'view campaign detail','xhr':xhr.responseText, 'status':status, 'error':error});
+              }
+          },
+      "aaSorting": [[ 1, "desc" ]],
+      "searching": false,
+      "paging": true,
+      "bFilter": false,
+      "bStateSave": true,
+      "bServerSide": true,
+      "sPaginationType": "full_numbers",
+      "aoColumnDefs": [
+      { "sClass": "center", "aTargets": [ 0 ], "data": 1 },
+      { "sClass": "center", "aTargets": [ 1 ], "data":2, visible:false, },
+{ "sClass": "center", "aTargets": [ 2 ], "data":3, visible:false, },
+{ "sClass": "center", "aTargets": [ 3 ], "data":4, visible:false, },
+{ "sClass": "center", "aTargets": [ 4 ], "data":5, visible:false, },
+{ "sClass": "center", "aTargets": [ 5 ], "data":6, visible:false, },
+{ "sClass": "center", "aTargets": [ 6 ], "data":7, visible:false, },
+{ "sClass": "center", "aTargets": [ 7 ], "data":8, visible:false, },
+{ "sClass": "center", "aTargets": [ 8 ], "data":9, visible:false, },
+{ "sClass": "center", "aTargets": [ 9 ], "data":10, visible:true, },
+{ "sClass": "center", "aTargets": [ 10 ], "data":11, visible:true, },
+{ "sClass": "center", "aTargets": [ 11 ], "data":12, visible:true,
+"mRender": function(data, type, full) {
+return data+" "+(full[full.length-1]!='Complete'?" <a class=\"btn btn-success btn-xs btn-col btn-call\" href=\"#\" onclick=\"call("+full[0]+",'"+data+"')\"><i class=\"fa fa-phone\"></i> Call</a>":"");
+}
+ },
+{ "sClass": "center", "aTargets": [ 12 ], "data":13, visible:true, },
+{ "sClass": "center", "aTargets": [ 13 ], "data":14, visible:true, },
+{ "sClass": "center", "aTargets": [ 14 ], "data":15, visible:true, },
+{ "sClass": "center", "aTargets": [ 15 ], "data":16, visible:true, },
+{ "sClass": "center", "aTargets": [ 16 ], "data":17, visible:true, },
+{ "sClass": "center", "aTargets": [ 17 ], "data":18, visible:true, },
+{ "sClass": "center", "aTargets": [ 18 ], "data":19, visible:false, },
+        { "sClass": "center", "aTargets": [ 19 ], "data": 20},
+        { "sClass": "center", "aTargets": [ 20 ], "data": 21},
+        /*{ "sClass": "center", "aTargets": [ 21 ], "data": 22,
+          "render":function(data,type, full){
+            var color = 'default';
+            if(data=='Interest (Meeting BD)'){
+              color='success';
+            }else if(data=='Follow Up BD'){
+              color='primary';
+            }else if(data=='Call Back'){
+              color='warning';
+            }else if(data=='Not Interest'){
+              color='danger';
+            }
+            return '<label class="label label-'+color+'" style="font-size:12px;padding:6px 10px;">'+data+'</label>';
+          }
+        }*/
+      ],
+      destroy: true
+    });
+  }
+
+    reload_table();
+    $('form#search_form').on('submit', function(e) {
+      e.preventDefault();
+      reload_table();
+    });
+
+    $('#clear').on('click', function(e) {
+      e.preventDefault();
+      $('form#search_form input').val('');
+      $('form#search_form select').prop('selectedIndex',0);
+      $('form#search_form .select2').val('').trigger("change");
+      reload_table();
+    });
+    function data_builder(){
+      var data_set = {};
+      var array = $("#search_form, #column-form").serializeArray();
+      $.each(array, function(key, val){
+        data_set[val.name] = val.value;
+      })
+      return data_set;
+    }
+
+  });
+
+function reload_callback(){
+    $('#callback_table').dataTable({
+      dom: 'Bfrtip',
+     buttons: [
+        //  'colvis'
+      ],
+      resposive: true,
+      "aLengthMenu":  [],
+      "ajax": {
+              "url": "https://172.16.177.20/outbound/panel/my_campaign/get_callback/430",
+              "type": "POST",
+              "error": function(xhr, error, status){
+                $.post('https://172.16.177.20/outbound/logger/writexhrlog', {'act':'view campaign detail','xhr':xhr.responseText, 'status':status, 'error':error});
+              }
+          },
+      "aaSorting": [[ 1, "desc" ]],
+      "searching": false,
+      "paging": true,
+      "bFilter": false,
+      "bStateSave": true,
+      "bServerSide": true,
+      "sPaginationType": "full_numbers",
+      "aoColumnDefs": [
+      { "sClass": "center", "aTargets": [ 0 ], "data": 1 },
+      { "sClass": "center", "aTargets": [ 1 ], "data":2, visible:true, },
+{ "sClass": "center", "aTargets": [ 2 ], "data":3, visible:true, },
+{ "sClass": "center", "aTargets": [ 3 ], "data":4, visible:true,
+"mRender": function(data, type, full) {
+return data+" "+(full[full.length-1]!='Complete'?" <a class=\"btn btn-success btn-xs btn-col\" href=\"#\" onclick=\"call("+full[0]+",'"+data+"')\"><i class=\"fa fa-phone\"> Call</a>":"");
+}
+ },
+{ "sClass": "center", "aTargets": [ 4 ], "data":5, visible:true, },
+{ "sClass": "center", "aTargets": [ 5 ], "data":6, visible:true, },
+{ "sClass": "center", "aTargets": [ 6 ], "data":7, visible:true, },
+{ "sClass": "center", "aTargets": [ 7 ], "data":8, visible:true, },
+{ "sClass": "center", "aTargets": [ 8 ], "data":9, visible:true, },
+{ "sClass": "center", "aTargets": [ 9 ], "data":10, visible:true, },
+        { "sClass": "center", "aTargets": [ 10 ], "data": 11, 
+          "mRender": function(data, type, full){
+            if(full[12]){
+              return '<span class="blink">'+data+'</span>';
+            }else{
+              return data;
+            }
+          }
+      },
+        //{ "sClass": "center", "aTargets": [ 11 ], "data": 12},
+        /*{ "sClass": "center", "aTargets": [ 12 ], "data": 13,
+          "render":function(data,type, full){
+            var color = 'default';
+            if(data=='Interest (Meeting BD)'){
+              color='success';
+            }else if(data=='Follow Up BD'){
+              color='primary';
+            }else if(data=='Call Back'){
+              color='warning';
+            }else if(data=='Not Interest'){
+              color='danger';
+            }
+            return '<label class="label label-'+color+'" style="font-size:12px;padding:6px 10px;">'+data+'</label>';
+          }
+        }*/
+      ],
+      destroy: true
+    });
+  }
+
+  var count = 0;
+  var isopen = 1;
+
+  if (!!window.EventSource) {
+    var source = new EventSource("https://172.16.177.20/outbound/check_callback.php?cid=430&uid=27");
+    source.addEventListener('message', function(e) {
+      if(e.data>count){
+        $('#callback_now').show();
+        reload_callback();
+        count = e.data;
+      }else if(e.data==0){
+        $('#callback_now').hide();
+      }
+    }, false);
+    var checkcall = new EventSource("https://172.16.177.20/outbound/check_call.php?cid=430");
+    checkcall.addEventListener('message', function(e) {
+      if(e.data==isopen){
+        $('.alert-call').hide();
+        $('.btn-call').show();
+      }else{
+        $('.alert-call').show();
+        $('.btn-call').hide();
+      }
+    }, false);
+  } else {
+    console.log('Your browser doesn\'t support Service event');
+  }
+
+</script>
+
+<script type="text/javascript">
+
+</script>
+<style type="text/css">
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+</style>
+    		<!-- END CONTENT -->
+            
+            <!-- /.content -->
+         
+          <!-- /.content-wrapper -->
+
+        <!-- BEGIN FOOTER -->
+        
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <a href="http://dutamedia.com/" target="_blank" style="color : black;">
+        <!--<strong>© </strong>--> <b>© C-iCare</b>
+      </a>
+    </div>
+    <strong><a href="#"><img src="https://172.16.177.20/outbound/assets/dist/img/convergence_big.png"></a></strong>
+  </footer>
+        <!-- END FOOTER -->
+        </div>
+        
+        <!-- Bootstrap 3.3.6 -->
+        <script src="https://172.16.177.20/outbound/assets/bootstrap/js/bootstrap.min.js"></script>
+        <!-- FastClick -->
+        <script src="https://172.16.177.20/outbound/assets/plugins/fastclick/fastclick.js"></script>
+        <!-- AdminLTE App -->
+        <script src="https://172.16.177.20/outbound/assets/dist/js/app.min.js"></script>
+        <!-- SlimScroll 1.3.0 -->
+        <script src="https://172.16.177.20/outbound/assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+        <!-- Toast Message -->
+        <script src="https://172.16.177.20/outbound/assets/plugins/toastMessage/js/jquery.toastmessage.js"></script>
+        <!-- iCheck 1.0.1 -->
+        <script src="https://172.16.177.20/outbound/assets/plugins/iCheck/icheck.min.js"></script>
+        <!-- Select2 -->
+        <script src="https://172.16.177.20/outbound/assets/plugins/select2/select2.full.min.js"></script>
+        <!-- ChartJS 1.0.1 -->
+        <script src="https://172.16.177.20/outbound/assets/plugins/chartjs/Chart.min.js"></script>
+        <script src="https://172.16.177.20/outbound/assets/plugins/year-calendar/js/bootstrap-year-calendar.js"></script>
+                    <!-- <script type="text/javascript" src="assets/dist/js/check_session.js">
+            </script> -->
+                <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+
+        <script type="text/javascript">
+          $(function(){
+              $('select.select2').select2({
+                dropdownAutoWidth : true,
+                width: '100%'
+              });
+              $('input[type="checkbox"].icheck, input[type="radio"].icheck').iCheck({
+                checkboxClass: 'icheckbox_flat-green',
+                radioClass: 'iradio_flat-green'
+              });
+              $('.number-only').keypress(function (e) {
+                  $(this).next('.info').html('');
+                  if (String.fromCharCode(e.which).match(/[^0-9]/g)&&e.which!=0&&e.which!=8&&e.which!=13){
+                    $(this).next('.info').html('<div class="has-error">Input number only</div>');
+                   return false;
+                  }
+              });
+              $('.number-only').focusout(function(){
+                $(this).next('.info').html('');
+              });
+              $('.allow-decimal').focusout(function(){
+                $(this).next('.info').html('');
+              });
+              $('.allow-decimal').keypress(function(e) {
+                  if (String.fromCharCode(e.which).match(/[^0-9\.]/g)&&e.which!=0&&e.which!=8&&e.which!=13){
+                    $(this).next('.info').html('<div class="has-error">Input decimal only</div>');
+                   return false;
+                  }else{
+                    $(this).next('.info').html('');
+                  }
+              });
+              function check(v){
+                $("#ajax-loading").hide();
+                $.ajax({
+                  url:'https://172.16.177.20/outbound/panel/download/check/'+v,
+                  type: 'post',
+                  dataType: 'json',
+                  success: function(data){
+                    if(data.status){
+                      var html = '<a href="#" class="dropdown-toggle" data-toggle="dropdown">'+
+                          '<i class="fa fa-bell-o"></i>'+
+                          ((data.bedge)?'<span class="label label-warning">'+data.count+'</span>':'')+
+                          '</a><ul class="dropdown-menu" style="height: auto; width: auto">';
+                          $.each(data.files, function(i,v){
+                            var color = '';
+                            var file_name = '';
+                            //alert(v.substr(v.length-6, 6));
+                            if(v.substr(v.length-6, 6)=='n.xlsx'){
+                              file_name = v.substr(0,v.length-6)+'.xlsx';
+                              color='class="bg-success"';
+                            }else{
+                              file_name = v;
+                            }
+                            html+= '<li '+color+'><a href="https://172.16.177.20/outbound/panel/download/download/'+v+'" id="download"><i class="fa fa-download text-aqua"></i> <span>Your file '+file_name+' is ready to download</span></a></li>';
+                          });
+                          html += '</ul>';
+                      $('#notifications').html(html);
+                    }else{
+                      $('#notifications').html('');
+                    }
+                  },
+                  beforeSend: function(){
+                    $("#ajax-loading").hide();
+                  }
+                });
+              }
+              check(0);
+              setInterval(function() {
+                check(0);
+              }, 30000);
+          });
+            window.loading = $("#ajax-loading").hide();
+            $(document)
+              .ajaxStart(function () {
+                window.loading.show();
+              })
+              .ajaxStop(function () {
+                window.loading.hide();
+              });
+        </script>
+    </body>
+</html>
+2019-07-19 14:40:00: Status SyntaxError: Unexpected token < in JSON at position 0
+2019-07-19 14:40:00: Error parsererror
+2019-07-19 15:07:42: 12021  act submit call
+2019-07-19 15:07:42: JQXHR response text 
+2019-07-19 15:07:42: Status error
+2019-07-19 15:07:42: Error 
+2019-07-19 15:35:12: 12010  act view campaign detail
+2019-07-19 15:35:12: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-07-19 15:35:12: Status SyntaxError: Unexpected token < in JSON at position 1
+2019-07-19 15:35:12: Error parsererror
+2019-07-19 16:16:18: 12002  act submit call
+2019-07-19 16:16:18: JQXHR response text 
+2019-07-19 16:16:18: Status error
+2019-07-19 16:16:18: Error 
+2019-07-19 16:16:19: 12002  act submit call
+2019-07-19 16:16:19: JQXHR response text 
+2019-07-19 16:16:19: Status error
+2019-07-19 16:16:19: Error 
+2019-07-19 16:16:28: 12028  act view campaign detail
+2019-07-19 16:16:28: JQXHR response text 
+2019-07-19 16:16:28: Status 
+2019-07-19 16:16:28: Error error
+2019-07-19 17:40:18: 12028  act submit call
+2019-07-19 17:40:18: JQXHR response text 
+2019-07-19 17:40:18: Status error
+2019-07-19 17:40:18: Error 
+2019-07-19 17:40:20: 12028  act submit call
+2019-07-19 17:40:20: JQXHR response text 
+2019-07-19 17:40:20: Status error
+2019-07-19 17:40:20: Error 
+2019-07-19 17:40:22: 12028  act submit call
+2019-07-19 17:40:22: JQXHR response text 
+2019-07-19 17:40:22: Status error
+2019-07-19 17:40:22: Error 
+2019-07-19 17:41:01: 12028  act submit call
+2019-07-19 17:41:01: JQXHR response text 
+2019-07-19 17:41:01: Status error
+2019-07-19 17:41:01: Error 

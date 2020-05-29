@@ -1,0 +1,232 @@
+2019-07-04 10:02:21: 12004  act calling
+2019-07-04 10:02:21: JQXHR response text  file exist.... downloading...<br>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: status</p>
+<p>Filename: models/Wa_model.php</p>
+<p>Line Number: 149</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 149<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 122<br />
+			Function: process			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/models/Wa_model.php<br />
+			Line: 114<br />
+			Function: download_file			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/wa/controllers/Wa.php<br />
+			Line: 136<br />
+			Function: get_chat			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"status":true,"data":{"form_tele_call_status":"Reachable","form_contact_person_name":"Ibu yuni (owner)","form_tele_result":"Tertarik","form_reject_reason":"","form_unreachable_reason":"","form_gmail_exist":"Yes","form__new_email":"","form_remarks_call":"","form_merchant_id":"IDGFSTI00000zrg","form_merchant_name":"Martabak Har - Ptc","form_email_":"martabakhar1947@gmail.com","form_address_":"Jl. R. Sukamto, 9 Ilir, Ilir Timur II, Palembang","form_city_":"Palembang","form_outstanding_":"2.190.464,00","form_commision_":"13,60%","form_sources_":"2","form_nomor_whatsapp_":"081321277772","status_wa":null},"chats":[{"text":"Dear Martabak Har - Ptc, sesuai pembicaraan di telepon agar aplikasi Restoran Pilihan Ibu yuni dapat segera kami proses, mohon melengkapi dokumen restoran Anda dengan membalas whatsapp ini, berupa :<br \/>\n<br \/>\n- Foto Selfie dengan EKTP<br \/>\n- Foto EKTP<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Makanan atau Minuman Best Saller","image":null,"date":"2019-07-02","time":"10:42","type":"achat"},{"text":"","image":"C78453886510ECE5159EA9583E0A96F7.jpeg","date":"2019-07-02","time":"18:00","type":"rchat"},{"text":"","image":"93B17A536177C87EB122EBBC30EB7F19.jpeg","date":"2019-07-02","time":"18:00","type":"rchat"},{"text":"terimakasih ibu yuni dokumennya, namun mohon melengkapi kekurangan dokumennya ya buk agar aplikasi restoran pilihannya segera di proses:<br \/>\n- Foto Buku Rekening<br \/>\n- Foto NPWP ( Tidak Wajib)<br \/>\n- Foto Surat Perjanjian Kerjasama<br \/>\n- Foto Toko Tampak Luar<br \/>\n- Foto Toko Tampak Dalam<br \/>\n- Foto Makanan atau Minuman Best Saller<br \/>\n","image":null,"date":"2019-07-03","time":"14:47","type":"achat"},{"text":"","image":"F02985FC42A9D45BCC8D68818F691B8B.jpeg","date":"2019-07-03","time":"15:53","type":"rchat"},{"text":"","image":"E673BC7CC9C9A3C8F29CF9FBD042EF79.jpeg","date":"2019-07-03","time":"15:53","type":"rchat"},{"text":"","image":"C8A48AADFF86762EFFADB648C60BF7ED.jpeg","date":"2019-07-03","time":"15:53","type":"rchat"},{"text":"","image":"4EFDA738CB5AC20F4C13E1A09BA24A85.jpeg","date":"2019-07-03","time":"15:53","type":"rchat"},{"text":"","image":"851211527AB73F0557A1D943BFAE4A45.jpeg","date":"2019-07-03","time":"15:53","type":"rchat"}]}
+2019-07-04 10:02:21: Status parsererror
+2019-07-04 10:02:21: Error SyntaxError: Unexpected token i in JSON at position 2
+2019-07-04 13:42:46: 122013  act submit call
+2019-07-04 13:42:46: JQXHR response text 
+2019-07-04 13:42:46: Status error
+2019-07-04 13:42:46: Error 
+2019-07-04 14:33:36: 12030  act submit call
+2019-07-04 14:33:36: JQXHR response text 
+2019-07-04 14:33:36: Status error
+2019-07-04 14:33:36: Error 
+2019-07-04 15:59:08: 12010  act view campaign detail
+2019-07-04 15:59:08: JQXHR response text 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 87<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 107<br />
+			Function: get_load_data			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 113</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 113<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 127<br />
+			Function: count_all			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property of non-object</p>
+<p>Filename: models/Data_model.php</p>
+<p>Line Number: 41</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 41<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/models/Data_model.php<br />
+			Line: 96<br />
+			Function: load_data			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/application/modules/admin/my_campaign/controllers/My_campaign.php<br />
+			Line: 128<br />
+			Function: count_filtered			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/outbound/index.php<br />
+			Line: 317<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>{"draw":"1","recordsTotal":0,"recordsFiltered":0,"data":[]}
+2019-07-04 15:59:08: Status SyntaxError: Unexpected token < in JSON at position 1
+2019-07-04 15:59:08: Error parsererror

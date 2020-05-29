@@ -1,0 +1,173 @@
+<?php 
+$avatar = $this->session->userdata('avatar');
+$avatar = !empty($avatar)?base_url($avatar):dist().'img/avatar5.png';
+?>
+<header class="main-header">
+  <!-- Logo -->
+  <a href="<?=base_url('dashboard')?>" class="logo">
+    <!-- mini logo for sidebar mini 50x50 pixels -->
+    <span class="logo-mini"><img src="<?=images('logo-symbol.png')?>"></span>
+    <!-- logo for regular state and mobile devices -->
+    <span class="logo-lg"><img src="<?=images('logo.png')?>"></span>
+  </a>
+  <!-- Header Navbar: style can be found in header.less -->
+  <nav class="navbar navbar-static-top">
+    <!-- Sidebar toggle button-->
+    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+      <span class="sr-only">Toggle navigation</span>
+    </a>
+
+    <div class="navbar-custom-menu">
+      <ul class="nav navbar-nav">
+        <!-- Messages: style can be found in dropdown.less-->
+        <li class="dropdown messages-menu" id="notif-ticket">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-ticket"></i>
+          </a>
+        </li>
+        <!-- User Account: style can be found in dropdown.less -->
+        <li class="dropdown user user-menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <img src="<?=$avatar?>" class="user-image" alt="Avatar">
+            <span class="hidden-xs"><?=$this->session->userdata('username')?></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Account</li>
+            <li class="dropdown-menu-item">
+                <a href="<?=base_url('/user/profile/'.$this->session->userdata('user_id'))?>"><i class="fa fa-user"></i> Profile</a>
+            </li>
+            <li class="dropdown-menu-item">
+                <a href="#" data-toggle="modal" data-target="#changepass"><i class="fa fa-lock"></i> Change Password</a>
+            </li>
+            <li class="dropdown-menu-item">
+                <a href="<?=base_url('logout')?>"><i class="fa fa-sign-out"></i> Sign out</a>
+            </li>
+          </ul>
+        </li>
+        <!-- Control Sidebar Toggle Button -->
+        <!--li>
+          <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+        </li-->
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class="modal fade" id="changepass" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-sm cmodal" role="document">
+    <div class="modal-content">
+      <form id="form-change">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Change Password</h4>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+              <label class="small-label">New Password</label>
+              <input type="password" name="new_password" class="form-control" placeholder="New Password">
+              <span class="info"></span>
+            </div>
+            <div class="form-group">
+              <label class="small-label">Retype Password</label>
+              <input type="password" name="retype_password" class="form-control" placeholder="Retype Password">
+              <span class="info"></span>
+            </div>
+            <div class="form-group">
+              <label class="small-label">Old Password</label>
+              <input type="password" name="old_password" class="form-control" placeholder="Old Password">
+              <span class="info"></span>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Save changes</button>
+        </div>
+      </form>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script type="text/javascript">
+  $('#form-change').submit(function(e){
+    e.preventDefault();
+    $.ajax({
+      url : '<?=base_url('user/changepass') ?>',
+      type: "POST",
+      data : $(this).serialize(),
+      dataType: 'json',
+      success:function(data, textStatus, jqXHR){
+          if(data.status){
+              $().toastmessage('showToast', {
+                    text     : 'Change password success',
+                    position : 'top-center',
+                    type     : 'success',
+                    close    : function () {
+                      $('#changepass').modal('hide');
+                      $('#form-change input').val('');
+                    }
+                });
+          }else{
+            $.each(data.e, function(key,msg){
+              $('[name="'+key+'"]').closest('.form-group').find('.info').html(msg);
+            })
+          }
+      },
+      error: function(jqXHR, textStatus, errorThrown){
+          alert('Something goes wrong, ask to your vendor app');
+      }
+    });
+  });
+
+  function notif(){
+    $.ajax({
+      url: '<?=base_url('notif/ticket')?>',
+      dataType:'json',
+      timeout: 3000
+    }).done(function(res){
+      if(res.status){
+        $('#notif-ticket').empty();
+        if(res.result.total>0){
+          var html = '<a href="#" class="dropdown-toggle" data-toggle="dropdown">'+
+            '<i class="fa fa-ticket"></i>'+
+            '<span class="label label-success">'+res.result.total+'</span>'+
+          '</a>'+
+          '<ul class="dropdown-menu">'+
+            '<li class="header">You have '+res.result.total+' ticket'+(res.result.total>1?'s':'')+'</li>'+
+            '<li>'+
+              '<ul class="menu">';
+          $.each(res.result.data, function(i,v){
+            html +='<li>'+
+                  '<a href="<?=base_url('ticket/detail/')?>'+v.ticket_id+'">'+
+                    '<div class="pull-left">'+
+                      '<span class="fa-stack fa-lg">'+
+                        '<i class="fa fa-circle fa-stack-2x"></i>'+
+                        '<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>'+
+                      '</span>'+
+                    '</div>'+
+                    '<h4>'+v.subject+
+                      '<small><i class="fa fa-clock-o"></i> '+v.time+'</small>'+
+                    '</h4>'+
+                    '<p>'+v.sc_name+'</p>'+
+                  '</a>'+
+                '</li>';
+          });
+          html+='</ul>'+
+            '</li>'+
+            '<li class="footer"><a href="<?=base_url('ticket')?>">See All Ticket</a></li>'+
+          '</ul>';
+          $('#notif-ticket').html(html);
+        }else{
+          var html = '<a href="#" class="dropdown-toggle" data-toggle="dropdown">'+
+            '<i class="fa fa-ticket"></i>'+
+          '</a>';
+          $('#notif-ticket').html(html);
+        }
+        //setTimeout(notif, 5000);
+      }else{
+        
+      }
+    }).fail(function(xhr, status, error){
+        console.log(xhr);
+    })
+  }
+  $(function(){notif();});
+</script>
