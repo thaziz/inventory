@@ -72,7 +72,7 @@
 					<tr>
 						<td>Nomor</td>
 						<td style="width: 1%">:</td>
-						<td> <?=$po['master']->po_code_a ?></td>
+						<td> <?=$po['master']->po_code_a ?>/PD.PBB/<?=$po['master']->year ?></td>
 					</tr>
 					<tr>
 						<td style="vertical-align:top"><div >Perihal</div></td>
@@ -93,7 +93,7 @@
   
   <li>Peraturan Bupati Banjar Nomor 41 Tahun 2014 tentang Susunan Organisasi dan Tata Kerja Perusahaan Daerah Pasar Bauntung Batuah Kabupaten Banjar</li>
 
-  <li>Keputusan Bupati Nomor188.45/ 941 /KUM/2019 Tentang Pengesahan Rencana Kerja Dan Anggaran Perusahaan PD.Pasar Bauntung Batuah Kabupaten Banjar Tahun  2020;</li>
+  <li>Keputusan Bupati Nomor <?=$po['master']->k_sk_bupati ?> Tentang Pengesahan Rencana Kerja Dan Anggaran Perusahaan PD.Pasar Bauntung Batuah Kabupaten Banjar Tahun  2020;</li>
 
   <li>Keputusan Direktur  Nomor : <?=$po['master']->k_sk ?> ;</li>
 
@@ -117,13 +117,13 @@
 		<tr> 
 			<td colspan="3">
 			<br>  
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <?php $result = str_replace(['<p>','</p>'],['',''],$po['master']->po_script); echo $result;  ?>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <?php $result = str_replace(['<p>','</p>'],['',''],$po['master']->po_script); echo $result;  ?>
 				</div>
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					
 Untuk ini kami mohon kepada Bapak Direktur agar kiranya dapat merekomendasikan biaya pengadaan pemeliharaan perawatan dan pendukung inventaris kantor pada Bidang Ketatausahaan dengan anggaran biaya sebesar Rp. <?=number_format($po['master']->po_anggaran,0,',','.') ?>,-(<?=$po['master']->terbilang ?> rupiah).	
 				</div>
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demikian telaahan ini di buat, mohon petunjuk dan keputusannya.</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demikian telaahan ini di buat, mohon petunjuk dan keputusannya.</div>
 			</td>
 		</tr>
 		
@@ -208,7 +208,7 @@ Kasubbid
 				<table width="100%" id="ttt">
 					<th width="70%">Disposisi</th>
 					<th>Direktur</th>
-					<tr style="height: 100px">					
+					<tr style="height: 200px">					
 						<td></td>
 						<td style="vertical-align:bottom;text-align: center;">
 							<div><?=$ttd->telaahan4; ?></div>

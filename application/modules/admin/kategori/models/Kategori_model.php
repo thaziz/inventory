@@ -90,6 +90,7 @@ class Kategori_model extends CI_Model {
     }
 
     public function update($id){
+         $_POST['k_status'] = (isset($_POST['k_status']) ? 1 : 0);
       
         $this->db->where('k_id', $id);
         return $this->db->update($this->table, $_POST);

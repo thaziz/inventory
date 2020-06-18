@@ -160,6 +160,7 @@ class Purchase_order extends MX_Controller {
 		$y=date('Y',strtotime($data['po']['master']->po_date));
 		$d=date('d',strtotime($data['po']['master']->po_date));
 		$data['po']['master']->po_date=$d.'-'.ucwords(strtolower($m)).'-'.$y;
+		$data['po']['master']->year=$y;
 		//var_dump($data);exit();
 		$this->load->view('cetak',$data);
 	}

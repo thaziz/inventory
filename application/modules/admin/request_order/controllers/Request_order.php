@@ -37,6 +37,7 @@ class request_order extends MX_Controller {
 
 
 	public function index(){
+		
 	//check the privileges of the user
 		$auth = $this->template->set_auth($this->menu['rule']['panel/request_order']['v']);
 		if($_POST && $auth){

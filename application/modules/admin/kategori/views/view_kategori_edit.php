@@ -48,12 +48,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					            </div>
 				          	</div>
 
+
 				          	<div class="form-group">
-					            <label class="col-sm-2 control-label" for="adm_name">SK</label>
+					            <label class="col-sm-2 control-label" for="adm_name">SK Bupati *</label>
+					            <div class="col-sm-4">
+					              <input type="text" placeholder="No. Sk Bupati" name = "k_sk_bupati" id="k_sk_bupati" class="form-control" value="<?=$data->k_sk_bupati?>">
+					              <span class="info"></span>
+					            </div>
+				          	</div>
+
+				          	<div class="form-group">
+					            <label class="col-sm-2 control-label" for="adm_name">SK Direktur</label>
 					            <div class="col-sm-4">
 					              <input type="text" placeholder="Saldo" name = "k_sk" value="<?=$data->k_sk?>" class="form-control" >
 					              <span class="info"></span>
 					            </div>
+				          	</div>
+
+
+
+
+
+				          	<div class="form-group">
+				          		<label class="col-sm-2 control-label" for="adm_active">Status</label>
+				          		<div class = "col-sm-10">
+						            	<label class="switch">
+						            		<input type="checkbox" name="k_status" value="1" <?=($data->k_status==1?'checked':'')?>>
+						            		<div class="slider round"></div>
+						            	</label>
+				          		</div>
 				          	</div>
 
 				        </div>

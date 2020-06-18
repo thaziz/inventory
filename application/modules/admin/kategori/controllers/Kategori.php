@@ -35,7 +35,9 @@ class Kategori extends MX_Controller {
 	            $row = array();	            	            	
 	            $row[] = $admin->k_name;		                        
 	            $row[] = $admin->k_note;
+	            $row[] = $admin->k_sk_bupati;  
 	            $row[] = $admin->k_sk;            
+	            $row[] = $admin->k_status;  
 	            $row[] = $admin->k_id;
 	            $data[] = $row;
 	        }
@@ -62,12 +64,14 @@ class Kategori extends MX_Controller {
 		if($_POST && $auth){
             $this->form_validation->set_rules('k_name', 'Nama', 'required');
             $this->form_validation->set_rules('k_sk', 'SK', 'required|is_unique[v_kategori.k_sk]');
+            $this->form_validation->set_rules('k_sk_bupati', 'SK Bupati', 'required|is_unique[v_kategori.k_sk_bupati]');
             $this->form_validation->set_rules('k_note', 'Keterangan', 'required');
 
             if ($this->form_validation->run() == false){
             	$data['status'] = false;
             	$data['e']['k_name'] = form_error('k_name', '<div class="has-error">', '</div>');
             	$data['e']['k_sk'] = form_error('k_sk', '<div class="has-error">', '</div>');
+            	$data['e']['k_sk_bupati'] = form_error('k_sk_bupati', '<div class="has-error">', '</div>');
             	$data['e']['k_note'] = form_error('k_note', '<div class="has-error">', '</div>');
             	echo json_encode($data);
             }else{

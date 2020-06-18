@@ -26,7 +26,10 @@ class Request_order_model extends CI_Model {
         $this->db->join($this->pref.'divisi e', $this->table.'.ro_to = e.d_id');  
         $this->db->join($this->pref.'kategori k', $this->table.'.ro_type = k.k_id');        
         $this->db->join($this->pref.'admin d', $this->table.'.ro_created_by = d.adm_id');
-        $this->db->where('year(ro_date_create)',$this->session->userdata('tahun'));        
+        $this->db->where('year(ro_date_create)',$this->session->userdata('tahun'));     
+
+        $this->db->where('ro_from',$this->session->userdata('bidang_id'));     
+        
         $i = 0;
         foreach ($this->column_search as $item) {
             if($_POST['search']['value'])
@@ -113,7 +116,7 @@ class Request_order_model extends CI_Model {
         return $form;       
     }
     function get_kategori(){
-        $form=$this->db->select('k_id as id,k_name as name')->get($this->pref.'kategori')->result();
+        $form=$this->db->where('k_status',1)->select('k_id as id,k_name as name')->get($this->pref.'kategori')->result();
         return $form;       
     }
     function get_kode(){

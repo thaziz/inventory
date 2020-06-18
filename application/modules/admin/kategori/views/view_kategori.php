@@ -36,7 +36,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <th width="20px"></th>                                   
                   <th>Nama</th>                  
                   <th>Keterangan</th>                  
-                  <th>SK</th>
+                  <th>SK Bupati</th>
+                  <th>SK Direktur</th>
+                  <th>Status</th>
                   <th>&nbsp;</th>
                 </tr>
               </thead>
@@ -94,25 +96,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       "aoColumnDefs": [
       { "title":"<input type='checkbox' class='check-all'></input>","sClass": "center","aTargets":[0],
         "render": function(data, type, full){
-          return '<input type="checkbox" class="check-item" value="'+full[3]+'">';
+          return '<input type="checkbox" class="check-item" value="'+full[5]+'">';
         },
         "bSortable": false
       },
       { "sClass": "center", "aTargets": [ 1 ], "data":0 },
       { "sClass": "center", "aTargets": [ 2 ], "data":1 },
        { "sClass": "center", "aTargets": [ 3 ], "data":2 },
+       { "sClass": "center", "aTargets": [ 4 ], "data":3 },
+       //{ "sClass": "center", "aTargets": [ 5 ], "data":4 },
+        { "sClass": "center", "aTargets": [ 5 ], "data":4 ,
+        "render" : function (data, type, full, meta){
+         // alert(data)
+          return '<input disabled="true" type="checkbox" '+(data=='1'?'checked':'')+' "/>'
+        }
+      },
        
-      { "sClass": "center", "aTargets": [ 4 ],
+      { "sClass": "center", "aTargets": [ 6 ],
         "mRender": function(data, type, full) {
+
             <?php if($rules['v']){ ?>
           return ''
               <?php } ?>
               <?php if($rules['e']){?>
-              + ''+'<a href=<?=base_url('panel/kategori/edit');?>/' + full[3]
+              + ''+'<a href=<?=base_url('panel/kategori/edit');?>/' + full[5]
               + ' class="btn btn-info btn-xs btn-col icon-green"><i class="fa fa-pencil"></i> Edit'
               <?php }?>
               <?php if($rules['d']){?>
-              + '</a>'+'<a href="javascript:;" onclick="remove(\'' + full[3] + '\');" id="btn-delete" class="btn btn-danger btn-xs btn-col icon-black"><i class="fa fa-close"></i> ' + 'Delete'
+              + '</a>'+'<a href="javascript:;" onclick="remove(\'' + full[5] + '\');" id="btn-delete" class="btn btn-danger btn-xs btn-col icon-black"><i class="fa fa-close"></i> ' + 'Delete'
               <?php }?>
               + '</a>';
         },

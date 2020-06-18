@@ -66,7 +66,7 @@
 					<td colspan="2"><?=$po->po_code_a?> - <?=$po->po_note?></td>
 				</tr>
 				<tr> 
-					<td colspan="3" height="50px"></td>
+					<td colspan="3" height="10px"></td>
 				</tr>
 				<tr>
 					<td colspan="2"></td>
