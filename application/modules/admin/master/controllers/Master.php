@@ -94,7 +94,8 @@ class Master extends MX_Controller {
             }
 		}else{
 
-			$data['account'] = $this->item_model->get_account();			
+			$data['account'] = $this->item_model->get_account();	
+			$data['satuan'] = $this->item_model->get_satuan();			
 			//var_dump($data['account']);exit();
 			$data['menu'] = $this->menu;
 	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS INSERT USER MENU');
@@ -160,6 +161,7 @@ class Master extends MX_Controller {
             }
 		}else{
 			$data['data'] = $this->item_model->find_by_id($id);
+			$data['satuan'] = $this->item_model->get_satuan();	
 			$data['menu'] = $this->menu;
 			$this->userlog->add_log($this->session->userdata['name'], 'ACCESS EDIT ADMIN ID: '.$id.' NAME: '.$data['data']->i_name);
 			$this->template->view('view_item_edit', $data);

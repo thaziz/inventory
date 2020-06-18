@@ -112,4 +112,9 @@ class Item_model extends CI_Model {
         $this->db->select('a_id as id, concat(a_code," - ",a_name) as name', false);        
         return $this->db->get('v_account')->result();
     }
+
+    public function get_satuan(){
+        $this->db->select('s_id as id, s_name as name', false);        
+        return $this->db->get('v_satuan')->result();
+    }
 }

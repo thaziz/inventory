@@ -46,8 +46,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					            <label class="col-sm-2 control-label" for="adm_ext">Satuan *</span></label>
 					            <div class="col-sm-5">
 					            	<select class="form-control" name="i_unit" id="i_unit">
-					            		<option>PCS</option>
-					            		<option>KG</option>
+					            		<?php foreach ($satuan as $key => $v): ?>
+					            				<option><?=$v->name ?></option>	
+					            		<?php endforeach ?>
+					            	
 					            	</select>
 					              <span class="info"></span>
 					            </div>
@@ -92,7 +94,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				        <div class="box-footer">
 				        	<div class="col-md-2 col-sm-offset-2">
 					          <button id = "enter" class="btn btn-primary pull-right" type="submit">Enter</button>
-					          <a href="<?php echo base_url('panel/admin'); ?>" class="btn btn-default">Back</a>
+					          <a href="<?php echo base_url('panel/master'); ?>" class="btn btn-default">Back</a>
 				        	</div>
 				        </div>
 				      </form>

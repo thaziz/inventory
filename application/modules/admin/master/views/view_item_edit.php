@@ -56,12 +56,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					            <div class="col-sm-5">
 					            
 					            	<select class="form-control" name="i_unit" id="i_unit">
-					            		<option <?php if ($data->i_unit=='PCS'): ?>
+					            		<?php foreach ($satuan as $key => $v): ?>
+					            			<?php if ($data->i_unit==$v->name){ ?>
+					            				<option selected="" ><?=$v->name ?></option>	
+					            			<?php }else{ ?>
+					            				<option><?=$v->name ?></option>	
+					            			<?php } ?>
+					            				
+					            		<?php endforeach ?>
+					            	
+
+					            		<!-- <option <?php if ($data->i_unit=='PCS'): ?>
 					            		selected=""					            			
 					            		<?php endif ?>>PCS</option>
 					            		<option  <?php if ($data->i_unit=='KG'): ?>
 					            		selected=""
-					            		<?php endif ?>>KG</option>
+					            		<?php endif ?>>KG</option> -->
 					            	</select>
 					              <span class="info"></span>
 					            </div>
