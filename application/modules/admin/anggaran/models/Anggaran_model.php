@@ -136,7 +136,7 @@ class Anggaran_model extends CI_Model {
     }
 
      public function detail($id){
-         $this->db->select('po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name,po_note,po_status,adm_name,po_from,po_to,c.d_code,po_code_a,po_type,po_anggaran,oa_saldo,po_kode_anggaran,f.a_name,f.a_code,po_request_id', false);
+         $this->db->select('po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,c.d_code,po_code_a,po_anggaran,oa_saldo,po_kode_anggaran,f.a_name,f.a_code,po_request_id', false);
         $this->db->from('v_purchase_order');
         $this->db->join($this->pref.'divisi c','v_purchase_order.po_from = c.d_id');
         $this->db->join($this->pref.'divisi e', 'v_purchase_order.po_to = e.d_id');        
@@ -202,6 +202,7 @@ class Anggaran_model extends CI_Model {
 
     function insert(){
 
+
        $this->db->trans_start();
 
       $this->db->select('id');
@@ -211,6 +212,7 @@ class Anggaran_model extends CI_Model {
         return 'tidak ada ttd';
         exit();
       }
+    //  var_dump($_POST);exit();
 
        $this->db->where('ro_id',$_POST['ro_id']);
         $this->db->update('v_request_order',array('ro_status' =>'Anggaran' , ));
@@ -246,7 +248,8 @@ class Anggaran_model extends CI_Model {
                 'po_created_anggaran'=>date('Y-m-d H:i:s'), 
                 'po_status'=>'Anggaran',    
                 'po_created_anggaran_by'=>$this->session->userdata('id'), 
-                'po_ttd_telaahan'=>$q->row()->id
+                'po_ttd_telaahan'=>$q->row()->id,
+                'sisa_anggaran_acc'=>$saldo,
         );
 
 

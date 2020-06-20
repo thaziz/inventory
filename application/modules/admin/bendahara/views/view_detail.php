@@ -57,7 +57,7 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-              <input id="tgl" value="<?=$po['master']->po_id?>" type="text" value="" class="form-control reset " name="no"  autocomplete="off" readonly>
+              <input id="tgl" value="<?=$po['master']->po_code_a?>" type="text" value="" class="form-control reset " name="no"  autocomplete="off" readonly>
             </div>
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12">
@@ -147,10 +147,10 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
   <div class="row">
             <div class="col-sm-6"> 
                     <div class="widget-footer enter ">   
-                      <?php  if($po['master']->po_ttd_bendahara!='' && $po['master']->po_ttd_bendahara!=0): ?>
+                      <?php  if($po['master']->po_pinjaman!='' && $po['master']->po_pinjaman!=0): ?>
                       <button class="btn btn-success upload-image" type="button" onclick="peminjaman(<?=$po['master']->po_id?>)">Voucer Peminjaman</button>
                       <?php endif ?>
-                      <?php  if($po['master']->po_ttd_bendahara!='' && $po['master']->po_ttd_bendahara!=0): ?>
+                      <?php  if($po['master']->po_kembalian!='' && $po['master']->po_kembalian!=0): ?>
                       <button class="btn btn-primary upload-image" type="button" onclick="print(<?=$po['master']->po_id?>)">Voucer Pengembalian</button>
                        <?php endif ?>
                       

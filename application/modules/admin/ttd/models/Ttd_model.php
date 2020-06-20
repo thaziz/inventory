@@ -101,13 +101,13 @@ class Ttd_model extends CI_Model {
     }
 
     public function delete(){
-        $this->db->where_in('adm_id', $_POST['adm_id']);
+        $this->db->where_in('id', $_POST['adm_id']);
         return $this->db->delete($this->table);
     }
 
     public function get_name($id){
-        $this->db->select('adm_id as id, adm_name as name', false);
-        $this->db->where_in('adm_id', $id);
+        $this->db->select('id as id, id as name', false);
+        $this->db->where_in('id', $id);
         return $this->db->get($this->table)->result();
     }
 

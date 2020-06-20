@@ -180,7 +180,7 @@ class Nota_model extends CI_Model {
 
 
         $this->db->where('po_id',$_POST['po_id']);
-        $this->db->update('v_purchase_order',array('po_status' =>$status , ));    
+        $this->db->update('v_purchase_order',array('po_status' =>$status ,'total_nota'=>$total ));    
 
 
          foreach($_POST['id'] AS $key => $val){
@@ -236,6 +236,28 @@ class Nota_model extends CI_Model {
 
         return number_format($form->oa_saldo,0,',','.');   
     }
+
+    public function detail($id){
+        
+         $this->db->select('po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,c.d_code,po_code_a,po_anggaran,oa_saldo,po_kode_anggaran,f.a_name,f.a_code,po_request_id,po_ttd_bendahara,total_nota', false);
+        $this->db->from('v_purchase_order');
+        $this->db->join($this->pref.'divisi c','v_purchase_order.po_from = c.d_id');
+        $this->db->join($this->pref.'divisi e', 'v_purchase_order.po_to = e.d_id');        
+        $this->db->join($this->pref.'admin d', 'v_purchase_order.po_created_by = d.adm_id');        
+        $this->db->join($this->pref.'kategori k', 'v_purchase_order.po_type = k.k_id');  
+
+         $this->db->join($this->pref.'opening_account_bck oc', $this->table.'.po_kode_anggaran = oc.oa_id','left');        
+        $this->db->join($this->pref.'account f', 'oc.oa_account_id = f.a_id','left');
+
+        $master=$this->db->where('po_id',$id)->get()->row();
+
+        //var_dump($master);exit();
+
+
+        $detail=$this->db->select('*')->where('pod_purchase_order',$id)->where('pod_status','Setuju')->get($this->pref.'purchase_order_detail')->result();
+        return array('master' =>$master,'detail'=>$detail);
+}
+
 
 
 

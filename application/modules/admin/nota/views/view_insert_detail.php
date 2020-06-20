@@ -135,7 +135,7 @@
                     <div class="widget-footer enter ">                      
                       <button class="btn btn-success upload-image" type="submit">Simpan</button>
                      
-                      <a href="{{route('index_inspeksi')}}" class="btn btn-default">Kembali</a>
+                       <a href="<?php echo base_url("panel/nota"); ?>" class="btn btn-default">Kembali</a>
                     </div>
 
           </div>

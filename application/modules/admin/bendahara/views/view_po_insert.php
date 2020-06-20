@@ -79,7 +79,7 @@
           </div> 
 
           
-          
+      <!--     
           <div class="col-md-2 col-sm-6 col-xs-12">
             <label>Jumlah Anggaran<span style="color: red"> *</span></label>
           </div>
@@ -87,7 +87,7 @@
             <div class="form-group form-group-sm" id="div_kategori">
               <input type="text"value="<?=number_format($po['master']->po_anggaran,0,',','.'); ?>" name="jml_anggaran" id="saldo" class="form-control" placeholder="Jumlah Anggaran" readonly="">        
             </div>
-          </div> 
+          </div>  -->
 
         </div>
     </div>

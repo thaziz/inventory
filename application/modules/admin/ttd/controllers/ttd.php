@@ -45,6 +45,13 @@ class ttd extends MX_Controller {
 	            $row[] = $admin->nikp1;	
 	            $row[] = $admin->peminjaman2;
 	            $row[] = $admin->nikp2;
+
+	            $row[] = $admin->peminjaman3;
+	            $row[] = $admin->nikp3;
+
+	            $row[] = $admin->peminjaman4;
+	            $row[] = $admin->nikp4;
+
 	            $row[] = $admin->status;	            
 	            $row[] = $admin->id;
 	            $data[] = $row;
@@ -160,13 +167,13 @@ class ttd extends MX_Controller {
 		}
 	}
 
-	public function admin_delete(){
+	public function delete(){
 		$auth = $this->template->set_auth($this->menu['rule']['panel/ttd']['d']);
 		if($auth){
 			$info = $this->ttd_model->get_name($_POST['adm_id']);
 			$info = str_replace('[', '', str_replace(']', '', json_encode($info)));
 			if($this->ttd_model->delete()){
-				$this->userlog->add_log($this->session->userdata['name'], 'DELETE ADMIN '.$info);
+				$this->userlog->add_log($this->session->userdata['name'], 'DELETE TTD '.$info);
 				$data['status'] = true;
 			}else{
 				$data['status'] = false;

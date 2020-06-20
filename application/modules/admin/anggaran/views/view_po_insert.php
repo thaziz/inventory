@@ -188,9 +188,6 @@ function cekA(){
                           }
                       });
 
-
-
-
               }else{
                 $().toastmessage('showToast', {
             text     : 'Insert data success',

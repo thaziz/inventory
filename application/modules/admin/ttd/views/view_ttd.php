@@ -47,6 +47,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <th>NIK 1</th>
                   <th>Peminjaman 2</th>
                   <th>NIK 2</th>
+                  <th>Peminjaman 3</th>
+                  <th>NIK 3</th>
+                  <th>Peminjaman 4</th>
+                  <th>NIK 4</th>
                   <th>Status</th>
                   <th>&nbsp;</th>
                 </tr>
@@ -106,7 +110,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       "aoColumnDefs": [
       { "title":"<input type='checkbox' class='check-all'></input>","sClass": "center","aTargets":[0],
         "render": function(data, type, full){
-          return '<input type="checkbox" class="check-item" value="'+full[0]+'">';
+          return '<input type="checkbox" class="check-item" value="'+full[17]+'">';
         },
         "bSortable": false
       },
@@ -131,26 +135,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       { "sClass": "center", "aTargets": [ 10 ], "data":9 },
       { "sClass": "center", "aTargets": [ 11 ], "data":10 },
       { "sClass": "center", "aTargets": [ 12 ], "data":11 },
-      { "sClass": "center", "aTargets": [ 13 ], "data":12,
+
+      { "sClass": "center", "aTargets": [ 13 ], "data":12 },
+      { "sClass": "center", "aTargets": [ 14 ], "data":13 },
+      { "sClass": "center", "aTargets": [ 15 ], "data":14 },
+      { "sClass": "center", "aTargets": [ 16 ], "data":15 },
+
+      { "sClass": "center", "aTargets": [ 17 ], "data":16,
         "render" : function (data, type, full, meta){
           
           return '<input disabled="true" type="checkbox" '+(data=='Y'?'checked':'')+' "/>'
         }
       },      
       
-      { "sClass": "center", "aTargets": [ 14 ],
+      { "sClass": "center", "aTargets": [ 18 ],
         "mRender": function(data, type, full) {
 
             <?php if($rules['v']){ ?>
-          return '<a href=<?=base_url('panel/ttd/detail');?>/' + full[13]
+          return '<a href=<?=base_url('panel/ttd/detail');?>/' + full[17]
               + ' class="btn btn-default btn-xs btn-col icon-black"><i class="fa fa-search"></i> Detail'
               <?php } ?>
               <?php if($rules['e']){?>
-              + '</a>'+'<a href=<?=base_url('panel/ttd/edit');?>/' + full[13]
+              + '</a>'+'<a href=<?=base_url('panel/ttd/edit');?>/' + full[17]
               + ' class="btn btn-info btn-xs btn-col icon-green"><i class="fa fa-pencil"></i> Edit'
               <?php }?>
               <?php if($rules['d']){?>
-              + '</a>'+'<a href="javascript:;" onclick="remove(\'' + full[0] + '\');" id="btn-delete" class="btn btn-danger btn-xs btn-col icon-black"><i class="fa fa-close"></i> ' + 'Delete'
+              + '</a>'+'<a href="javascript:;" onclick="remove(\'' + full[17] + '\');" id="btn-delete" class="btn btn-danger btn-xs btn-col icon-black"><i class="fa fa-close"></i> ' + 'Delete'
               <?php }?>
               + '</a>';
         },

@@ -129,6 +129,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 				          	<div class="form-group">
+					            <label class="col-sm-2 control-label" for="adm_name">Peminjaman 3 *</label>
+					            <div class="col-sm-4">					          
+					              <input type="text"  name = "peminjaman3" value="<?=$data->peminjaman3?>" class="form-control">
+					              <span class="info"></span>
+					            </div>
+				          	</div>
+
+				          	<div class="form-group">
+					            <label class="col-sm-2 control-label" for="adm_name">NIK 3 *</label>
+					            <div class="col-sm-4">					          
+					              <input type="text"  name = "nikp3" value="<?=$data->nikp3?>" class="form-control">
+					              <span class="info"></span>
+					            </div>
+				          	</div>
+
+
+				          	<div class="form-group">
+					            <label class="col-sm-2 control-label" for="adm_name">Peminjaman 4 *</label>
+					            <div class="col-sm-4">					          
+					              <input type="text"  name = "peminjaman4" value="<?=$data->peminjaman4?>" class="form-control">
+					              <span class="info"></span>
+					            </div>
+				          	</div>
+
+				          	<div class="form-group">
+					            <label class="col-sm-2 control-label" for="adm_name">NIK 4 *</label>
+					            <div class="col-sm-4">					          
+					              <input type="text"  name = "nikp4" value="<?=$data->nikp4?>" class="form-control">
+					              <span class="info"></span>
+					            </div>
+				          	</div>
+
+
+				          	<div class="form-group">
 				          		<label class="col-sm-2 control-label" for="adm_active">Enabled</label>
 				          		<div class = "col-sm-10">
 						            	<label class="switch">

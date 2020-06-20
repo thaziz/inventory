@@ -5,8 +5,8 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
 <div class="content-wrapper">
   <section class="content-header">
     <h1>
-      Detail Purchase Order
-      <small></small>
+      Nota
+      <small>Detail Purchase Order</small>
     </h1>
     <ol class="breadcrumb">
       <li><a href="<?= base_url().'panel';?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
@@ -94,6 +94,25 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
             </div>
           </div> 
 
+            <div class="col-md-2 col-sm-6 col-xs-12">
+            <label>Kode Anggaran<span style="color: red"> *</span></label>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="form-group form-group-sm" id="div_kategori">
+              <input type="text" value="<?=$po['master']->a_code ?> - <?=$po['master']->a_name ?>" name="anggaran" id="anggaran" class="form-control" placeholder="Anggaran" readonly>        
+            </div>
+          </div> 
+
+
+            <div class="col-md-2 col-sm-6 col-xs-12">
+            <label>Total Nota<span style="color: red"> *</span></label>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="form-group form-group-sm" id="div_kategori">
+              <input type="text" value="<?=$po['master']->total_nota ?>" name="anggaran" id="anggaran" class="form-control" placeholder="Anggaran" readonly>        
+            </div>
+          </div> 
+
 
 
         </div>
@@ -138,11 +157,9 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
   <div class="row">
             <div class="col-sm-6"> 
                     <div class="widget-footer enter ">   
-                    <?php if($po['master']->po_kode_anggaran!=''): ?>
-                      <button class="btn btn-success upload-image" type="button" onclick="print(<?=$po['master']->po_id?>)">Cetak</button>
-                    <?php endif ?>                   
+                     
                       
-                       <a href="<?php echo base_url("panel/purchase_order"); ?>" class="btn btn-default">Kembali</a>
+                       <a href="<?php echo base_url("panel/nota"); ?>" class="btn btn-default">Kembali</a>
                     </div>
 
           </div>
@@ -167,10 +184,3 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
 </div>
 <script src="<?php echo base_url(); ?>assets/plugins/datatables/datatables.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/plugins/datepicker/bootstrap-datepicker.js"></script>
-<script type="text/javascript">
-  function print(id) {
-    
-     $url='<?php echo base_url("panel/purchase_order/print/"); ?>'+id;
-             window.open($url);
-  }
-</script>

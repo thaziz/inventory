@@ -105,7 +105,7 @@ class Purchase_order_model extends CI_Model {
       public function find_by_id($id){
        $th=$this->session->userdata('tahun');
         
-        $this->db->select('po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,po_anggaran,po_kode_anggaran', false);
+        $this->db->select('po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,po_anggaran,po_kode_anggaran,po_code_a', false);
         $this->db->from('v_purchase_order');
         $this->db->join($this->pref.'divisi c','v_purchase_order.po_from = c.d_id');
         $this->db->join($this->pref.'divisi e', 'v_purchase_order.po_to = e.d_id');        
@@ -132,7 +132,7 @@ class Purchase_order_model extends CI_Model {
      public function cetak($id){
        $th=$this->session->userdata('tahun');
         
-        $this->db->select('script as po_script,k_sk,po_code_a,po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,po_anggaran,po_kode_anggaran,f.a_code,f.a_name,po_ttd_telaahan,k_sk_bupati', false);
+        $this->db->select('script as po_script,k_sk,po_code_a,po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,po_anggaran,po_kode_anggaran,f.a_code,f.a_name,po_ttd_telaahan,k_sk_bupati,sisa_anggaran_acc', false);
         $this->db->from('v_purchase_order');
         $this->db->join($this->pref.'divisi c','v_purchase_order.po_from = c.d_id');
         $this->db->join($this->pref.'divisi e', 'v_purchase_order.po_to = e.d_id');        
@@ -399,6 +399,7 @@ class Purchase_order_model extends CI_Model {
     }
 
     public function ttd($id){
+        //var_dump($id);exit();
         $this->db->select('*');
         $this->db->where('id',$id);
 

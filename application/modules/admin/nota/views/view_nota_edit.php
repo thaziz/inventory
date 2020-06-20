@@ -1,9 +1,41 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+$search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this->session->userdata['asearch']['campaign_search']:'';
+?>
+<div class="content-wrapper">
+  <section class="content-header">
+    <h1>
+      Edit Nota
+      <small></small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="<?= base_url().'panel';?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+      <li class="active">Input Nota</li>
+    </ol>
+  </section>
+  <section class="content">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title">
+              
+            </h3>
+         
+       
+          </div>
+          <div class="box-body">
+           
+<div class="col-md-12">
+  <div class="row">        
+      
 
 
 
   <form class="form-horizontal" method="post" id="admin_form">
     <div class="row">
         <div class="col-md-12">
+            <input type="hidden" name="ro_id" id="ro_id" class="form-control" readonly="" value="<?=$po['master']->po_request_id?>"> 
           <div class="col-md-2 col-sm-6 col-xs-12">
             <label>Bidang<span style="color: red"> *</span></label>
           </div>
@@ -65,44 +97,33 @@
             </div>
           </div> 
 
-
-          <div class="col-md-2 col-sm-6 col-xs-12">
-            <label>Kode Anggaran<span style="color: red"> *</span></label>
+           <div class="col-md-2 col-sm-6 col-xs-12">
+            <label>Total<span style="color: red"> *</span></label>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-             <select class="form-control select2 ang" onchange="cekA()" name="kode_a">
-              <option>--- Pilih ---</option>
-               <?php foreach ($account as $key => $v): ?>
-                 <option data-saldo="<?php echo $v->oa_saldo?>" <?php if($po['master']->po_kode_anggaran==$v->id) echo 'selected=""'; ?> value="<?php echo $v->id?>">
-                  <?php echo $v->code?> - <?php echo $v->name; ?>
-                    
-                  </option>
-               <?php endforeach ?>
-             </select>       
+              <input type="text" name="total" id="total" class="form-control currency" placeholder="Anggaran" value="<?=number_format($po['master']->total_nota,0,',','.') ?>" readonly>        
             </div>
           </div> 
 
-          <div class="col-md-2 col-sm-6 col-xs-12">
-            <label>Jumlah Anggaran<span style="color: red"> *</span></label>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="form-group form-group-sm" id="div_kategori">
-              <input type="text"value="<?=number_format($po['master']->oa_saldo,0,',','.'); ?>" name="jml_anggaran" id="saldo" class="form-control" placeholder="Jumlah Anggaran" readonly="">        
-            </div>
-          </div> 
+
+
 
         </div>
     </div>
 
 <div style="width:100%; padding-left:-10px">
 <div class="table-responsive">
-<table class="table table-bordered table stripped"  id="table" cellspacing="0" width="100%">
+<table class="table table-bordered table stripped"  id="table_" cellspacing="0" width="100%">
 <thead>
-<th width="30%" data-header="nama">Nama</th>
-<th width="7%">Qty</th>
+<th width="25%" data-header="nama">Nama</th>
+<th width="5%">Qty</th>
 
-<th width="30%">Note</th>
+<th width="18%">Note</th>
+<th width="10%">Harga</th>
+<th width="10%">Sub Total</th>
+<th width="20%">Merk</th>
+
 
 </thead>
 <tbody id="detail_item">
@@ -115,11 +136,22 @@
           <input type="hidden" name="id[]" value="<?=$v->pod_purchase_order ?>">          
           <input type="hidden" name="detail[]" value="<?=$v->pod_detailid ?>">
         </td>
-     
         <td>
           <?=$v->pod_qty_approve ?>
+          <input type="hidden" value="<?=$v->pod_qty_approve ?>" name="qty[]" placeholder="Harga" class="form-control currency qty-<?=$key?> " >
         </td>
         <td><?=$v->pod_note ?>
+        </td>
+        <td>
+          <input onkeyup="subharga(<?=$key?>)" type="text" name="harga[]" placeholder="Harga" class="form-control currency harga-<?=$key?> " value="<?=$v->pod_harga ?>" >
+        </td>
+        <td>
+          <input type="text" name="subharga[]" placeholder="Harga" class="form-control currency subharga-<?=$key?>" value="<?=($v->pod_harga*$v->pod_qty_approve) ?>" readonly>
+        </td>
+  
+        <td>
+          <textarea class="form-control" name="merk[]"><?=$v->pod_merk ?></textarea>
+        </td>
        
       </tr>      
     <?php endforeach ?>
@@ -134,34 +166,37 @@
                     <div class="widget-footer enter ">                      
                       <button class="btn btn-success upload-image" type="submit">Simpan</button>
                      
-                      <a href="{{route('index_inspeksi')}}" class="btn btn-default">Kembali</a>
-                    </div>
+                    
+                       <a href="<?php echo base_url("panel/nota"); ?>" class="btn btn-default">Kembali</a>
 
           </div>
           </div>
      
 </form>     
+    
+  </div>  
+</div>
+<div class="col-md-12">
+  <div class="row">  
+    <hr>
+  </div>
+</div>
+
+        </div>              
 
 
-<script src="<?php echo base_url(); ?>assets/plugins/datatables/datatables.min.js"></script>
-<script type="text/javascript">  
-function cekA(){
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 
-        $.ajax({
-          url : '<?php echo base_url("panel/anggaran/get_saldo"); ?>',
-          type: "POST",
-          data : {'code':$('.ang').val()},
-          dataType: 'json',
-          success:function(data, textStatus, jqXHR){
-              var isi=data==''?0:data;
-              $('#saldo').val(isi)
-          },
-          error: function(jqXHR, textStatus, errorThrown){
-              alert('Error,something goes wrong');
-          }
-        });
 
-}
+<script src="<?=base_url('assets')?>/plugins/input-mask/jquery.inputmask.bundle.js"></script>
+<script type="text/javascript">
+  $(".currency").inputmask({alias : "currency", prefix: '', digits: 0, groupSeparator: "."});
+
 
 </script>
 
@@ -171,12 +206,31 @@ function cekA(){
   $(document).ready(function(){
     $('form#admin_form').on('submit', function(e) {
       e.preventDefault();
+      var anggaran=parseInt($('#anggaran').val().split('.').join(''))
+      var total=parseInt($('#total').val().split('.').join(''))
+      if(anggaran<total){
+          
+           $().toastmessage('showToast', {
+                          text     :'Total Melebihi Anggaran',
+                          position : 'top-center',
+                          type     : 'error',
+                          close    : function () {
+                            
+                          }
+                      });
+       
+
+          return false;
+      }
+       
+       
       $.ajax({
-           url : '<?php echo base_url("panel/anggaran/insert/"); ?>'+<?=$po['master']->po_id?>,
+           url : '<?php echo base_url("panel/nota/update/").$po['master']->po_id; ?>',
           type: "POST",
           data : $('#admin_form').serialize(),
           dataType: 'json',
           success:function(data, textStatus, jqXHR){
+            
               if(!data.status){
                       $().toastmessage('showToast', {
                           text     : data.e,
@@ -186,17 +240,13 @@ function cekA(){
                             
                           }
                       });
-
-
-
-
               }else{
                 $().toastmessage('showToast', {
             text     : 'Insert data success',
             position : 'top-center',
             type     : 'success',
             close    : function () {
-              window.location = "<?=base_url('panel/anggaran');?>";
+              window.location = "<?=base_url('panel/nota');?>";
             }
         });
               }
@@ -207,4 +257,22 @@ function cekA(){
       });
     });
   });
+
+  function subharga(id){
+    var qty=$('.qty-'+id).val()
+    var harga=$('.harga-'+id).val()
+    var harga= harga.split('.').join('');
+    var subharga=qty*harga;
+    $('.subharga-'+id).val(subharga)  
+    total()  
+  }
+  function total(){
+    var total=0
+    $('#table_ > tbody  > tr').each(function(index) {
+       var tamp=$('.subharga-'+index).val();
+       total+= parseInt(tamp.split('.').join(''));  
+    });
+    $('#total').val(total)    
+
+  }
 </script>

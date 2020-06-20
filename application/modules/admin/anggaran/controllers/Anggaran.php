@@ -149,7 +149,11 @@ class Anggaran extends MX_Controller {
 			}
 
 				if($a=$this->anggaran_model->insert()){
-            		//var_dump($a);exit();
+            		if($a=="tidak ada ttd"){
+
+					echo json_encode(array('status'=>false,'e'=>'Gagal, Master TTD belum aktif'));
+					exit();
+            		}
             		$this->userlog->add_log($this->session->userdata['name'], 
             		'INSERT purchase_order with ID = '.$a);
             		$r=$a!=''?$a:'';

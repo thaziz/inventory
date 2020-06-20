@@ -57,7 +57,7 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-              <input id="tgl" value="<?=$po['master']->po_id?>" type="text" value="" class="form-control reset " name="no"  autocomplete="off" readonly>
+              <input id="tgl" value="<?=$po['master']->po_code_a?>" type="text" value="" class="form-control reset " name="no"  autocomplete="off" readonly>
             </div>
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12">

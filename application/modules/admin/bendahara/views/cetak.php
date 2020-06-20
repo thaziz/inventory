@@ -108,3 +108,39 @@
     margin: 0;  
   }
 </style>
+
+
+<style media="print">
+    @page 
+    {
+        size: auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+
+    body 
+    {
+        background-color:#FFFFFF; 
+        border: solid 1px black ;
+        margin: 0px;  /* this affects the margin on the content before sending to printer */
+   }
+</style>
+
+<style type="text/css" media="print">
+	@media print 
+{
+   @page
+   {
+    size: 5.5in 8.5in ;
+    size: landscape;
+  }
+
+}
+@print{
+    @page :footer {color: #fff }
+    @page :header {color: #fff}
+}
+
+
+
+
+</style>

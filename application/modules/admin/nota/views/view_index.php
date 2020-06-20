@@ -129,14 +129,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       //{ "sClass": "center", "aTargets": [ 9 ], "data":8 },
       { "sClass": "center", "aTargets": [ 9 ],
         "mRender": function(data, type, full) {
-            return '';
-            /*<?php if($rules['v']){ ?>
-          return '<a href=<?=base_url('panel/bendahara/detail');?>/' + full[8]
+          var btn='';
+            if(full[7]='Done'){
+              btn='disabled';
+            }
+            <?php if($rules['v']){ ?>
+          return '<a href=<?=base_url('panel/nota/detail');?>/' + full[8]
               + ' class="btn btn-default btn-xs btn-col icon-black"><i class="fa fa-search"></i> Detail'
               <?php } ?>
+                <?php if($rules['e']){?>
+              + '</a>'+'<a '+btn+' href=<?=base_url('panel/nota/edit');?>/' + full[8]
+              + ' class="btn btn-info btn-xs btn-col icon-green"><i class="fa fa-pencil"></i> Edit'
+              <?php }?>
               
            
-              + '</a>';*/
+              + '</a>';
         },
         "bSortable": false
       },

@@ -124,4 +124,56 @@ class Nota extends MX_Controller {
 	
 	}
 
+
+	public function detail($id){
+		$data['menu'] = $this->menu;
+		if($this->template->set_auth($this->menu['rule']['panel/bendahara']['v'])){
+			$data['po'] = $this->nota_model->detail($id);
+			//var_dump($data['po']);exit();
+
+			$this->userlog->add_log($this->session->userdata['name'], 'ACCESS VIEW Detail Nota MENU ID: '.$id);
+		}
+		$this->template->view('view_detail', $data);
+	}
+
+
+	public function edit($id){
+		$data['menu'] = $this->menu;
+		if($this->template->set_auth($this->menu['rule']['panel/bendahara']['v'])){
+			$data['po'] = $this->nota_model->detail($id);
+			//var_dump($data['po']);exit();
+
+			$this->userlog->add_log($this->session->userdata['name'], 'ACCESS VIEW Detail Nota MENU ID: '.$id);
+		}
+		$this->template->view('view_nota_edit', $data);
+	}
+
+
+
+
+
+	public function update($id){
+		//var_dump($_POST);exit();
+		$auth = $this->template->set_auth($this->menu['rule']['panel/nota']['v']);
+		if($_POST && $auth){
+			
+            if(!isset($_POST['id'])){
+            	$data['status'] = false;
+            	$data['gagal'] = 'Detail belum di isi';
+            	echo json_encode($data);
+            }else{
+            	if($a=$this->nota_model->insert()){
+            		
+            		$this->userlog->add_log($this->session->userdata['name'], 
+            		'INSERT nota update with ID = '.$a.' ro_code = '.$_POST['no']);
+            		$r=$a!=''?$a:'';
+					echo json_encode(array('status'=>true,'r'=>$r));
+            	}
+            }
+
+		}
+	}
+
+
+
 }

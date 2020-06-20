@@ -178,7 +178,7 @@ Kasubbid
 					<tr>						
 						<td style="width: 1%">1.</td>
 						<td width="25%">Sisa Anggaran       </td>
-						<td>: ..................................</td>
+						<td>: <?=number_format($po['master']->sisa_anggaran_acc,0,',','.') ?>,00</td>
 						<td>Petugas Varifikasi</td>
 					</tr>
 					<tr>						

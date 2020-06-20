@@ -175,7 +175,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Voucer Pinjaman</h4>
+        <h4 class="modal-title">Voucer Pengembalian</h4>
       </div>
       <div class="modal-body">
         
@@ -196,7 +196,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           
 
            <div class="col-md-3 col-sm-6 col-xs-12">
-            <label>Anggaran</label>
+            <label>Jumlah Pinjaman</label>
           </div>
           <div class="col-md-9 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
@@ -205,16 +205,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div> 
 
           <div class="col-md-3 col-sm-6 col-xs-12">
-            <label>Jumlah Anggaran</label>
+            <label>Jumlah Beban</label>
           </div>
           <div class="col-md-9 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-              <input type="text"  name="jumlah_anggaran" id="jumlah_anggaran" class="form-control currency" placeholder="" onkeyup="sisa()">        
+              <input type="text"  name="jumlah_anggaran" id="jumlah_anggaran" class="form-control currency" placeholder="" onkeyup="sisa()"  value="<?=$po['master']->total_nota?>" readonly="">        
             </div>
           </div> 
 
           <div class="col-md-3 col-sm-6 col-xs-12">
-            <label>Sisa Anggaran</label>
+            <label>Pengembalian Pinjaman</label>
           </div>
           <div class="col-md-9 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
@@ -255,6 +255,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 function as(){
   $('#myModal').modal('show');
 } 
+sisa()
 function sisa(){    
     var anggaran_awal   =$('#anggaran_awal').val();
     var jumlah_anggaran=$('#jumlah_anggaran').val();
