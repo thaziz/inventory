@@ -219,7 +219,15 @@ class Bendahara extends MX_Controller {
 
 	public function print($id){
 		$data['po']=$this->bendahara_model->print($id);
-		//var_dump($data);exit();
+		
+		$ttd=$data['po']->po_ttd_bendahara;
+		$data['ttd']=$this->bendahara_model->ttd($ttd);
+		if(empty($data['ttd'])){
+			echo '<div align="center" style="color:red">Mohon untuk menyesuaikan master tanda tangan untuk menu telaahan</div>';
+			exit();
+		}
+
+		
 		$this->load->view('cetak',$data);
 	}
 

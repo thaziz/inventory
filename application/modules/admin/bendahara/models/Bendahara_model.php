@@ -137,7 +137,7 @@ class Bendahara_model extends CI_Model {
        $th=$this->session->userdata('tahun');
         
         
-        $this->db->select('po_id,po_code,po_code_a,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,po_anggaran,a_name,a_code,oa_saldo,a_id,total_nota', false);
+        $this->db->select('po_id,po_code,po_code_a,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,po_anggaran,a_name,a_code,oa_saldo,a_id,total_nota,po_ket_voucer_pinjaman', false);
         $this->db->from('v_purchase_order');
         $this->db->join($this->pref.'divisi c','v_purchase_order.po_from = c.d_id');
         $this->db->join($this->pref.'divisi e', 'v_purchase_order.po_to = e.d_id');        
@@ -391,7 +391,7 @@ function print_pengeluaran($id){
     function print($id){
        
         //var_dump($id);exit();
-        $this->db->select('po_ket_voucer_pinjaman,po_anggaran', false);
+        $this->db->select('po_ket_voucer_pinjaman,po_anggaran,po_ttd_bendahara,po_a_revisi_created', false);
         $this->db->from('v_purchase_order');
         $master=$this->db->where('po_id',$id)->get()->row();
 

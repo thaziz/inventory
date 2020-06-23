@@ -229,7 +229,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="col-md-9 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-             <textarea name="Keterangan" style="width: 100%"></textarea>      
+             <textarea name="Keterangan" style="width: 100%"><?=$po['master']->po_ket_voucer_pinjaman ?></textarea>      
             </div>
           </div> 
 
@@ -311,7 +311,10 @@ function sisa(){
             position : 'top-center',
             type     : 'success',
             close    : function () {
+               var u = "<?=base_url('panel/bendahara/print/');?>"+<?=$po['master']->po_id?>;
+              window.open(u,"_blank");
               window.location = "<?=base_url('panel/bendahara');?>";
+
             }
         });
               }

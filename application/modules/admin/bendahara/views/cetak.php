@@ -22,7 +22,17 @@
 </b></span>
 
 </div>
-</td>   </tr>
+</td>  
+ </tr>
+ <tr><td colspan="3">
+ 	<table width="100%">
+ 		<td width="70%"></td>
+ 		<td>Tanggal</td>
+ 	<td><?=date('Y-m-d',strtotime($po->po_a_revisi_created)); ?></td>
+ 	</table>
+ </td>
+ 	
+ </tr>
 <tr> 
 	 <td colspan="3" align="center">
 
@@ -77,6 +87,25 @@
 	<tr>
 		<td colspan="3" height="30px"></td>		
 	</tr>
+
+	<tr>
+	<td colspan="3" height="30px">
+		<table width="100%">
+			
+			<td align="center">
+				Penerima
+			
+			</td>
+			<td align="center">TTD Pembayar</td>
+			<tr>
+				<td colspan="4" height="60px"></td>		
+			</tr>
+			<tr>
+
+	<td align="center"><span style="border-bottom: 2px black solid"><?=$ttd->peminjaman3?></span><br>NIK.<?=$ttd->nikp3?></td>
+	<td align="center"><span style="border-bottom: 2px black solid"><?=$ttd->peminjaman4?></span><br>NIK.<?=$ttd->nikp4?></td>
+
+</tr>
 	<!-- <tr>
 		<td align="center">Penerima</td>
 		<td align="center">Pembayar</td>
