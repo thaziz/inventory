@@ -13,7 +13,7 @@ class Kategori extends MX_Controller {
 			redirect(base_url('panel/login'));
 		}
 		$this->menu = $this->menu_model->load_menu('admin', 'kategori');
-		if(!isset($this->menu['rule']['panel/bidang'])){
+		if(!isset($this->menu['rule']['panel/kategori'])){
 			show_404();
 		}
 		$this->load->model('kategori/kategori_model');
@@ -25,7 +25,7 @@ class Kategori extends MX_Controller {
 
 	public function index(){
 		//check the privileges of the user
-		$auth = $this->template->set_auth($this->menu['rule']['panel/bidang']['v']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/kategori']['v']);
 		if($_POST && $auth){
 			$list = $this->kategori_model->get_load_result();
 	        $data = array();
@@ -52,7 +52,7 @@ class Kategori extends MX_Controller {
 		}else{
 			$data['menu'] = $this->menu;
 			//write user activity to logger
-			$data['rules'] = $this->menu['rule']['panel/admin'];
+			$data['rules'] = $this->menu['rule']['panel/kategori'];
 	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS ADMINISTRATOR MENU');
 			$this->template->view('view_kategori', $data);
 		}
@@ -60,11 +60,11 @@ class Kategori extends MX_Controller {
 
 	public function insert(){
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/admin']['c']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/kategori']['c']);
 		if($_POST && $auth){
             $this->form_validation->set_rules('k_name', 'Nama', 'required');
-            $this->form_validation->set_rules('k_sk', 'SK', 'required|is_unique[v_kategori.k_sk]');
-            $this->form_validation->set_rules('k_sk_bupati', 'SK Bupati', 'required|is_unique[v_kategori.k_sk_bupati]');
+            $this->form_validation->set_rules('k_sk', 'SK', 'required');
+            $this->form_validation->set_rules('k_sk_bupati', 'SK Bupati', 'required');
             $this->form_validation->set_rules('k_note', 'Keterangan', 'required');
 
             if ($this->form_validation->run() == false){
@@ -93,7 +93,7 @@ class Kategori extends MX_Controller {
 
 	public function admin_detail($id){
 		$data['menu'] = $this->menu;
-		if($this->template->set_auth($this->menu['rule']['panel/admin']['v'])){
+		if($this->template->set_auth($this->menu['rule']['panel/kategori']['v'])){
 			$data['data'] = $this->kategori_model->find_by_id($id);
 			$this->userlog->add_log($this->session->userdata['name'], 'ACCESS VIEW ADMIN MENU ID: '.$id.' NAME: '.$data['data']->adm_name);
 		}
@@ -102,17 +102,16 @@ class Kategori extends MX_Controller {
 
 	public function edit($id){
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/admin']['e']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/kategori']['e']);
 		if($_POST && $auth){
 
 			/* if name has changed from old, then check is_unique otherwise not*/
 		
 
-			$check_unique2 = ($_POST['k_sk'] != $_POST['k_sk_old'])?'|is_unique[v_kategori.k_sk]':'';
-
+		
             $this->form_validation->set_rules('k_name', 'Nama', 'required|min_length[2]');
 
-            $this->form_validation->set_rules('k_sk', 'Kode', 'required|min_length[2]'.$check_unique2);
+            $this->form_validation->set_rules('k_sk', 'Kode', 'required|min_length[2]');
 
             /* if email has changed from old, then check is_unique otherwise not*/
            
@@ -143,7 +142,7 @@ class Kategori extends MX_Controller {
 	}
 
 	public function delete(){
-		$auth = $this->template->set_auth($this->menu['rule']['panel/bidang']['d']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/kategori']['d']);
 		//var_dump($_POST);exit();
 		if($auth){
 			$info = $this->kategori_model->get_name($_POST['d_id']);
