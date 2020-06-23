@@ -52,7 +52,7 @@ class Nota extends MX_Controller {
 	            $row[] = $admin->fro;
 	            $row[] = date('d-m-Y',strtotime($admin->po_date));
 	            $row[] = $admin->po_type;
-	            $row[] = $admin->a_code==''?'':$admin->a_code.' - '.strtoupper($admin->a_name);	            
+	            $row[] = $admin->po_note;            
 	            $row[] = number_format($admin->po_anggaran,0,',','.');  
 	            $row[] = number_format($admin->total_nota,0,',','.');   
 	            $row[] = $admin->po_status;
