@@ -49,7 +49,7 @@ class Account extends MX_Controller {
 		}else{
 			$data['menu'] = $this->menu;
 			//write user activity to logger
-			$data['rules'] = $this->menu['rule']['panel/admin'];
+			$data['rules'] = $this->menu['rule']['panel/account'];
 	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS ADMINISTRATOR MENU');
 			$this->template->view('view_account', $data);
 		}
@@ -57,7 +57,7 @@ class Account extends MX_Controller {
 
 	public function insert(){
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/admin']['c']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/account']['c']);
 		if($_POST && $auth){
             $this->form_validation->set_rules('a_name', 'Nama Anggaran', 'required');
             $this->form_validation->set_rules('a_code', 'Kode Anggaran', 'required');
@@ -88,7 +88,7 @@ class Account extends MX_Controller {
 
 	public function admin_detail($id){
 		$data['menu'] = $this->menu;
-		if($this->template->set_auth($this->menu['rule']['panel/admin']['v'])){
+		if($this->template->set_auth($this->menu['rule']['panel/account']['v'])){
 			$data['data'] = $this->account_model->find_by_id($id);
 			$this->userlog->add_log($this->session->userdata['name'], 'ACCESS VIEW ADMIN MENU ID: '.$id.' NAME: '.$data['data']->adm_name);
 		}
@@ -97,7 +97,7 @@ class Account extends MX_Controller {
 
 	public function edit($id){
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/admin']['e']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/account']['e']);
 		if($_POST && $auth){
 
 			/* if name has changed from old, then check is_unique otherwise not*/
