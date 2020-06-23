@@ -12,8 +12,8 @@ class Account extends MX_Controller {
 		if(!isset($this->session->userdata['logged_in'])){
 			redirect(base_url('panel/login'));
 		}
-		$this->menu = $this->menu_model->load_menu('admin', 'bidang');
-		if(!isset($this->menu['rule']['panel/bidang'])){
+		$this->menu = $this->menu_model->load_menu('admin', 'Kode Anggaran');
+		if(!isset($this->menu['rule']['panel/account'])){
 			show_404();
 		}
 		$this->load->model('account/account_model');
@@ -25,7 +25,7 @@ class Account extends MX_Controller {
 
 	public function index(){
 		//check the privileges of the user
-		$auth = $this->template->set_auth($this->menu['rule']['panel/bidang']['v']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/account']['v']);
 		if($_POST && $auth){
 			$list = $this->account_model->get_load_result();
 	        $data = array();
@@ -139,7 +139,7 @@ class Account extends MX_Controller {
 	}
 
 	public function delete(){
-		$auth = $this->template->set_auth($this->menu['rule']['panel/bidang']['d']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/account']['d']);
 		if($auth){
 			$info = $this->account_model->get_name($_POST['d_id']);
 			$info = str_replace('[', '', str_replace(']', '', json_encode($info)));
