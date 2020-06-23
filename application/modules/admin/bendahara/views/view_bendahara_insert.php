@@ -4,12 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="content-wrapper">
   <section class="content-header">
     <h1>
-      Insert Bendahara
+      Bendahara
       <small></small>
     </h1>
     <ol class="breadcrumb">
       <li><a href="<?= base_url().'panel';?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-      <li class="active">Inser Bendahara</li>
+      <li class="active">Bendahara</li>
     </ol>
   </section>
   <section class="content">
@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div> 
 
            <div class="col-md-2 col-sm-6 col-xs-12">
-            <label>Anggaran<span style="color: red"> *</span></label>
+            <label>Jumlah Pinjaman<span style="color: red"> *</span></label>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
@@ -96,11 +96,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           
           
           <div class="col-md-2 col-sm-6 col-xs-12">
-            <label>Jumlah Anggaran<span style="color: red"> *</span></label>
+            <label>Jumlah Beban<span style="color: red"> *</span></label>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-              <input type="text" value="<?=number_format($po['master']->po_anggaran,0,',','.'); ?>" name="jml_anggaran" id="saldo" class="form-control" placeholder="Jumlah Anggaran" readonly="" style="text-align: right;">        
+              <input type="text" value="<?=number_format($po['master']->total_nota,0,',','.'); ?>" name="jml_anggaran" id="saldo" class="form-control" placeholder="Jumlah Beban" readonly="" style="text-align: right;">        
             </div>
           </div> 
 

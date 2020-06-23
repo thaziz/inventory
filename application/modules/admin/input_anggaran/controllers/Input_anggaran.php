@@ -12,8 +12,9 @@ class Input_anggaran extends MX_Controller {
 		if(!isset($this->session->userdata['logged_in'])){
 			redirect(base_url('panel/login'));
 		}
-		$this->menu = $this->menu_model->load_menu('admin', 'bidang');
-		if(!isset($this->menu['rule']['panel/bidang'])){
+		//hilight header menu
+		$this->menu = $this->menu_model->load_menu('admin', 'Transaksi');
+		if(!isset($this->menu['rule']['panel/input_anggaran'])){
 			show_404();
 		}
 		$this->load->model('input_anggaran/account_model');
@@ -25,7 +26,7 @@ class Input_anggaran extends MX_Controller {
 
 	public function index(){
 		//check the privileges of the user
-		$auth = $this->template->set_auth($this->menu['rule']['panel/bidang']['v']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/input_anggaran']['v']);
 		if($_POST && $auth){
 			$list = $this->account_model->get_load_result();
 	        $data = array();
@@ -52,7 +53,7 @@ class Input_anggaran extends MX_Controller {
 		}else{
 			$data['menu'] = $this->menu;
 			//write user activity to logger
-			$data['rules'] = $this->menu['rule']['panel/admin'];
+			$data['rules'] = $this->menu['rule']['panel/input_anggaran'];
 	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS ADMINISTRATOR MENU');
 			$this->template->view('view_account', $data);
 		}
@@ -81,7 +82,7 @@ function check_user() {
 	public function insert(){
 		//var_dump($_POST);exit();
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/admin']['c']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/input_anggaran']['c']);
 		if($_POST && $auth){
 			$a=$this->check_user($_POST['oa_account_id'],$_POST['tahun']);
 			if($a==false){
@@ -119,7 +120,7 @@ function check_user() {
 
 	public function admin_detail($id){
 		$data['menu'] = $this->menu;
-		if($this->template->set_auth($this->menu['rule']['panel/admin']['v'])){
+		if($this->template->set_auth($this->menu['rule']['panel/input_anggaran']['v'])){
 			$data['data'] = $this->account_model->find_by_id($id);
 			$this->userlog->add_log($this->session->userdata['name'], 'ACCESS VIEW ADMIN MENU ID: '.$id.' NAME: '.$data['data']->adm_name);
 		}
@@ -128,7 +129,7 @@ function check_user() {
 
 	public function edit($id){
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/admin']['e']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/input_anggaran']['e']);
 		if($_POST && $auth){
 			if($_POST['oa_account_id'] != $_POST['oa_account_id_old']){
 				$a=$this->check_user($_POST['oa_account_id'],$_POST['tahun']);
@@ -175,7 +176,7 @@ function check_user() {
 	}
 
 	public function delete(){
-		$auth = $this->template->set_auth($this->menu['rule']['panel/bidang']['d']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/input_anggaran']['d']);
 		if($auth){
 			$info = $this->account_model->get_name($_POST['d_id']);
 			$info = str_replace('[', '', str_replace(']', '', json_encode($info)));

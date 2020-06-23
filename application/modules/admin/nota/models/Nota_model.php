@@ -18,14 +18,14 @@ class Nota_model extends CI_Model {
         }
 
     private function load_admin(){        
-       $this->db->select('po_id,po_code_a,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,a_code,a_name,po_anggaran', false);
+       $this->db->select('po_id,po_code_a,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,a_code,a_name,po_anggaran,total_nota', false);
         $this->db->from($this->table);
         $this->db->join($this->pref.'divisi c', $this->table.'.po_from = c.d_id');
         $this->db->join($this->pref.'divisi e', $this->table.'.po_to = e.d_id');        
         $this->db->join($this->pref.'admin d', $this->table.'.po_created_by = d.adm_id'); 
         $this->db->join($this->pref.'kategori k', $this->table.'.po_type = k.k_id');          
 
-         $this->db->join($this->pref.'opening_account_bck oc', $this->table.'.po_kode_anggaran = oc.oa_id','left');        
+        $this->db->join($this->pref.'opening_account_bck oc', $this->table.'.po_kode_anggaran = oc.oa_id','left');        
         $this->db->join($this->pref.'account f', 'oc.oa_account_id = f.a_id','left');
         $this->db->where('year(po_date_created)',$this->session->userdata('tahun'));  
          $this->db->where_in('po_status',['Pengembalian','Nota','Done']);

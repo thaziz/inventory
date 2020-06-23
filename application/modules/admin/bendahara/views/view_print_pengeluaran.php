@@ -30,7 +30,7 @@
 	<td>No.Vcr :  <?=$po->no ?></td>
 </tr>
 <tr> 
-	<td colspan="3">Dibayar Kepada		:	</td>
+	<td colspan="3">Dibayar Kepada		: <?=$ttd->peminjaman4?></td>
 </tr>
 
 <tr> 
@@ -63,7 +63,7 @@
 				</tr>
 				<tr>
 					<td> </td>
-					<td colspan="2"><?=$po->po_code_a?> - <?=$po->po_note?></td>
+					<td colspan="2"><?=$po->po_code_a?></td>
 				</tr>
 				<tr> 
 					<td colspan="3" height="10px"></td>

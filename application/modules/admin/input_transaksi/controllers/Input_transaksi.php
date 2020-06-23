@@ -12,7 +12,7 @@ class Input_transaksi extends MX_Controller {
 		if(!isset($this->session->userdata['logged_in'])){
 			redirect(base_url('panel/login'));
 		}
-		$this->menu = $this->menu_model->load_menu('admin', 'bidang');
+		$this->menu = $this->menu_model->load_menu('admin', 'Transaksi');
 		if(!isset($this->menu['rule']['panel/input_transaksi'])){
 			show_404();
 		}

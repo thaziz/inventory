@@ -38,9 +38,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                    <th>Dari</th>
                   <th>Tanggal</th>
                   <th>Kategori</th>    
-                  <th>Note</th> 
+                  
                   <th>Kode Anggaran</th> 
                   <th>Anggaran</th> 
+                  <th>Total Nota</th> 
+
                   <th>Status</th>                
                   <th>&nbsp;</th>
                 </tr>

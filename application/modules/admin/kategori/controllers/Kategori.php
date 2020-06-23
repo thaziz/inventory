@@ -12,7 +12,7 @@ class Kategori extends MX_Controller {
 		if(!isset($this->session->userdata['logged_in'])){
 			redirect(base_url('panel/login'));
 		}
-		$this->menu = $this->menu_model->load_menu('admin', 'kategori');
+		$this->menu = $this->menu_model->load_menu('admin', 'Kategori');
 		if(!isset($this->menu['rule']['panel/kategori'])){
 			show_404();
 		}

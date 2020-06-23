@@ -77,7 +77,7 @@ class Bendahara extends MX_Controller {
 	function insert_new(){
 		
 	//var_dump($_POST);exit();
-		$auth = $this->template->set_auth($this->menu['rule']['panel/purchase_order']['v']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/bendahara']['v']);
 		if($_POST && $auth){
 			$this->form_validation->set_rules('to', 'Tujuan', 'required');
             $this->form_validation->set_rules('no', 'Kode','required|is_unique[v_purchase_order.po_code_a]');
@@ -119,7 +119,7 @@ class Bendahara extends MX_Controller {
 			$data['po']=$this->bendahara_model->get_request_order();
 
 			//write user activity to logger
-            $data['rules'] = $this->menu['rule']['panel/purchase_order'];
+            $data['rules'] = $this->menu['rule']['panel/bendahara'];
 	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS CAMPAIGN MENU');
 		    $this->template->view('view_new', $data);
 		

@@ -72,7 +72,7 @@ class Master extends MX_Controller {
 	public function insert(){
 
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/admin']['c']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/master']['c']);
 		if($_POST && $auth){			
             $this->form_validation->set_rules('i_name', 'Kode','required');
             $this->form_validation->set_rules('i_code', 'Kode', 
@@ -126,7 +126,7 @@ class Master extends MX_Controller {
 
 	public function edit($id){
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/admin']['e']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/master']['e']);
 		if($_POST && $auth){
 
 			/* if name has changed from old, then check is_unique otherwise not*/

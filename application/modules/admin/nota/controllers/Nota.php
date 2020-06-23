@@ -23,7 +23,7 @@ class Nota extends MX_Controller {
 			redirect(base_url('panel/login'));
 		}
 		$this->menu = $this->menu_model->load_menu('admin', 'Input Nota');
-		if(!isset($this->menu['rule']['panel/purchase_order'])){
+		if(!isset($this->menu['rule']['panel/nota'])){
 			show_404();
 		}
 		$this->load->library('form_validation');
@@ -52,9 +52,9 @@ class Nota extends MX_Controller {
 	            $row[] = $admin->fro;
 	            $row[] = date('d-m-Y',strtotime($admin->po_date));
 	            $row[] = $admin->po_type;
-	            $row[] = $admin->po_note;
 	            $row[] = $admin->a_code==''?'':$admin->a_code.' - '.strtoupper($admin->a_name);	            
-	            $row[] = number_format($admin->po_anggaran,0,',','.');   
+	            $row[] = number_format($admin->po_anggaran,0,',','.');  
+	            $row[] = number_format($admin->total_nota,0,',','.');   
 	            $row[] = $admin->po_status;
 	            $row[] = $admin->po_id;
 	            $data[] = $row;
@@ -82,7 +82,7 @@ class Nota extends MX_Controller {
 
 
 	public function insert(){
-		$auth = $this->template->set_auth($this->menu['rule']['panel/purchase_order']['v']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/nota']['v']);
 		if($_POST && $auth){
 			
             if(!isset($_POST['id'])){
@@ -103,7 +103,7 @@ class Nota extends MX_Controller {
 			$data['menu'] = $this->menu;
 			$data['po']=$this->nota_model->get_request_nota();
 			//write user activity to logger
-            $data['rules'] = $this->menu['rule']['panel/purchase_order'];
+            $data['rules'] = $this->menu['rule']['panel/nota'];
 	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS CAMPAIGN MENU');
 			$this->template->view('view_insert', $data);
 		}

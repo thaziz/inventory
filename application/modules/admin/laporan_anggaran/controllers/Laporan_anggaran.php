@@ -12,8 +12,8 @@ class Laporan_anggaran extends MX_Controller {
 		if(!isset($this->session->userdata['logged_in'])){
 			redirect(base_url('panel/login'));
 		}
-		$this->menu = $this->menu_model->load_menu('admin', 'bidang');
-		if(!isset($this->menu['rule']['panel/input_transaksi'])){
+		$this->menu = $this->menu_model->load_menu('admin', 'Laporan');
+		if(!isset($this->menu['rule']['panel/laporan_anggaran'])){
 			show_404();
 		}
 		$this->load->model('laporan_anggaran/laporan_anggaran_model');
@@ -25,7 +25,7 @@ class Laporan_anggaran extends MX_Controller {
 
 	public function index(){
 		//check the privileges of the user
-		$auth = $this->template->set_auth($this->menu['rule']['panel/input_transaksi']['v']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/laporan_anggaran']['v']);
 		if($_POST && $auth){
 			
 			$list = $this->laporan_anggaran_model->get_load_result();
@@ -56,7 +56,7 @@ class Laporan_anggaran extends MX_Controller {
 			$data['menu'] = $this->menu;
 			$data['account'] = $this->laporan_anggaran_model->get_account();
 			//write user activity to logger
-			$data['rules'] = $this->menu['rule']['panel/input_transaksi'];
+			$data['rules'] = $this->menu['rule']['panel/laporan_anggaran'];
 	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS ADMINISTRATOR MENU');
 			$this->template->view('view_laporan_anggaran', $data);
 		}
@@ -84,7 +84,7 @@ function check_user() {
 
 	public function insert(){
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/input_transaksi']['c']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/laporan_anggaran']['c']);
 		if($_POST && $auth){
 				
 
@@ -120,7 +120,7 @@ function check_user() {
 
 	public function admin_detail($id){
 		$data['menu'] = $this->menu;
-		if($this->template->set_auth($this->menu['rule']['panel/input_transaksi']['v'])){
+		if($this->template->set_auth($this->menu['rule']['panel/laporan_anggaran']['v'])){
 			$data['data'] = $this->laporan_anggaran_model->find_by_id($id);
 			$this->userlog->add_log($this->session->userdata['name'], 'ACCESS VIEW TRANSAKSI MENU ID: '.$id.' NAME: '.$data['data']->adm_name);
 		}
@@ -129,7 +129,7 @@ function check_user() {
 
 	public function edit($id){
 		$this->load->helper(array('form', 'url', 'countries'));
-		$auth = $this->template->set_auth($this->menu['rule']['panel/input_transaksi']['e']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/laporan_anggaran']['e']);
 		if($_POST && $auth){
 		
             $this->form_validation->set_rules('t_a_code', 'Nama Anggaran', 'required');
@@ -162,7 +162,7 @@ function check_user() {
 	}
 
 	public function delete(){
-		$auth = $this->template->set_auth($this->menu['rule']['panel/input_transaksi']['d']);
+		$auth = $this->template->set_auth($this->menu['rule']['panel/laporan_anggaran']['d']);
 		if($auth){
 			$info = $this->laporan_anggaran_model->get_name($_POST['d_id']);
 			$info = str_replace('[', '', str_replace(']', '', json_encode($info)));
