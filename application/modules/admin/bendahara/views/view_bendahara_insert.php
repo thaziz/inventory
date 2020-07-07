@@ -311,7 +311,7 @@ function sisa(){
             position : 'top-center',
             type     : 'success',
             close    : function () {
-               var u = "<?=base_url('panel/bendahara/print/');?>"+<?=$po['master']->po_id?>;
+              var u = "<?=base_url('panel/bendahara/print/');?>"+<?=$po['master']->po_id?>;
               window.open(u,"_blank");
               window.location = "<?=base_url('panel/bendahara');?>";
 

@@ -82,9 +82,12 @@ class Purchase_order extends MX_Controller {
 		$auth = $this->template->set_auth($this->menu['rule']['panel/purchase_order']['v']);
 		if($_POST && $auth){
 			$this->form_validation->set_rules('to', 'Tujuan', 'required');
-            $this->form_validation->set_rules('no', 'Kode','required|is_unique[v_purchase_order.po_code_a]');
+            //var_dump($_POST);exit();
+            $chek_input=$this->purchase_order_model->chek_input($_POST['no']);
+            if($chek_input==false){
             $this->form_validation->set_rules('asli', 'Kode','required|is_unique[v_purchase_order.po_code]');
               $this->form_validation->set_rules('no', 'Kode','required|is_unique[v_purchase_order.po_code_a]');
+             }
             $this->form_validation->set_rules('tanggal', 'Tanggal Digunakan', 'required');
             $this->form_validation->set_rules('type', 'Kategori', 'required');
            // $this->form_validation->set_rules('perihal', 'Perihal', 'required');
@@ -166,10 +169,15 @@ class Purchase_order extends MX_Controller {
 	}
 
 	function refresh_kode($id=null){
+		if($_POST['tgl']==''){			
+			echo json_encode('');
+			exit();
+		}
+	
 		$data['ro']=$this->purchase_order_model->get_ro_all($id);
 		$str=$data['ro']['master']->d_code;
 		$ckode=explode("-",$str);
-		$kode=$this->purchase_order_model->get_kode();
+		$kode=$this->purchase_order_model->get_kode(date('Y',strtotime($_POST['tgl'])));
 		if($kode->id==NULL){
 				$data['kode']=$ckode[0].'-00001-'.$ckode[2];
 				$data['asli']='00001';
@@ -180,7 +188,7 @@ class Purchase_order extends MX_Controller {
 			}
 			echo json_encode($data);
 		}
-
+//ambil detail
 	function get_ro($id=null){
 		$data['ro']=$this->purchase_order_model->get_ro_all($id);
 
@@ -189,7 +197,8 @@ class Purchase_order extends MX_Controller {
 		
 		
 
-			$kode=$this->purchase_order_model->get_kode();
+		$kode=$this->purchase_order_model->get_kode(date('Y',strtotime($data['ro']["master"]->ro_date)));
+
 		if($kode->id==NULL){
 				$data['kode']=$ckode[0].'-00001-'.$ckode[2];
 				$data['asli']='00001';

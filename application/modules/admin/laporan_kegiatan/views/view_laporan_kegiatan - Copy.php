@@ -4,12 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="content-wrapper">
   <section class="content-header">
     <h1>
-      Kode Anggaran
+      Laporan Kegiatan
       <small></small>
     </h1>
     <ol class="breadcrumb">
       <li><a href="<?= base_url().'panel';?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-      <li class="active"> Kode Anggaran</li>
+      <li class="active"> Laporan Kegiatan</li>
     </ol>
   </section>
   <section class="content">
@@ -25,24 +25,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <a id="delete-all" title="Delete selected data" class="btn btn-danger btn-sm btn-circle"><i class="fa fa-trash"></i></a>
               <?php }?>
               <?php if($rules['c']){?>
-              <a href="<?=base_url('panel/input_anggaran/insert');?>" class="btn btn-success btn-sm btn-circle"><i class="fa fa-plus"></i> Insert</a>
+              <a href="<?=base_url('panel/laporan_anggaran/insert');?>" class="btn btn-success btn-sm btn-circle"><i class="fa fa-plus"></i> Insert</a>
               <?php }?>
             </div>
           </div>
           <div class="box-body">
+          <form class="form-horizontal" method="post" id="search_form">
+            <table class="table table-bordered table-striped">
+              <td width="10%">Periode</td>
+              <td width="35%">
+    <input type="text" name="adv_search[call_date]" value="May 12, 2020 01:00 AM - May 12, 2020 11:59 PM" class="form-control date_range" id="call_date">
+              </td>
+              <th><button class="btn btn-primary btn-sm"><i class="fa fa-search"></i></button></th>
+            </table>
+          </form>
+            <br>
+            <div class="table-responsive">
             <table id="admin_table" class="table table-bordered table-striped">
               <thead>
                 <tr>
-                  <th width="20px"></th>                 
-                  <th>Kode</th>
-                  <th>Nama</th>
-                  <th>Tahun</th>
-                  <th>Saldo</th>
-                  <th>Sisa Saldo</th>
-                  <th>&nbsp;</th>
+                  <th>No</th>
+                  <th>No</th>
+                  <th>Tanggal Voucer</th>
+                  <th>No Voucer</th>
+                  <th>Tanggal Telaahan</th>
+                  <th>No Telaahan</th>
+                  <th>Nama Barang/ Kegiatan</th>                  
+                 <th>Jumlah</th>
+                 <th> Harga Satuan</th>
+                 <th>Permohonan Permintaan</th>
+                 <th>Harga Perolehan</th>
+                 <th>keterangan</th>
+                 <th>Status</th>
                 </tr>
               </thead>
             </table>
+            </div>
           </div>
         </div>
       </div>
@@ -51,161 +69,122 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 <script src="<?php echo base_url(); ?>assets/plugins/datatables/datatables.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/plugins/datatables/datatables.min.js"></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/daterangepicker/daterangepicker.css">
+
+<script src="<?php echo base_url(); ?>assets/plugins/daterangepicker/moment.js"></script>
+<script src="<?php echo base_url(); ?>assets/plugins/daterangepicker/daterangepicker.js"></script>
+
 <script type="text/javascript">
-  function remove(id){
-    if (confirm( "Apakah Kamu Ingin Menghapus Data input_anggaran?" )) {
-      $.ajax({
-          url : '<?php echo base_url("panel/input_anggaran/delete"); ?>',
-          type: "POST",
-          data : {'d_id':[id]},
-          dataType: 'json',
-          success:function(data, textStatus, jqXHR){
-              if(data.status){
-                $().toastmessage('showToast', {
-                  text     : 'Delete data success',
-                  position : 'top-center',
-                  type     : 'success',
-                  close    : function () {
-                    window.location = "<?=base_url('panel/input_anggaran');?>";
-                  }
-              });
-            }
-          },
-          error: function(jqXHR, textStatus, errorThrown){
-              alert('Error,something goes wrong');
-          }
-      });
-    }
-  }
+    $('.date_range').daterangepicker({
+      locale: {
+        format: 'MMMM DD, YYYY hh:mm A',
+        cancelLabel: 'Clear'
+      },
+      autoUpdateInput: false,
+      timePicker: true,
+    });
+    $('.date_range').on('apply.daterangepicker', function(ev, picker) {
+      $(this).val(picker.startDate.format('MMMM DD, YYYY hh:mm A') + ' - ' + picker.endDate.format('MMMM DD, YYYY hh:mm A'));
+    });
 
-  $(document).ready(function(){
+    $('.date_range').on('cancel.daterangepicker', function(ev, picker) {
+      $(this).val('');
+    });
 
+
+
+
+    reload_table();
+    function reload_table() {
     $('#admin_table').dataTable({
       "aLengthMenu":  [10, 25, 50, 100, 500, 1000, 2500, 5000],
       "ajax": {
-              "url": "<?php echo base_url('panel/input_anggaran'); ?>",
-              "type": "POST"
+              "url": "<?php echo base_url('panel/laporan_kegiatan'); ?>",
+              "type": "POST",
+               "data": data_builder(),
           },
       "aaSorting": [[ 1, "desc" ]],
-        dom: 'lBfrtip',
+      "aaSorting": [[ 1, "desc" ]],
+      dom: 'Bfrtip',
         buttons: [
              {
                 extend:    'print',
-    text:      '<i class="fa fa-print" style="color:white"></i> ',
+    text:      '<i class="fa fa-print"></i> ',
     titleAttr: 'Imprimir',
     className: 'btn btn-success',
-                messageTop: 'Laporan Kegiatan',
+                messageTop: 'Report Anggaran',
                 title: '',
                 exportOptions: {
-                    columns: [1, 2, 3,4,5]
-                }
-            },
-            {
-                extend:    'excel',
-    text:      '<i class="fa fa-file-excel-o" style="color:white"></i> ',
-    titleAttr: 'Imprimir',
-    className: 'btn btn-primary',
-                messageTop: 'Laporan Kegiatan',
-                title: '',
-                exportOptions: {
-                    columns: [1, 2, 3,4,5]
+                    columns: [0, 1, 2, 3,4,5,6,7,8]
                 }
             },
         ],
       "searching": true,
-      "paging": true,
+      "paging": true,      
+      "destroy": true,
       "bFilter": false,
       "bStateSave": true,
       "bServerSide": true,
       "sPaginationType": "full_numbers",
       "aoColumnDefs": [
-      { "title":"<input type='checkbox' class='check-all'></input>","sClass": "center","aTargets":[0],
-        "render": function(data, type, full){
-          console.log(full);
-          return '<input type="checkbox" class="check-item" value="'+full[5]+'">';
-        },
-        "bSortable": false
-      },
-      { "sClass": "center", "aTargets": [ 1 ], "data":0 },
-      { "sClass": "center", "aTargets": [ 2 ], "data":1 },
-
-      { "sClass": "center", "aTargets": [ 3 ], "data":2 },
-      { "sClass": "center", "aTargets": [ 4 ], "data":3 },
-
-
-      { "sClass": "center", "aTargets": [ 5 ], "data":4 },
+    
       
-      { "sClass": "center", "aTargets": [ 6 ],
+      
+      { "sClass": "center", "aTargets": [ 0 ], "data":0 },
+      { "sClass": "center", "aTargets": [ 1 ], "data":1 },
+
+      { "sClass": "center", "aTargets": [ 2 ], "data":2 },
+      { "sClass": "center", "aTargets": [ 3 ], "data":3 },
+
+      { "sClass": "center", "aTargets": [ 4 ], "data":4 },
+      { "sClass": "center", "aTargets": [ 5 ], "data":5 },
+      { "sClass": "center", "aTargets": [ 6 ], "data":6 },
+      { "sClass": "center", "aTargets": [ 7 ], "data":7 },
+      { "sClass": "center", "aTargets": [ 8 ], "data":8 },
+      { "sClass": "center", "aTargets": [ 9 ], "data":9 },
+      { "sClass": "center", "aTargets": [ 10 ], "data":10 },
+      
+      /*
+      { "sClass": "center", "aTargets": [ 7 ],
         "mRender": function(data, type, full) {
             <?php if($rules['v']){ ?>
           return ''
               <?php } ?>
               <?php if($rules['e']){?>
-              + ''+'<a href=<?=base_url('panel/input_anggaran/edit');?>/' + full[5]
+              + ''+'<a href=<?=base_url('panel/laporan_anggaran/edit');?>/' + full[7]
               + ' class="btn btn-info btn-xs btn-col icon-green"><i class="fa fa-pencil"></i> Edit'
               <?php }?>
               <?php if($rules['d']){?>
-              + '</a>'+'<a href="javascript:;" onclick="remove(\'' + full[5] + '\');" id="btn-delete" class="btn btn-danger btn-xs btn-col icon-black"><i class="fa fa-close"></i> ' + 'Delete'
+              + '</a>'+'<a href="javascript:;" onclick="remove(\'' + full[7] + '\');" id="btn-delete" class="btn btn-danger btn-xs btn-col icon-black"><i class="fa fa-close"></i> ' + 'Delete'
               <?php }?>
               + '</a>';
         },
         "bSortable": false
-      },
+      },*/
       ]
     });
+  }
 
-    //action to change all checkbox
-    $('.check-all').change(function(){
-      $('.check-item').prop('checked', $(this).prop('checked'));
+
+
+function data_builder() {
+      var data_set = {};
+      var array = $("#search_form, #column-form").serializeArray();
+      $.each(array, function(key, val) {
+        data_set[val.name] = val.value;
+      });
+      data_set['report_type'] = $('#type-report').val();
+      return data_set;
+    }
+
+  $('form#search_form').on('submit', function(e) {
+      e.preventDefault();
+      $('#search').removeClass('in');
+      reload_table();
     });
-    //action to delete selected items
-    $('#delete-all').click(function(){
-      if (confirm( 'Apakah Kamu Ingin Menghapus Data input_anggaran??' )) {
-        var data = {};
-        var d_id = [];
-        if($('.check-item:checked').length<1){
-          $().toastmessage('showToast', {
-            text     : "Delete failed, you don't select any data.",
-            sticky   : false,
-            position : 'top-center',
-            type     : 'error',
-          });
-          return false;
-        }
-        $('.check-item:checked').each(function(idx, el){
-          
-          d_id.push(parseInt($(el).val()));
-        });
-        data.d_id = d_id;
-        $.ajax({
-          url : '<?php echo base_url("panel/input_anggaran/delete"); ?>',
-          type: "POST",
-          data : data,
-          dataType: 'json',
-          success:function(data, textStatus, jqXHR){
-              if(data.status){
-                $().toastmessage('showToast', {
-                  text     : 'Delete data success',
-                  position : 'top-center',
-                  type     : 'success',
-                  close    : function () {
-                    window.location = "<?=base_url('panel/input_anggaran');?>";
-                  }
-                });
-              }else{
-                console.log(data);
-              }
-          },
-          error: function(jqXHR, textStatus, errorThrown){
-              alert('Error,something goes wrong');
-          }
-        });
-      }
-    });
-
-  });
-
 </script>
+
 
 
 
@@ -267,11 +246,3 @@ G=function(a,b){var c=d.extend(!0,{},{rows:null,columns:"",modifier:{search:"app
 a.rows(c.rows,d.extend({selected:!0},f)).any()&&d.extend(f,{selected:!0});f=a.rows(c.rows,f).indexes().toArray();var k=a.cells(f,c.columns);f=k.render(c.orthogonal).toArray();k=k.nodes().toArray();for(var h=b.length,m=[],l=0,p=0,r=0<h?f.length/h:0;p<r;p++){for(var q=[h],u=0;u<h;u++)q[u]=c.format.body(f[l],p,u,k[l]),l++;m[p]=q}b={header:b,footer:g,body:m};c.customizeData&&c.customizeData(b);return b};d.fn.dataTable.Buttons=r;d.fn.DataTable.Buttons=r;d(u).on("init.dt plugin-init.dt",function(a,b){"dt"===
 a.namespace&&(a=b.oInit.buttons||m.defaults.buttons)&&!b._buttons&&(new r(b,a)).container()});m.ext.feature.push({fnInit:B,cFeature:"B"});m.ext.features&&m.ext.features.register("buttons",B);return r});
 </script>
-
-
-<script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>

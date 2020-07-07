@@ -84,12 +84,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   $(document).ready(function(){
 
     $('#ro_table').dataTable({
+      
       "aLengthMenu":  [10, 25, 50, 100, 500, 1000, 2500, 5000],
       "ajax": {
               "url": "<?php echo base_url('panel/anggaran'); ?>",
               "type": "POST"
           },
       "aaSorting": [[ 1, "desc" ]],
+      
       "searching": true,
       "paging": true,
       "bFilter": false,

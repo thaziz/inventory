@@ -84,7 +84,7 @@ class Nota_model extends CI_Model {
     public function count_all()
     {
         $this->load_admin();
-        $query = $this->db->get();
+        //$query = $this->db->get();
         return $this->db->count_all_results();
     }
 

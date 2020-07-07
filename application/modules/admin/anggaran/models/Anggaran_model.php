@@ -82,7 +82,7 @@ class Anggaran_model extends CI_Model {
     public function count_all()
     {
         $this->load_admin();
-        $query = $this->db->get();
+       // $query = $this->db->get();
         return $this->db->count_all_results();
     }
 
@@ -269,9 +269,9 @@ class Anggaran_model extends CI_Model {
         return $form;   
     }
 
-    function get_account(){
+    function get_account($tgl){
         
-        $th=$this->session->userdata('tahun');
+        $th=$tgl;
         $form=$this->db->select('oa_id as id,a_code as code,a_name as name, oa_saldo')->
         join($this->pref.'opening_account_bck oc', 'ac.a_id = oc.oa_account_id','left')->
         where('oc.oa_year',$th)->
@@ -284,7 +284,8 @@ class Anggaran_model extends CI_Model {
     }
 
      function get_saldo(){
-        $th=$this->session->userdata('tahun');
+        //var_dump($_POST);exit();
+        $th=date('Y',strtotime($_POST['tgl']));
         
         $form=$this->db->select('oa_saldo')->where('oa_id',$_POST['code'])->
           join($this->pref.'opening_account_bck oc', 'ac.a_id = oc.oa_account_id','left')->

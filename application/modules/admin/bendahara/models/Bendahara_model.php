@@ -27,7 +27,7 @@ class Bendahara_model extends CI_Model {
 
          $this->db->join($this->pref.'opening_account_bck oc', $this->table.'.po_kode_anggaran = oc.oa_id','left');        
         $this->db->join($this->pref.'account f', 'oc.oa_account_id = f.a_id','left');
-        $this->db->where('year(po_date_created)',$this->session->userdata('tahun'));  
+      //  $this->db->where('year(po_date_created)',$this->session->userdata('tahun'));  
         $this->db->where_in('po_status',['Pinjaman','Pengembalian','Nota','Done']);
       
        // var_dump($this->db->get_compiled_select());exit();
@@ -83,7 +83,7 @@ class Bendahara_model extends CI_Model {
     public function count_all()
     {
         $this->load_admin();
-        $query = $this->db->get();
+        //$query = $this->db->get();
         return $this->db->count_all_results();
     }
 
@@ -179,19 +179,23 @@ class Bendahara_model extends CI_Model {
         exit();
       }
 
-      $kode=$this->get_kode();
+
+        $this->db->where('ro_id',$_POST['ro_id']);
+        $this->db->update('v_request_order',array('ro_status' =>'Pinjaman' , ));
+
+       $this->db->select('po_pinjaman,po_date');     
+       $this->db->where('po_id',$_POST['po_id']);
+       $po=$this->db->from('v_purchase_order')->get()->row();
+
+
+      $kode=$this->get_kode(date('Y',strtotime($po->po_date)));
         if($kode->id==NULL){
             $asli='00001';
         }else{
             $asli=$this->autonumber($kode->id);
         }
 
-        $this->db->where('ro_id',$_POST['ro_id']);
-        $this->db->update('v_request_order',array('ro_status' =>'Pinjaman' , ));
 
-       $this->db->select('po_pinjaman');     
-       $this->db->where('po_id',$_POST['po_id']);
-       $id_pinjaman=$this->db->from('v_purchase_order')->get()->row()->po_pinjaman;
 
         $data_jurnal = array(
                 'j_status'=>'F',
@@ -202,9 +206,8 @@ class Bendahara_model extends CI_Model {
         );
 
 
-       $this->db->where('j_id',$id_pinjaman);
+       $this->db->where('j_id',$po->po_pinjaman);
        $this->db->update('v_jurnal',$data_jurnal);
-       //var_dump($this->db->get('v_jurnal')->result());exit();
 
        $data = array(
                 'po_ket_voucer_pinjaman'=>$_POST['Keterangan'],
@@ -227,9 +230,11 @@ class Bendahara_model extends CI_Model {
    
     }
 
-    function get_kode(){
-        $th=$this->session->userdata('tahun');
-        $form=$this->db->select('max(po_no_voucer_pinjaman) as id')->where('YEAR(po_tgl_voucer_pinjaman)',$th)->get($this->pref.'purchase_order')->row();       
+    function get_kode($th){
+        //var_dump($th);exit();
+        
+        $form=$this->db->select('MAX(CAST(po_no_voucer_pinjaman AS UNSIGNED)) as id')->where('YEAR(po_date)',$th)->get($this->pref.'purchase_order')->row();  
+
         return $form;   
     }
 
@@ -372,7 +377,7 @@ class Bendahara_model extends CI_Model {
     }
 
 function print_pengeluaran($id){
-        $this->db->select('po_ket_voucer_pinjaman,po_anggaran,po_no_voucer_pinjaman as no,po_tgl_voucer_pinjaman as tgl,a_code,a_name,po_ttd_bendahara,po_code_a,po_note', false);
+        $this->db->select('po_ket_voucer_pinjaman,po_anggaran,po_no_voucer_pinjaman as no,po_tgl_voucer_pinjaman as tgl,a_code,a_name,po_ttd_bendahara,po_code_a,po_note,total_nota', false);
         $this->db->join($this->pref.'opening_account_bck oc', $this->table.'.po_kode_anggaran = oc.oa_id','left');        
         $this->db->join($this->pref.'account f', 'oc.oa_account_id = f.a_id','left');        
         $this->db->from('v_purchase_order');

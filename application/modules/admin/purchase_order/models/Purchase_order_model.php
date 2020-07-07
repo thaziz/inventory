@@ -17,6 +17,18 @@ class Purchase_order_model extends CI_Model {
                 $this->table = $this->pref.$this->table;
         }
 
+    public function chek_input($input){
+        $th=$this->session->userdata('tahun');
+        $form=$this->db->select('*')->where('YEAR(po_date)',$th)->where('po_code_a',$input)->from($this->pref.'purchase_order')->get();
+        //var_dump($form);exit();
+        if($form->num_rows()>0){
+            return false;
+        }else{
+            return true;
+        }
+        
+
+    }
     private function load_admin(){        
         $this->db->select('po_id,po_code,po_code_a,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_anggaran', false);
         $this->db->from($this->table);
@@ -24,7 +36,7 @@ class Purchase_order_model extends CI_Model {
         $this->db->join($this->pref.'divisi e', $this->table.'.po_to = e.d_id');        
         $this->db->join($this->pref.'admin d', $this->table.'.po_created_by = d.adm_id');
         $this->db->join($this->pref.'kategori k', $this->table.'.po_type = k.k_id');   
-        $this->db->where('year(po_date_created)',$this->session->userdata('tahun'));  
+        $this->db->where('year(po_date)',$this->session->userdata('tahun'));  
         $i = 0;
         foreach ($this->column_search as $item) {
             if($_POST['search']['value'])
@@ -340,9 +352,10 @@ class Purchase_order_model extends CI_Model {
 
     }
 
-     function get_kode(){
-        $th=$this->session->userdata('tahun');
-        $form=$this->db->select('max(po_code) as id')->where('YEAR(po_date)',$th)->get($this->pref.'purchase_order')->row();
+     function get_kode($th){
+        //$th=$this->session->userdata('tahun');
+        $form=$this->db->select('MAX(CAST(SUBSTRING(po_code_a, 4, 5) AS UNSIGNED)) as id')->where('YEAR(po_date)',$th)->from($this->pref.'purchase_order')->get()->row();
+        //var_dump($form);exit();
        
         return $form;   
     }

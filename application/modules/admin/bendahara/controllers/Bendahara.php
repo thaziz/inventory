@@ -148,17 +148,17 @@ class Bendahara extends MX_Controller {
 			$data['menu'] = $this->menu;
 			$data['po']=$this->bendahara_model->get_po_all($id);
 
-		$kode=$this->bendahara_model->get_kode();
+	/*	$kode=$this->bendahara_model->get_kode();
 
 		if($kode->id==NULL){
 				$data['kode']='PO/'.date('Y').'/001';
 			}else{
 				$data['kode']=$this->autonumber($kode->id,8,3);
-			}
+			}*/
 			//$data['account']=$this->bendahara_model->get_account();
 			//write user activity to logger
 			$data['rules'] = $this->menu['rule']['panel/anggaran'];
-	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS ADMINISTRATOR MENU');
+	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS ANGGARAN MENU');
 			$this->template->view('view_bendahara_insert', $data);
 		}
 
@@ -181,7 +181,7 @@ class Bendahara extends MX_Controller {
             	if($a=$this->bendahara_model->insert_voucer()){
             		
             		$this->userlog->add_log($this->session->userdata['name'], 
-            		'INSERT purchase_order with ID = '.$a);
+            		'INSERT insert_voucer_bendahara with ID = '.$a);
             		$r=$a!=''?$a:'';
 					echo json_encode(array('status'=>true,'r'=>$r));
             	}
@@ -207,7 +207,7 @@ class Bendahara extends MX_Controller {
 		}
 	function get_po($id=null){
 		$data['po']=$this->bendahara_model->search_po_anggaran($id);
-		$data['account']=$this->bendahara_model->get_account();
+		//$data['account']=$this->bendahara_model->get_account();
 		
 		
 		if($data['po']["master"]== NULL ){
@@ -218,8 +218,7 @@ class Bendahara extends MX_Controller {
 	}	
 
 	public function print($id){
-		$data['po']=$this->bendahara_model->print($id);
-		
+		$data['po']=$this->bendahara_model->print_pengeluaran($id);
 		$ttd=$data['po']->po_ttd_bendahara;
 		$data['ttd']=$this->bendahara_model->ttd($ttd);
 		if(empty($data['ttd'])){

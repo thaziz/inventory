@@ -29,7 +29,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-              <input id="tgl" value="<?=$po['master']->po_code_a?>" type="text" value="" class="form-control reset " name="no"  autocomplete="off" readonly>
+              <input  value="<?=$po['master']->po_code_a?>" type="text" value="" class="form-control reset " name="no"  autocomplete="off" readonly>
             </div>
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12">
@@ -151,7 +151,7 @@ function cekA(){
         $.ajax({
           url : '<?php echo base_url("panel/anggaran/get_saldo"); ?>',
           type: "POST",
-          data : {'code':$('.ang').val()},
+          data : {'code':$('.ang').val(),'tgl':$('#tgl').val()},
           dataType: 'json',
           success:function(data, textStatus, jqXHR){
               var isi=data==''?0:data;

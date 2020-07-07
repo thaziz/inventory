@@ -232,7 +232,6 @@ function cekA(){
 
 <script type="text/javascript">
     function simpan(){
-
       $.ajax({
            url : '<?php echo base_url("panel/bendahara/insert_voucer"); ?>',
           type: "POST",

@@ -30,7 +30,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-              <input id="tgl" type="text" value="<?=$ro['master']->ro_code ?>" class="form-control reset " name="no"  autocomplete="off" readonly>
+              <input  type="text" value="<?=$ro['master']->ro_code ?>" class="form-control reset " name="no"  autocomplete="off" readonly>
             </div>
           </div>
 
@@ -286,7 +286,7 @@ $('#jenis_jasa').on("change", function() {
           $.ajax({
           url : '<?php echo base_url("panel/purchase_order/refresh_kode/"); ?>'+id,
           type: "POST",
-         // data : $('#admin_form').serialize(),
+          data : {'tgl':$('#tgl').val()},
           dataType: 'json',
           success:function(data, textStatus, jqXHR){
             $('#kode').val(data.kode);

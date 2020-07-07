@@ -83,9 +83,6 @@ class request_order extends MX_Controller {
 			if(isset($_POST['id'])==false){
 				$this->form_validation->set_rules('detail', 'Data Detail', 'required');            	
 			}
-			if($this->session->userdata('tahun')!=date('Y',strtotime($_POST['tanggal']))){
-					$this->form_validation->set_rules('t', 'Tahun', 'required');            	
-				}
 			$this->form_validation->set_rules('to', 'Tujuan', 'required');
             $this->form_validation->set_rules('no', 'Kode','required|is_unique[v_request_order.ro_code]');
             $this->form_validation->set_rules('tanggal', 'Tanggal Digunakan', 'required');
@@ -100,9 +97,6 @@ class request_order extends MX_Controller {
             	$data['e']['perihal'] = form_error('perihal', '<div class="has-error">', '</div>');
             	if(isset($_POST['id'])==false){
 					$data['e']['detail'] = form_error('detail', '<div class="has-error">', '</div>');            	
-				}
-				if($this->session->userdata('tahun')!=date('Y',strtotime($_POST['tanggal']))){
-						$data['e']['t'] = '<div class=\"has-error\">Tahun tidak sesuai.</div>';
 				}
             	echo json_encode($data);
             }else{
@@ -122,18 +116,8 @@ class request_order extends MX_Controller {
 			$data['menu'] = $this->menu;
 			$data['item']=$this->request_order_model->get_item();
 			$data['divisi']=$this->request_order_model->get_divisi();
-			$kode=$this->request_order_model->get_kode();
 			$data['kategori']=$this->request_order_model->get_kategori();
-			/*
-			RO/2020/001
-			*/
-
-			if($kode->id==NULL){
-				$data['kode']='RO/'.$this->session->userdata('tahun').'/001';
-			}else{
-				$data['kode']=$this->autonumber($kode->id,8,3);
-			}
-
+			
 			
 //var_dump($data);exit();
 			//write user activity to logger
@@ -145,21 +129,27 @@ class request_order extends MX_Controller {
 
 
 	function refresh_kode(){
+		if($_POST['tgl']==''){			
+			echo json_encode('');
+			exit();
+		}
+		
 		$kode=$this->request_order_model->get_kode();
-			
+		//var_dump($kode);exit();	
 		if($kode->id==NULL){
-				$kode='RO/'.$this->session->userdata('tahun').'/001';
+				$kode='RO/'.date('Y',strtotime($_POST['tgl'])).'/0001';
 			}else{
-				$kode=$this->autonumber($kode->id,8,3);
+				$kode=$this->autonumber($kode->id,8,4,date('Y',strtotime($_POST['tgl'])));
 			}
+
 			echo json_encode($kode);
 	}
 
-	function autonumber($id_terakhir, $panjang_kode, $panjang_angka) {
+	function autonumber($id_terakhir, $panjang_kode, $panjang_angka,$th) {
 	 
 	    // mengambil nilai kode ex: KNS0015 hasil KNS
 	   // $kode = substr($id_terakhir, 0, $panjang_kode);
-		$kode='RO/'.$this->session->userdata('tahun').'/';
+		$kode='RO/'.$th.'/';
 	 	
 	    // mengambil nilai angka
 	    // ex: KNS0015 hasilnya 0015
@@ -219,18 +209,13 @@ class request_order extends MX_Controller {
 			$data['menu'] = $this->menu;
 			$data['item']=$this->request_order_model->get_item();
 			$data['divisi']=$this->request_order_model->get_divisi();
-			$kode=$this->request_order_model->get_kode();
 			$data['kategori']=$this->request_order_model->get_kategori();
 			$data['ro'] = $this->request_order_model->find_by_id($id);
 			/*
 			RO/2020/001
 			*/
 
-			if($kode->id==NULL){
-				$data['kode']='RO/'.date('Y').'/001';
-			}else{
-				$data['kode']=$this->autonumber($kode->id,8,3);
-			}
+			
             $data['rules'] = $this->menu['rule']['panel/request_order'];
 	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS CAMPAIGN MENU');
 			$this->template->view('view_edit_ro', $data);

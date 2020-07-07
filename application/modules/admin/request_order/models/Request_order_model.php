@@ -26,7 +26,7 @@ class Request_order_model extends CI_Model {
         $this->db->join($this->pref.'divisi e', $this->table.'.ro_to = e.d_id');  
         $this->db->join($this->pref.'kategori k', $this->table.'.ro_type = k.k_id');        
         $this->db->join($this->pref.'admin d', $this->table.'.ro_created_by = d.adm_id');
-        $this->db->where('year(ro_date_create)',$this->session->userdata('tahun'));     
+        $this->db->where('year(ro_date)',$this->session->userdata('tahun'));     
 
         $this->db->where('ro_from',$this->session->userdata('bidang_id'));     
         
@@ -82,7 +82,7 @@ class Request_order_model extends CI_Model {
     public function count_all()
     {
         $this->load_admin();
-        $query = $this->db->get();
+        //$query = $this->db->get();
         return $this->db->count_all_results();
     }
 
@@ -120,7 +120,10 @@ class Request_order_model extends CI_Model {
         return $form;       
     }
     function get_kode(){
-        $form=$this->db->select('max(ro_code) as id')->get($this->pref.'request_order')->row();
+        /*
+         $form=$this->db->select('MAX(CAST(SUBSTRING(ro_code, 9, 4) AS UNSIGNED)) as id')->like('ro_code','/'.date('Y',strtotime($_POST['tgl'])).'/')->from($this->pref.'request_order')->get()->row();
+        */
+        $form=$this->db->select('max(ro_code) as id')->like('ro_code','/'.date('Y',strtotime($_POST['tgl'])).'/')->get($this->pref.'request_order')->row();
         
         return $form;   
     }

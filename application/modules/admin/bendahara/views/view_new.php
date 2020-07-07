@@ -110,28 +110,6 @@ $('#jenis_jasa').on("change", function() {
 
   $('.date').datepicker({autoclose:true,format: 'dd-mm-yyyy'});
  
-  function tambah(){
-    
-    var id=$('#dt_id').val();
-    var name=$('#dt_name').val();
-    var jml=$('#dt_jumlah').val();
-    var note=$('#dt_note').val();
-    var pcs=$('#dt_satuan').val();
-    var html='<tr class="item-'+ii+'">'+
-                  '<td>'+
-                        '<input type="" style="display: none;" name="id[]" value="'+id+'" class="form-control id-'+ii+'">'+
-                        '<input type="" name="barang[]" value="'+name+'" class="form-control barang-'+ii+'" readonly="" >'+
-                  '</td>'+
-                        '<td><input type="" name="jumlah[]" value="'+jml+'" class="form-control jumlah-'+ii+'" ></td>'+
-                        '<td><input type="" name="pcs[]" value="'+pcs+'" class="form-control" pcs-'+ii+' readonly="" ></td>'+
-                        '<td><input type="" name="note[]" value="'+note+'"  class="form-control" note-'+ii+'></td>'+
-                        '<td width="5%">'+
-                        '<button class="btn btn-danger btn-sm" onclick=hapus('+ii+') id="btn_click"  type="button"><i class="fa fa-minus-square "></i></button>'+
-                  '</td>'+
-              '</tr>';
-    $('#detail_item').append(html)
-    ii++;
-  }
   function hapus(a){
     $('.item-'+a).remove();
   }

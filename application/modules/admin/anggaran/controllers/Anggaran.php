@@ -67,6 +67,7 @@ class Anggaran extends MX_Controller {
 	                        "recordsFiltered" => $this->anggaran_model->count_filtered(),
 	                        "data" => $data,
 	                );
+	      //  var_dump($output);exit();
 	        echo json_encode($output);
 		}else{
 			$data['menu'] = $this->menu;
@@ -180,7 +181,8 @@ class Anggaran extends MX_Controller {
 
 	function get_po($id=null){
 		$data['po']=$this->anggaran_model->search_po_telaahan($id);
-		$data['account']=$this->anggaran_model->get_account();
+		$tgl=date('Y',strtotime($data['po']['master']->po_date));
+		$data['account']=$this->anggaran_model->get_account($tgl);
 		
 		
 		if($data['po']["master"]== NULL ){
@@ -258,7 +260,7 @@ class Anggaran extends MX_Controller {
 
 	}
 
-
+//ambil saldo
 	public function get_saldo(){
 		$saldo=$this->anggaran_model->get_saldo();
 		echo json_encode($saldo);

@@ -54,7 +54,7 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm input-group" id="div_kategori">
-              <input autocomplete="off"  id="kode" type="text" value="<?=$kode ?>" class="form-control reset " name="no"  autocomplete="off" readonly>
+              <input autocomplete="off"  id="kode" type="text"  class="form-control reset " name="no"  autocomplete="off" readonly>
               <div class="input-group-btn">
                 <button class="btn btn-default btn-sm" type="button" onclick="refresh_kode()">
                   <i class="fa fa-refresh"></i>
@@ -68,7 +68,7 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-              <input autocomplete="off"  id="tgl" value="<?=date('d-m-Y') ?>" type="text" class="form-control reset date" name="tanggal"  autocomplete="off">
+              <input autocomplete="off" onchange="refresh_kode()"  id="tgl" value="<?=date('d-m-Y') ?>" type="text" class="form-control reset date" name="tanggal"  autocomplete="off">
             </div>
           </div>
          
@@ -320,7 +320,7 @@ $('#jenis_jasa').on("change", function() {
           $.ajax({
           url : '<?php echo base_url("panel/request_order/refresh_kode"); ?>',
           type: "POST",
-         // data : $('#admin_form').serialize(),
+          data : {'tgl':$('#tgl').val()},
           dataType: 'json',
           success:function(data, textStatus, jqXHR){
             $('#kode').val(data);
