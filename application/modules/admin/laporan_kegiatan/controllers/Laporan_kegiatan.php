@@ -36,17 +36,33 @@ class Laporan_kegiatan extends MX_Controller {
 	            $no++;
 	            $row = array();	  
 	            $row[]=$no;          
-	            $row[] = $admin->po_tgl_voucer_pinjaman;
+	            $row[] = date('Y-m-d',strtotime($admin->po_tgl_voucer_pinjaman));
 	            $row[] = $admin->po_no_voucer_pinjaman;
 	            $row[] = $admin->po_date;
 	            $row[] = $admin->po_code_a;
-	            $row[] = $admin->pod_item_name;
+
+	            	$ax='';
+				$string=$admin->pod_item_name;
+
+				$split = explode(' - ', $string);
+				if (count($split) === 1) {
+    // do you still want to drop the first word even if string only contains 1 word?
+    // also string might be empty
+				} else {
+    // remove first word
+					unset($split[0]);
+					$ax= implode(' ', $split);
+				}
+
+
+
+	            $row[] = $ax;
 	            $row[] = $admin->pod_qty_approve;
 	            $row[] =number_format($admin->pod_harga,0,',','.');
 	            $row[] = $admin->d_name;
 	            $row[] = number_format(($admin->pod_qty_approve*$admin->pod_harga),0,',','.');
 	            
-	            $row[] = $admin->k_name;
+	            $row[] = $admin->po_note;
 	            $row[] = $admin->po_status;	
 	            $row[] = $admin->po_status;
 	            $data[] = $row;
