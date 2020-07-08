@@ -42,7 +42,7 @@ class Laporan_kegiatan extends MX_Controller {
 	            $row[] = $admin->po_code_a;
 	            $row[] = $admin->pod_item_name;
 	            $row[] = $admin->pod_qty_approve;
-	            $row[] = $admin->pod_harga;
+	            $row[] =number_format($admin->pod_harga,0,',','.');
 	            $row[] = $admin->d_name;
 	            $row[] = number_format(($admin->pod_qty_approve*$admin->pod_harga),0,',','.');
 	            
