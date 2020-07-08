@@ -116,7 +116,7 @@
 	<td align="center"><span style="border-bottom: 2px black solid"><?=$ttd->peminjaman1?></span><br>NIK.<?=$ttd->nikp1?></td>
 	<td align="center"><span style="border-bottom: 2px black solid"><?=$ttd->peminjaman2?></span><br>NIK.<?=$ttd->nikp2?></td>
 	<td align="center"><span style="border-bottom: 2px black solid"><?=$ttd->peminjaman3?></span><br>NIK.<?=$ttd->nikp3?></td>
-	<td align="center"><span style="border-bottom: 2px black solid"><?=$ttd->peminjaman4?></span><br>NIK.<?=$ttd->nikp4?></td>
+	<td align="center"></td>
 
 </tr>
 
