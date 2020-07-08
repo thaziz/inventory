@@ -4,8 +4,9 @@ class Laporan_kegiatan_model extends CI_Model {
 
     private $pref = '';
 	var $table = 'purchase_order';
-	var $column_order = array('po_id','po_id','po_id','po_id');
-	var $column_search = array('po_id','po_id','po_id','po_id');
+
+	var $column_order = array('po_tgl_voucer_pinjaman','po_no_voucer_pinjaman','po_date','po_code_a','pod_item_name','pod_qty_approve','pod_harga','d_name','k_name','po_status','po_status');
+	var $column_search = array('po_tgl_voucer_pinjaman','po_no_voucer_pinjaman','po_date','po_code_a','pod_item_name','pod_qty_approve','pod_harga','d_name','k_name','po_status','po_status');
 	var $order = array('po_id' => 'asc');
 
 	function __construct()
