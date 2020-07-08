@@ -4,12 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="content-wrapper">
   <section class="content-header">
     <h1>
-      Anggaran
+      Laporan Kegiatan
       <small></small>
     </h1>
     <ol class="breadcrumb">
       <li><a href="<?= base_url().'panel';?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-      <li class="active">Anggaran</li>
+      <li class="active">Laporan Kegiatan</li>
     </ol>
   </section>
   <section class="content">
