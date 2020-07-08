@@ -62,7 +62,7 @@
 					<td  align="right"><?=number_format($po->po_anggaran,0,',','.') ?></td>
 				</tr>
 				<tr>
-					<td> </td>
+					<td>2</td>
 					<td >Beban <?=$po->po_ket_voucer_pinjaman ?></td>
 					<td  align="right"><?=number_format($po->total_nota,0,',','.') ?></td>
 				</tr>
