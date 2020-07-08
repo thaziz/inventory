@@ -75,7 +75,7 @@
 					<td> <hr ></td>
 				</tr>
 				<tr>	 				
-					<td colspan="2" align="right">Total Rp.</td>
+					<td colspan="2" align="right">Total Pengembalian Rp.</td>
 					<td  align="right"><?=number_format(($po->po_anggaran-$po->total_nota),0,',','.') ?></td>
 				</tr>
 
