@@ -109,7 +109,7 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="form-group form-group-sm" id="div_kategori">
-              <input type="text" value="<?=$po['master']->total_nota ?>" name="anggaran" id="anggaran" class="form-control" placeholder="Anggaran" readonly>        
+              <input type="text" value="<?=number_format($po['master']->total_nota,0,',','.') ?>" name="anggaran" id="anggaran" class="form-control" placeholder="Anggaran" readonly>        
             </div>
           </div> 
 
