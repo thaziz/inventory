@@ -109,7 +109,7 @@ class Bendahara_model extends CI_Model {
      function search_po_anggaran($id){
        
         //var_dump($id);exit();
-        $this->db->select('po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name,po_note,po_status,adm_name,po_from,po_to,c.d_code,po_code_a,po_type,po_anggaran,oa_saldo,po_kode_anggaran,f.a_name,f.a_code,po_request_id', false);
+        $this->db->select('po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name,po_note,po_status,adm_name,po_from,po_to,c.d_code,po_code_a,k_name as po_type,po_anggaran,oa_saldo,po_kode_anggaran,f.a_name,f.a_code,po_request_id', false);
         $this->db->from('v_purchase_order');
         $this->db->join($this->pref.'divisi c','v_purchase_order.po_from = c.d_id');
         $this->db->join($this->pref.'divisi e', 'v_purchase_order.po_to = e.d_id');        
@@ -410,7 +410,7 @@ function print_pengeluaran($id){
 
     public function detail($id){
         
-         $this->db->select('po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,c.d_code,po_code_a,po_anggaran,oa_saldo,po_kode_anggaran,f.a_name,f.a_code,po_request_id,po_ttd_bendahara,po_pinjaman,po_kembalian', false);
+         $this->db->select('po_id,po_code,c.d_name as fro,e.d_name as too, po_date,k_name as po_type,po_note,po_status,adm_name,po_from,po_to,c.d_code,po_code_a,po_anggaran,oa_saldo,po_kode_anggaran,f.a_name,f.a_code,po_request_id,po_ttd_bendahara,po_pinjaman,po_kembalian,total_nota', false);
         $this->db->from('v_purchase_order');
         $this->db->join($this->pref.'divisi c','v_purchase_order.po_from = c.d_id');
         $this->db->join($this->pref.'divisi e', 'v_purchase_order.po_to = e.d_id');        

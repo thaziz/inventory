@@ -150,7 +150,7 @@ $search_f = isset($this->session->userdata['asearch']['campaign_search'])?$this-
                       <?php  if($po['master']->po_pinjaman!='' && $po['master']->po_pinjaman!=0): ?>
                       <button class="btn btn-success upload-image" type="button" onclick="peminjaman(<?=$po['master']->po_id?>)">Voucer Peminjaman</button>
                       <?php endif ?>
-                      <?php  if($po['master']->po_kembalian!='' && $po['master']->po_kembalian!=0): ?>
+                      <?php  if($po['master']->total_nota!='' && $po['master']->total_nota!=0): ?>
                       <button class="btn btn-primary upload-image" type="button" onclick="print(<?=$po['master']->po_id?>)">Voucer Pengembalian</button>
                        <?php endif ?>
                       

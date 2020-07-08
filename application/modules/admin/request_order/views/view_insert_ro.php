@@ -315,6 +315,7 @@ $('#jenis_jasa').on("change", function() {
       });
     });
   });
+  refresh_kode();
 
   function refresh_kode(){
           $.ajax({
