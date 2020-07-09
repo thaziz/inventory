@@ -61,10 +61,10 @@
 					<td><?=$po->po_ket_voucer_pinjaman ?></td>
 					<td  align="right"><?=number_format($po->po_anggaran,0,',','.') ?></td>
 				</tr>
-				<tr>
+				<!-- <tr>
 					<td> </td>
 					<td colspan="2"><?=$po->po_code_a?></td>
-				</tr>
+				</tr> -->
 				<tr> 
 					<td colspan="3" height="10px"></td>
 				</tr>
