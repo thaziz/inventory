@@ -44,12 +44,12 @@
 				
 		</tr>
 		<tr><td colspan="3"><hr style="border: outset 2px black"></td></tr>
-		<tr> 
+		<!-- <tr> 
 			<td colspan="3" >
 								<div align="center"> SURAT PERMOHONAN PERMINTAAN</div>
 								<div align="center" style="font-style: bold"><?=$po['master']->po_type ?></div>
 			</td>
-		</tr>
+		</tr> -->
 		<tr>
 			<td colspan="3">
 				<table>
