@@ -147,16 +147,9 @@ class Bendahara extends MX_Controller {
 		}else{
 			$data['menu'] = $this->menu;
 			$data['po']=$this->bendahara_model->get_po_all($id);
+			$data['user']=$this->bendahara_model->get_user();
 
-	/*	$kode=$this->bendahara_model->get_kode();
 
-		if($kode->id==NULL){
-				$data['kode']='PO/'.date('Y').'/001';
-			}else{
-				$data['kode']=$this->autonumber($kode->id,8,3);
-			}*/
-			//$data['account']=$this->bendahara_model->get_account();
-			//write user activity to logger
 			$data['rules'] = $this->menu['rule']['panel/anggaran'];
 	        $this->userlog->add_log($this->session->userdata['name'], 'ACCESS ANGGARAN MENU');
 			$this->template->view('view_bendahara_insert', $data);
@@ -168,15 +161,6 @@ class Bendahara extends MX_Controller {
 		function insert_voucer(){
 			//var_dump(1);exit();
 		if($_POST){
-		/*	$this->form_validation->set_rules('to', 'Tujuan', 'required');
-            $this->form_validation->set_rules('no', 'Kode','required|is_unique[v_purchase_order.po_code_a]');
-            $this->form_validation->set_rules('tanggal', 'Tanggal Digunakan', 'required');
-            $this->form_validation->set_rules('type', 'Kategori', 'required');
-           // $this->form_validation->set_rules('perihal', 'Perihal', 'required');
-            $this->form_validation->set_rules('anggaran', 'Anggaran', 'required|min_length[2]');
-*/
-            
-            //var_dump($_POST);exit();
             	
             	if($a=$this->bendahara_model->insert_voucer()){
             		
@@ -207,7 +191,7 @@ class Bendahara extends MX_Controller {
 		}
 	function get_po($id=null){
 		$data['po']=$this->bendahara_model->search_po_anggaran($id);
-		//$data['account']=$this->bendahara_model->get_account();
+		$data['user']=$this->bendahara_model->get_user();
 		
 		
 		if($data['po']["master"]== NULL ){

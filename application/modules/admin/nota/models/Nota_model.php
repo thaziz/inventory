@@ -169,12 +169,13 @@ class Nota_model extends CI_Model {
        $total=str_replace(".", '',$_POST['total']);
        $anggaran=str_replace(".", '',$_POST['anggaran']);
        if($anggaran<$total){
-
+/*
        }elseif($anggaran>$total){
             $status='Nota';       
        }elseif($anggaran==$total){
             $status='Done';        
-       }
+       }*/
+       $status='Nota';  
         $this->db->where('ro_id',$_POST['ro_id']);
         $this->db->update('v_request_order',array('ro_status' =>$status , ));    
 

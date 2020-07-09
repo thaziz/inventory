@@ -189,6 +189,22 @@
           </div> 
 
 
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <label>Penerima</label>
+          </div>
+          <div class="col-md-9 col-sm-6 col-xs-12">
+            <div class="form-group form-group-sm" id="div_kategori">
+             <select name="user" class="form-control">
+              <?php foreach ($user  as $key => $v): ?>
+                  <option value="<?=$v->adm_id?> - <?=$v->adm_nik?> - <?=$v->adm_name?>"><?=$v->adm_nik?> - <?=$v->adm_name?></option> 
+              <?php endforeach ?>
+               
+             </select>
+            </div>
+          </div> 
+
+
   </div>
   </div>
   </form>      

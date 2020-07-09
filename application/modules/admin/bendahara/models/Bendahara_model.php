@@ -216,7 +216,8 @@ class Bendahara_model extends CI_Model {
                 'po_status'=>'Pinjaman',          
                 'po_ttd_bendahara'=>$q->row()->id,
                 'po_no_voucer_pinjaman'=>$asli,
-                'po_tgl_voucer_pinjaman'=>date('Y-m-d H:i:s'),     
+                'po_tgl_voucer_pinjaman'=>date('Y-m-d H:i:s'),    
+                'penerima1'=>$_POST['user'], 
         );
 
 
@@ -319,6 +320,7 @@ class Bendahara_model extends CI_Model {
                 'po_a_revisi_created_by'=>$this->session->userdata('id'),
                 'po_status'=>'Done', 
                 'po_kembalian'=>$id_jurnal,               
+                'penerima2'=>$_POST['user'], 
         );
 
 
@@ -377,7 +379,7 @@ class Bendahara_model extends CI_Model {
     }
 
 function print_pengeluaran($id){
-        $this->db->select('po_ket_voucer_pinjaman,po_anggaran,po_no_voucer_pinjaman as no,po_tgl_voucer_pinjaman as tgl,a_code,a_name,po_ttd_bendahara,po_code_a,po_note,total_nota', false);
+        $this->db->select('po_ket_voucer_pinjaman,po_anggaran,po_no_voucer_pinjaman as no,po_tgl_voucer_pinjaman as tgl,a_code,a_name,po_ttd_bendahara,po_code_a,po_note,total_nota,penerima1,penerima2', false);
         $this->db->join($this->pref.'opening_account_bck oc', $this->table.'.po_kode_anggaran = oc.oa_id','left');        
         $this->db->join($this->pref.'account f', 'oc.oa_account_id = f.a_id','left');        
         $this->db->from('v_purchase_order');
@@ -427,6 +429,10 @@ function print_pengeluaran($id){
 
         $detail=$this->db->select('*')->where('pod_purchase_order',$id)->where('pod_status','Setuju')->get($this->pref.'purchase_order_detail')->result();
         return array('master' =>$master,'detail'=>$detail);
+}
+
+function get_user(){
+    return $this->db->select('adm_id,adm_name,adm_nik')->where('adm_active',1)->get('v_admin')->result();
 }
 
 }
