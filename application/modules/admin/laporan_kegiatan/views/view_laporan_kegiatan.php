@@ -51,8 +51,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <th>Nama Barang/ Kegiatan</th>                  
                  <th>Jumlah</th>
                  <th> Harga Satuan</th>
-                 <th>Permohonan Permintaan</th>
                  <th>Harga Perolehan</th>
+                 <th>Permohonan Permintaan</th>
+                 
                  <th>keterangan</th>
                  <th>Status</th>
                 </tr>
@@ -193,13 +194,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     { sWidth: '7%' },
     { sWidth: '5%' },
     { sWidth: '5%' },
-    { sWidth: '15%' },
+    { sWidth: '20%' },
     { sWidth: '   10%' },
-    { sWidth: '15%' },
-    { sWidth: '15%' },
-    { sWidth: '15%' },
-    { sWidth: '15%' },
-    { sWidth: '15%' },
+    { sWidth: '10%' },
+    { sWidth: '10%' },
+    { sWidth: '10%' },
+    { sWidth: '20%' },
+    { sWidth: '7%' },
   ]
     });
     //table.destroy();
