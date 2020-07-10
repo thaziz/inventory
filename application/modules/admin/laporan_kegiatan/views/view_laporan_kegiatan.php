@@ -144,6 +144,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 title: '',
                 exportOptions: {
                     columns: [0, 1, 2, 3,4,5,6,7,8,9,10,11]
+                },
+                 customize: function ( win ) {
+                $(win.document.body)
+                    .css( 'font-size', '13px' );
+
+                $(win.document.body).find( 'table' )
+                    .css( 'font-size', '9px' );
                 }
             },
             {
@@ -180,6 +187,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       { "sClass": "center", "aTargets": [ 9 ], "data":9 },
       { "sClass": "center", "aTargets": [ 10 ], "data":10 },
       ]
+      ,  aoColumns : [
+    { sWidth: '4%' },
+    { sWidth: '7%' },
+    { sWidth: '7%' },
+    { sWidth: '5%' },
+    { sWidth: '5%' },
+    { sWidth: '15%' },
+    { sWidth: '   10%' },
+    { sWidth: '15%' },
+    { sWidth: '15%' },
+    { sWidth: '15%' },
+    { sWidth: '15%' },
+    { sWidth: '15%' },
+  ]
     });
     //table.destroy();
     
