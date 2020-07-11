@@ -27,7 +27,7 @@ class Nota_model extends CI_Model {
 
         $this->db->join($this->pref.'opening_account_bck oc', $this->table.'.po_kode_anggaran = oc.oa_id','left');        
         $this->db->join($this->pref.'account f', 'oc.oa_account_id = f.a_id','left');
-        $this->db->where('year(po_date_created)',$this->session->userdata('tahun'));  
+       // $this->db->where('year(po_date_created)',$this->session->userdata('tahun'));  
          $this->db->where_in('po_status',['Pengembalian','Nota','Done']);
       
       
@@ -207,6 +207,7 @@ class Nota_model extends CI_Model {
 
 
     }
+}
 
      function get_kode(){
         $form=$this->db->select('max(po_code) as id')->get($this->pref.'purchase_order')->row();
