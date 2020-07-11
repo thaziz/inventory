@@ -88,9 +88,11 @@ class Nota extends MX_Controller {
             if(!isset($_POST['id'])){
             	$data['status'] = false;
             	$data['gagal'] = 'Detail belum di isi';
-            	echo json_encode($data);
+
+		    	echo json_encode($data);
             }else{
-            	if($a=$this->nota_model->insert()){
+
+		    	if($a=$this->nota_model->insert()){
             		
             		$this->userlog->add_log($this->session->userdata['name'], 
             		'INSERT purchase_order with ID = '.$a.' ro_code = '.$_POST['no']);

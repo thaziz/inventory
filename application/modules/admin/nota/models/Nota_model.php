@@ -168,7 +168,8 @@ class Nota_model extends CI_Model {
        $this->db->trans_start();
        $total=str_replace(".", '',$_POST['total']);
        $anggaran=str_replace(".", '',$_POST['anggaran']);
-       if($anggaran<$total){
+       
+       /*if($anggaran<$total){*/
 /*
        }elseif($anggaran>$total){
             $status='Nota';       
@@ -206,7 +207,7 @@ class Nota_model extends CI_Model {
        return $_POST['po_id'];
 
 
-    }
+  /*  }*/
 }
 
      function get_kode(){
