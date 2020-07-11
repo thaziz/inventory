@@ -1,6 +1,16 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+
+<style type="text/css">
+  thead, th {text-align: center;}
+
+/* OR */
+
+.table thead,
+.table th {text-align: center;}
+
+</style>
 <div class="content-wrapper">
   <section class="content-header">
     <h1>
@@ -152,7 +162,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 $(win.document.body).find( 'table' )
                     .css( 'font-size', '9px' );
+
+
+                $(win.document.body).find( 'table' )
+                            .addClass( 'compact' )
+                            .css( 'font-size', 'inherit' );
+
+                  /*win.styles['td:nth-child(2)'] = { 
+                    width: '1px',
+                      'max-width': '1px'
+                  }*/
                 }
+               
             },
             {
                 extend:    'excel',
