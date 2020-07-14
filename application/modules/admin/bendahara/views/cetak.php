@@ -342,7 +342,8 @@ $a=explode("-", $po->penerima2);
 {
    @page
    {
-    size: 5.5in 8.5in ;
+    /*size: 5.5in 8.5in ;*/
+    size: 21.59cm 13.97cm;
     size: landscape;
   }
 
@@ -353,6 +354,21 @@ $a=explode("-", $po->penerima2);
 }
 
 
+table {
+   border-collapse: collapse;
+}
+
+/* And this to your table's `td` elements. */
+table td {
+   padding: 0; 
+   margin: 0;
+}
 
 
-</style> -->
+</style>
+
+<script type="text/javascript">
+	window.print();
+</script>
+
+
