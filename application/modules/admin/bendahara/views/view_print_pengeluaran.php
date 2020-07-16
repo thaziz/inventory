@@ -160,7 +160,7 @@ $a=explode("-", $po->penerima1);
    {
     
     size: 21.59cm 13.97cm;
-    size: landscape;
+    /*size: landscape;*/
   }
 
 }

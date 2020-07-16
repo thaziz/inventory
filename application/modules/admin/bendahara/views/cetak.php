@@ -159,8 +159,8 @@ $a=explode("-", $po->penerima2);
 {
    @page
    {
-    size: 5.5in 8.5in ;
-    size: landscape;
+    size: 21.59cm 13.97cm;
+    /*size: landscape;*/
   }
 
 }
