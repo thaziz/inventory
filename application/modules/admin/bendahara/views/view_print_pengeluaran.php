@@ -139,35 +139,17 @@ $a=explode("-", $po->penerima1);
 </style>
 
 <style media="print">
-    @page 
-    {
-        size: auto;   /* auto is the initial value */
-        margin: 0mm;  /* this affects the margin in the printer settings */
-    }
-
-    body 
-    {
-        background-color:#FFFFFF; 
-        border: solid 1px black ;
-        margin: 0px;  /* this affects the margin on the content before sending to printer */
-   }
+	@media print {
+  html, body {
+    width: 21.59cm;
+    height:  13.97cm;
+  }
+  /* ... the rest of the rules ... */
+}
+ 
 </style>
 
 <style type="text/css" media="print">
-	@media print 
-{
-   @page
-   {
-    
-    size: 21.59cm 13.97cm;
-    /*size: landscape;*/
-  }
-
-}
-@print{
-    @page :footer {color: #fff }
-    @page :header {color: #fff}
-}
 
 table {
    border-collapse: collapse;
