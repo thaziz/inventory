@@ -131,48 +131,6 @@ $a=explode("-", $po->penerima2);
 </tbody></table></body>
 </html>
 
-<style>
-	body{
-		padding-left: 1.3cm;
-		padding-right: 1.3cm; 
-		padding-top: 1.1cm;
-	}
-</style>
-
-<style media="print">
-    @page 
-    {
-        size: auto;   /* auto is the initial value */
-        margin: 0mm;  /* this affects the margin in the printer settings */
-    }
-
-    body 
-    {
-        background-color:#FFFFFF; 
-        border: solid 1px black ;
-        margin: 0px;  /* this affects the margin on the content before sending to printer */
-   }
-</style>
-
-<style type="text/css" media="print">
-	@media print 
-{
-   @page
-   {
-    size: 21.59cm 13.97cm;
-    /*size: landscape;*/
-  }
-
-}
-@print{
-    @page :footer {color: #fff }
-    @page :header {color: #fff}
-}
-
-
-
-
-</style>
 <!-- <script type="text/javascript">
 	window.print();
 </script>
@@ -308,51 +266,27 @@ $a=explode("-", $po->penerima2);
 </html>
 
 <style>
-  body{
-    padding-left: 1.3cm;
-    padding-right: 1.3cm; 
-    padding-top: 1.1cm;
-  }
+	body{
+		padding-left: 1.3cm;
+		padding-right: 1.3cm; 
+		padding-top: 1.1cm;
+	}
 </style>
-<style type="text/css" media="print">
-  @page {
-    size: auto;  
-    margin: 0;  
-  }
-</style>
+
 
 
 <style media="print">
-    @page 
-    {
-        size: auto;   /* auto is the initial value */
-        margin: 0mm;  /* this affects the margin in the printer settings */
-    }
-
-    body 
-    {
-        background-color:#FFFFFF; 
-        border: solid 1px black ;
-        margin: 0px;  /* this affects the margin on the content before sending to printer */
-   }
+	@media print {
+  html, body {
+    width: 21.59cm;
+    height:  13.97cm;
+  }
+  /* ... the rest of the rules ... */
+}
+ 
 </style>
 
 <style type="text/css" media="print">
-	@media print 
-{
-   @page
-   {
-    /*size: 5.5in 8.5in ;*/
-    size: 21.59cm 13.97cm;
-    size: landscape;
-  }
-
-}
-@print{
-    @page :footer {color: #fff }
-    @page :header {color: #fff}
-}
-
 
 table {
    border-collapse: collapse;
@@ -364,11 +298,7 @@ table td {
    margin: 0;
 }
 
-
 </style>
-
 <script type="text/javascript">
 	window.print();
 </script>
-
-
